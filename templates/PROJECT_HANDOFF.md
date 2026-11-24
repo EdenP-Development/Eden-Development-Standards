@@ -8,4 +8,4 @@ Current features and owner-approved design decisions:
 Key custody status (no secrets):
 Save migration evidence and limitations:
 Outstanding blockers, deferred scope and next action:
-Shared standards: https://github.com/PlayerEden/Eden-Development-Standards
+Shared standards: https://github.com/EdenP-Development/Eden-Development-Standards
