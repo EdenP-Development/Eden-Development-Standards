@@ -225,9 +225,65 @@
     },
     {
       "name": "Eden Comms",
-      "repository": null,
-      "channels": [],
-      "status": "inventory_pending"
+      "repository": "PlayerEden/Eden-Comms",
+      "status": "owner_transfer_pending_source_and_preview_identity_verified",
+      "channels": [
+        {
+          "name": "development Preview (public AOSP test signer)",
+          "package_id": "com.edenpractical.comms.preview",
+          "certificate_sha256": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+          "key_custody": "public test key; NOT a private beta/production signing identity",
+          "last_verified_version_code": 200014,
+          "last_verified_version_name": "0.2.12-preview-200014",
+          "last_verified_source": "2a19e91f2af15a788920c032bc1eba4e9fbdc2e4",
+          "last_verified_apk_sha256": "d8ed947ee0c79904014e40ede3ee04e4ab1803af4c95ffabd3c012f93e1ca7f8",
+          "last_accepted_version_code": null,
+          "evidence": "https://github.com/PlayerEden/Eden-Comms/actions/runs/42969199330",
+          "status": "signed_build_verified_artifact_ephemeral"
+        },
+        {
+          "name": "original-package internal QA (private signer not verified)",
+          "package_id": "com.edenpractical.comms",
+          "certificate_sha256": null,
+          "key_custody": "unknown; manual protected-workflow path exists; credentials/preflight unverified",
+          "secret_names": [
+            "EC_INTERNAL_KEYSTORE_BASE64",
+            "EC_INTERNAL_KEYSTORE_PASSWORD",
+            "EC_INTERNAL_KEY_ALIAS",
+            "EC_INTERNAL_KEY_PASSWORD",
+            "EC_INTERNAL_CERT_SHA256"
+          ],
+          "baseline_version_code": 11,
+          "baseline_version_name": "0.2.12-approval-review-only",
+          "last_accepted_version_code": null,
+          "status": "not_signed_or_install_over_verified"
+        },
+        {
+          "name": "future production",
+          "package_id": "com.edenpractical.comms",
+          "certificate_sha256": null,
+          "key_custody": "unestablished",
+          "last_accepted_version_code": null,
+          "status": "not_released_debug_only_core_functions_production_capability_flags_false"
+        }
+      ],
+      "migration": {
+        "target_repository": "EdenP-Development/Eden-Comms",
+        "repository_id": 1445090231,
+        "pre_transfer_main_sha": "2a19e91f2af15a788920c032bc1eba4e9fbdc2e4",
+        "status": "owner_transfer_required",
+        "current_owner_read_write_verified": true,
+        "post_transfer_build_verified": false
+      },
+      "development": {
+        "design_bible": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
+        "last_android_ci": "https://github.com/PlayerEden/Eden-Comms/actions/runs/42969199279",
+        "visual_qa": "13 emulator screenshots captured; final landscape scene failed",
+        "open_visual_issue": "https://github.com/PlayerEden/Eden-Comms/issues/167",
+        "two_phone_acceptance": "not_run",
+        "independent_security_review": "not_run",
+        "public_beta": "not_published"
+      }
     },
     {
       "name": "GridMates: Crossroads",
