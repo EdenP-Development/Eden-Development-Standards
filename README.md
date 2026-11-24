@@ -10,3 +10,6 @@ Start with [Signing key management](SIGNING_KEY_MANAGEMENT.md), [release policy]
 Use [itch.io publishing guide](ITCH_PUBLISHING_GUIDE.md) for evergreen storefronts, honest devlogs, authentic screenshots, artwork exports and release handoffs. Sudoku Beta 2 is owner-reported published under its verified new permanent beta identity; public download verification, durable archive and reviewed source promotion remain pending. The original Beta 1 signing key remains unresolved but is not a blocker for the new beta channel. Consult the current app registry rather than historical status text.
 
 Adopt these standards incrementally across projects. Do not change existing app identities merely to standardize names.
+
+## Shared artwork workflow
+Use [Original artwork pipeline](ARTWORK_PIPELINE.md) for asset provenance, original binary transfer, integration and evidence gates. A successful transfer is not equivalent to independent checksum or visual approval.
