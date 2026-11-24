@@ -140,15 +140,15 @@
         "separate_signed_channel": false
       },
       "candidate": {
-        "source": "22123bfba6e2b7c7cda11b31a30f9d4af1fac4a3",
-        "built_source": "05d4fece4976758634af508e45cb994032191786",
-        "version_code": 1700,
+        "source": "638f6b65fc26a9b5897548ea04d04fbe3e710b17",
+        "built_source": "6743a8f1b021bb6b77cb41ac53ec1f8ba596330c",
+        "version_code": 1706,
         "version_name": "0.1.0-qa",
         "status": "android_qa_passed_owner_acceptance_pending",
-        "android_regression": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45460844972",
-        "artifact": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45460844972/artifacts/14952348643",
+        "android_regression": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45467623391",
+        "artifact": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45467623391/artifacts/14957455551",
         "apk_sha256": null,
-        "artifact_zip_sha256": "0650f89dbf9c6fb6aae2aeadb10f2f1d744e7f3d23969e31fc38ed7da1761fa8"
+        "artifact_zip_sha256": "0db0c7389af19a72ec47e65cf209674080cc2a87213b2905d4e75f1f6e239611"
       },
       "recovery_status": "owner_private_backup_and_secret_availability_unverified",
       "physical_upgrade_verified": false
