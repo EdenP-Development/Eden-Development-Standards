@@ -311,7 +311,23 @@
         "status": "M13F_post_transfer_Android_browser_QA_pass_draft_unmerged_physical_test_pending",
         "android_regression": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785",
         "current_main_after_infra": "c6b3dc092744156b4519b569d5a9b4263b82faaf",
-        "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785/artifacts/14965381933"
+        "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785/artifacts/14965381933",
+        "latest_paired_preview": {
+          "status": "same_source_paired_30_vs_40_android_qa_pass_owner_phone_pending",
+          "development_pr": 150,
+          "branch": "feature/m13-f-paired-android-ab-artifacts-2026-11-24",
+          "source": "73ae26903f780381b274b2b9da6e51a96461fffe",
+          "baseline_package": "com.playereden.ricochetrumble.m13fusion",
+          "baseline_solo_tdm": "30 KOs / 300 seconds",
+          "comparator_package": "com.playereden.ricochetrumble.m13compare",
+          "comparator_solo_tdm": "40 KOs / 360 seconds",
+          "artwork_and_game_scripts_byte_identical": true,
+          "both_disposable_ci_debug_signing": true,
+          "regression": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45493398975",
+          "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45493398975/artifacts/14968430435",
+          "production_main_unchanged": true,
+          "physical_phone_test_verified": false
+        }
       },
       "public_beta": {
         "platform": "itch.io",
