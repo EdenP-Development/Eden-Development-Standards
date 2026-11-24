@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-24",
+  "notes": "Public identifiers only. Null means unverified. No passwords, key bytes or private backup paths.",
+  "apps": [
+    {
+      "name": "GridMates: Sudoku",
+      "repository": "PlayerEden/SudokuTogether",
+      "channels": [
+        {
+          "name": "production",
+          "package_id": "com.playereden.sudokutogether",
+          "certificate_sha256": "d362dab018a255ccb313582df1e3cf836246e7da1778a198eb1da03a7cfe7cd1",
+          "last_accepted_version_code": 30,
+          "last_accepted_version_name": "1.0.0-beta.1",
+          "last_accepted_source": "76cbfc149569938b97286f3efe4ad44e08c5934f",
+          "last_accepted_apk_sha256": "6d7dda34129fc4a6c74ab8146dcb36128967340558db50d9f7bac58cbe41c8c3",
+          "key_custody": "unresolved",
+          "secret_names": [
+            "SUDOKU_KEYSTORE_BASE64",
+            "SUDOKU_KEYSTORE_PASSWORD"
+          ],
+          "evidence": "https://github.com/PlayerEden/SudokuTogether/blob/main/docs/GRIDMATES_V1_BETA_RELEASE.md"
+        },
+        {
+          "name": "persistent QA",
+          "package_id": "com.playereden.sudokutogether.qa",
+          "certificate_sha256": null,
+          "key_custody": "unverified",
+          "secret_names": [
+            "SUDOKU_QA_KEYSTORE_BASE64"
+          ]
+        }
+      ],
+      "candidate": {
+        "source": "ba620d247d10e9d4cbe7ecaeb0a4dc6819a69ff0",
+        "version_code": 31,
+        "status": "production_signing_blocked",
+        "android_regression": "https://github.com/PlayerEden/SudokuTogether/actions/runs/45451955312",
+        "migration_rehearsal": "https://github.com/PlayerEden/SudokuTogether/actions/runs/45451955470"
+      }
+    },
+    {
+      "name": "GridMates: Word Search",
+      "repository": null,
+      "channels": [],
+      "status": "inventory_pending"
+    },
+    {
+      "name": "GridMates: Grid Hunt",
+      "repository": null,
+      "channels": [],
+      "status": "inventory_pending"
+    },
+    {
+      "name": "Sector Rebound",
+      "repository": null,
+      "channels": [],
+      "status": "inventory_pending"
+    },
+    {
+      "name": "Eden Comms",
+      "repository": null,
+      "channels": [],
+      "status": "inventory_pending"
+    },
+    {
+      "name": "Crossroads",
+      "repository": null,
+      "channels": [],
+      "status": "inventory_pending"
+    },
+    {
+      "name": "The Town Was Fine",
+      "repository": null,
+      "channels": [],
+      "status": "inventory_pending"
+    }
+  ]
+}

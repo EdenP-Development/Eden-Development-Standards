@@ -1,0 +1,14 @@
+# Defense in depth; never stage secrets even if not matched here.
+.secrets/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+signing.properties
+.env
+.env.*
+*private*signing*.zip
+*.apk
+*.aab

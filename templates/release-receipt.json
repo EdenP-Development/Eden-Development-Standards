@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "app": null,
+  "channel": null,
+  "source_commit": null,
+  "package_id": null,
+  "version_code": null,
+  "version_name": null,
+  "certificate_sha256": null,
+  "apk_sha256": null,
+  "apk_size_bytes": null,
+  "artifact_url": null,
+  "previous_apk_sha256": null,
+  "tests": [],
+  "deferred_checks": [],
+  "production_install_over_verified": false,
+  "owner_approved": false,
+  "publication_status": "not_published"
+}

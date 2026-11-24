@@ -1,0 +1,29 @@
+# TEMPLATE ONLY. Copy into project workflow after replacing pinned fingerprint/alias.
+# Configure original secrets privately. Do not use for untrusted PR source.
+name: Original signing identity preflight
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Verify original certificate
+        shell: bash
+        env:
+          KEYSTORE_BASE64: ${{ secrets.PRODUCTION_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.PRODUCTION_KEYSTORE_PASSWORD }}
+          EXPECTED_CERT_SHA256: REPLACE_WITH_PINNED_PUBLIC_FINGERPRINT
+          KEY_ALIAS: REPLACE_WITH_ORIGINAL_ALIAS
+        run: |
+          set -euo pipefail
+          umask 077
+          [[ "$EXPECTED_CERT_SHA256" =~ ^[a-f0-9]{64}$ ]] || { echo "Configure pinned certificate"; exit 1; }
+          [[ -n "$KEYSTORE_BASE64" && -n "$KEYSTORE_PASSWORD" ]] || { echo "Original credentials unavailable"; exit 1; }
+          private_dir=$(mktemp -d)
+          trap 'rm -rf "$private_dir"' EXIT
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$private_dir/original.jks"
+          actual=$(keytool -exportcert -alias "$KEY_ALIAS" -storepass:env KEYSTORE_PASSWORD -keystore "$private_dir/original.jks" 2>/dev/null | sha256sum | awk '{print $1}')
+          [[ "$actual" == "$EXPECTED_CERT_SHA256" ]] || { echo "Original certificate mismatch"; exit 1; }
+          echo "Original certificate verified; no APK built."
