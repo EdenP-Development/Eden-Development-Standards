@@ -339,13 +339,14 @@
       "migration": {
         "target_repository": "EdenP-Development/Eden-Comms",
         "repository_id": 1445090231,
-        "pre_transfer_main_sha": "2a19e91f2af15a788920c032bc1eba4e9fbdc2e4",
+        "pre_transfer_main_sha": "fb495a27ad2150a16c2aa17671ff55c21bfe6b2c",
         "status": "owner_transfer_required",
         "current_owner_read_write_verified": true,
         "post_transfer_build_verified": false
       },
       "development": {
         "design_bible": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
+      "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "last_android_ci": "https://github.com/PlayerEden/Eden-Comms/actions/runs/42969199279",
         "visual_qa": "13 emulator screenshots captured; final landscape scene failed",
         "open_visual_issue": "https://github.com/PlayerEden/Eden-Comms/issues/167",
