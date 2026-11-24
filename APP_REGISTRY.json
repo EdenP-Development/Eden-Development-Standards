@@ -65,10 +65,55 @@
       "status": "inventory_pending"
     },
     {
-      "name": "Crossroads",
-      "repository": null,
-      "channels": [],
-      "status": "inventory_pending"
+      "name": "GridMates: Crossroads",
+      "repository": "PlayerEden/GridMates-Crossroads",
+      "status": "qa_only_production_signing_unconfigured",
+      "channels": [
+        {
+          "name": "production",
+          "package_id": "com.playereden.gridmates.crossroads",
+          "certificate_sha256": null,
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "last_accepted_source": null,
+          "last_accepted_apk_sha256": null,
+          "key_custody": "unverified_no_production_signer_configured",
+          "secret_names": [],
+          "configured_default_version_code": 1,
+          "configured_version_name": "0.1.0"
+        },
+        {
+          "name": "persistent QA",
+          "package_id": "com.playereden.gridmates.crossroads.qa",
+          "certificate_sha256": "75cc3c896247d71fbd51f7a3ed41f90c8218a8a5a70df8c0f6b494b5cc23d419",
+          "key_custody": "public_test_only_pinned_sibling_source_not_confidential",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "last_accepted_source": null,
+          "last_accepted_apk_sha256": null,
+          "latest_emulator_upgrade_verified_version_code": 1613,
+          "latest_emulator_upgrade_verified_apk_sha256": "c42054e446c35e0b805ac69950e1ee478c39eb0058d32ff0290e8389f0f94779",
+          "evidence": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45031430316",
+          "secret_names": []
+        }
+      ],
+      "preview": {
+        "status": "unsigned_validation_only_not_distributed",
+        "separate_signed_channel": false
+      },
+      "candidate": {
+        "source": "22123bfba6e2b7c7cda11b31a30f9d4af1fac4a3",
+        "built_source": "05d4fece4976758634af508e45cb994032191786",
+        "version_code": 1700,
+        "version_name": "0.1.0-qa",
+        "status": "android_qa_passed_owner_acceptance_pending",
+        "android_regression": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45460844972",
+        "artifact": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45460844972/artifacts/14952348643",
+        "apk_sha256": null,
+        "artifact_zip_sha256": "0650f89dbf9c6fb6aae2aeadb10f2f1d744e7f3d23969e31fc38ed7da1761fa8"
+      },
+      "recovery_status": "owner_private_backup_and_secret_availability_unverified",
+      "physical_upgrade_verified": false
     },
     {
       "name": "The Town Was Fine",
