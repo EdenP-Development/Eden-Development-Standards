@@ -192,12 +192,12 @@
           "key_custody": "public_test_only_key_tracked_in_repository_not_secure",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "last_verified_version_code": 10302,
-          "last_verified_version_name": "0.3.0-gh02c-qa.302",
-          "last_verified_source": "2b4dc28766a3499844fc26a09b09eb775b9e64b7",
-          "last_verified_apk_sha256": "a9fc4df201a9c8bde332913ce046857a2bf433a0da64ca4c85f4e26da6439738",
-          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246",
-          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246/artifacts/14965073405",
+          "last_verified_version_code": 10307,
+          "last_verified_version_name": "0.3.0-gh02c-qa.307",
+          "last_verified_source": "312701abdcc2086d9771fb80d024ef804bc11a88",
+          "last_verified_apk_sha256": "ac883ff575130ca1d9cdaf388bce5426f953c040c89d0f7c554b05ca7dadb8fb",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45510779210",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45510779210/artifacts/14975920482",
           "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45067741823",
           "owner_backup_status": "unverified"
         },
@@ -231,27 +231,37 @@
           "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45487885709",
           "unsigned_staging": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246",
           "signed_apk_proof_workflow": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/workflows/gridhunt-beta-apk-proof.yml",
-          "status": "private_key_verified_signed_apk_proof_pending"
+          "status": "signed_apk_proof_verified_unpublished",
+          "signed_apk_proof": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45493356937",
+          "proof_source": "2b4dc28766a3499844fc26a09b09eb775b9e64b7",
+          "proof_version_code": 10302,
+          "proof_version_name": "0.3.0-gh02c-beta.302",
+          "proof_apk_sha256": "215ffc95d059db4c1839a0cc6ebc43bccc675fc2836dbb96febf7462a97b0f47"
         }
       ],
-      "status": "organization_migrated_private_beta_signer_verified_apk_proof_pending",
+      "status": "organization_migrated_beta_apk_signing_verified_unpublished",
       "candidate": {
-        "source": "2b4dc28766a3499844fc26a09b09eb775b9e64b7",
-        "version_code": 10302,
-        "version_name": "0.3.0-gh02c-qa.302",
+        "source": "312701abdcc2086d9771fb80d024ef804bc11a88",
+        "version_code": 10307,
+        "version_name": "0.3.0-gh02c-qa.307",
         "status": "qa_full_ci_pass_owner_acceptance_pending",
-        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246"
+        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45510779210"
       },
       "migration": {
         "target_organization": "EdenP-Development",
         "repository_id": 1466877109,
-        "status": "transfer_and_regression_verified",
+        "status": "transfer_regression_and_signing_verified_owner_backup_recovery_unverified",
         "development_branch": "feature/gh-v02-in-puzzle-map-look",
         "draft_pr": 12,
-        "public_beta_signing": "first public beta identity; owner confirmed no prior public release; private-key proof passed; APK proof pending",
+        "public_beta_signing": "first public beta identity verified through actual APK signing; no release published",
         "read_write_verified": true,
         "pre_transfer_head": "1c12e591e130f949d767608e8d41ab261ebfe318",
         "post_transfer_documentation_head": "7422b1eb7ea40956062240c4f3d949b932bf5648"
+      },
+      "development_checkpoint": {
+        "milestone": "GH-V25-C",
+        "handoff": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/blob/feature/gh-v02-in-puzzle-map-look/docs/CURRENT_DEVELOPMENT_HANDOFF.md",
+        "next": "GH-V26 decorative woodland environment expansion; launcher icon deferred"
       }
     },
     {
