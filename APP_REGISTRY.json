@@ -322,21 +322,22 @@
     },
     {
       "name": "Eden Comms",
-      "repository": "PlayerEden/Eden-Comms",
-      "status": "owner_transfer_pending_source_and_preview_identity_verified",
+      "repository": "EdenP-Development/Eden-Comms",
+      "status": "organization_transfer_and_org_preview_signing_verified_private_original_signer_unverified",
       "channels": [
         {
           "name": "development Preview (public AOSP test signer)",
           "package_id": "com.edenpractical.comms.preview",
           "certificate_sha256": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
           "key_custody": "public test key; NOT a private beta/production signing identity",
-          "last_verified_version_code": 200014,
-          "last_verified_version_name": "0.2.12-preview-200014",
-          "last_verified_source": "2a19e91f2af15a788920c032bc1eba4e9fbdc2e4",
-          "last_verified_apk_sha256": "d8ed947ee0c79904014e40ede3ee04e4ab1803af4c95ffabd3c012f93e1ca7f8",
+          "last_verified_version_code": 200015,
+          "last_verified_version_name": "0.2.12-preview-200015",
+          "last_verified_source": "75bd9d8f075c3590e9796771f68d6fc0de38dbd9",
+          "last_verified_apk_sha256": "e09d029fe2eefb43e14255d5b19e8b020b3c6aa670f420b1de31308a6aa81f79",
           "last_accepted_version_code": null,
-          "evidence": "https://github.com/PlayerEden/Eden-Comms/actions/runs/42969199330",
-          "status": "signed_build_verified_artifact_ephemeral"
+          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45490751311",
+          "status": "org_hosted_preview_build_and_exact_public_signer_verified",
+          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45490751311/artifacts/14965588619"
         },
         {
           "name": "original-package internal QA (private signer not verified)",
@@ -368,19 +369,26 @@
         "target_repository": "EdenP-Development/Eden-Comms",
         "repository_id": 1445090231,
         "pre_transfer_main_sha": "fb495a27ad2150a16c2aa17671ff55c21bfe6b2c",
-        "status": "owner_transfer_required",
+        "status": "same_repository_transferred_read_write_history_org_ci_and_preview_verified",
         "current_owner_read_write_verified": true,
-        "post_transfer_build_verified": false
+        "post_transfer_build_verified": true,
+        "post_transfer_main_sha": "75bd9d8f075c3590e9796771f68d6fc0de38dbd9",
+        "post_transfer_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45490751352",
+        "post_transfer_preview_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45490751311",
+        "post_transfer_read_write_verified": true,
+        "branches_verified": 162,
+        "open_issues_verified": 10
       },
       "development": {
-        "design_bible": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
+        "design_bible": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
         "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
-        "last_android_ci": "https://github.com/PlayerEden/Eden-Comms/actions/runs/42969199279",
-        "visual_qa": "13 emulator screenshots captured; final landscape scene failed",
-        "open_visual_issue": "https://github.com/PlayerEden/Eden-Comms/issues/167",
+        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45490751352",
+        "visual_qa": "org preview emulator job running; current accepted full visual PASS not established",
+        "open_visual_issue": "https://github.com/EdenP-Development/Eden-Comms/issues/167",
         "two_phone_acceptance": "not_run",
         "independent_security_review": "not_run",
-        "public_beta": "not_published"
+        "public_beta": "not_published",
+        "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md"
       }
     },
     {
