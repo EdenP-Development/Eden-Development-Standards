@@ -76,7 +76,7 @@
     },
     {
       "name": "GridMates: Word Search",
-      "repository": "PlayerEden/GridMates-Word-Search",
+      "repository": "EdenP-Development/GridMates-Word-Search",
       "channels": [
         {
           "name": "persistent QA",
@@ -88,11 +88,11 @@
           "last_accepted_version_name": null,
           "last_verified_version_code": 119,
           "last_verified_version_name": "0.9.74-ws76-activity-album-qa",
-          "last_verified_source": "f0a7152b43d8fb69ecd629e34b0b1a789a35c9cd",
-          "last_verified_apk_sha256": "ae0a9a9834c48d1d94dcf4a188d7e5020c672393ba36bdcbd50026bb9e78a2b4",
-          "evidence": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318",
-          "artifact": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318/artifacts/14946605616",
-          "save_rehearsal": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318/artifacts/14947400389"
+          "last_verified_source": "7df956c779d5047cd7bc7a5ad1d765b3873f81eb",
+          "last_verified_apk_sha256": "0596dfa4c816ac766a0ec7f2fc95fb53f0c37787eab428f7657ed3098033b419",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489605994",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489605994/artifacts/14967370605",
+          "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489605994/artifacts/14965819598"
         },
         {
           "name": "itch.io public beta",
@@ -115,19 +115,21 @@
           "key_custody": "unverified"
         }
       ],
-      "status": "qa_verified_organization_transfer_pending",
+      "status": "organization_transfer_verified_signed_qa_public_beta_signing_pending",
       "candidate": {
-        "source": "f0a7152b43d8fb69ecd629e34b0b1a789a35c9cd",
+        "source": "7df956c779d5047cd7bc7a5ad1d765b3873f81eb",
         "branch": "feature/ws76-activity-album-v119-2026-11-24",
         "draft_pr": 197,
         "version_code": 119,
         "version_name": "0.9.74-ws76-activity-album-qa",
         "status": "android_qa_passed_owner_acceptance_pending",
-        "android_regression": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318",
-        "release_isolation": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328171",
-        "artifact": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318/artifacts/14946605616",
-        "apk_sha256": "ae0a9a9834c48d1d94dcf4a188d7e5020c672393ba36bdcbd50026bb9e78a2b4",
-        "handoff": "https://github.com/PlayerEden/GridMates-Word-Search/blob/ac6bf762e8adbe96182600d4141ca3c4b1b44bd5/CONTINUE_HERE.md"
+        "android_regression": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489605994",
+        "release_isolation": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489606038",
+        "artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489605994/artifacts/14967370605",
+        "apk_sha256": "0596dfa4c816ac766a0ec7f2fc95fb53f0c37787eab428f7657ed3098033b419",
+        "handoff": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/77f5620e22946deb3059ed4cbbb00cb94a63f2d0/CONTINUE_HERE.md",
+        "fallback_artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45446328318/artifacts/14946605616",
+        "fallback_apk_sha256": "ae0a9a9834c48d1d94dcf4a188d7e5020c672393ba36bdcbd50026bb9e78a2b4"
       },
       "preview": {
         "status": "separate_disposable_channel_not_configured"
@@ -135,14 +137,19 @@
       "migration": {
         "target_repository": "EdenP-Development/GridMates-Word-Search",
         "repository_id": 1447522480,
-        "status": "owner_transfer_pending",
+        "status": "transfer_and_regression_verified",
         "pre_transfer_read_write_verified": true,
         "pre_transfer_documentation_head": "ac6bf762e8adbe96182600d4141ca3c4b1b44bd5",
         "development_branch": "feature/ws76-activity-album-v119-2026-11-24",
         "draft_pr": 197,
-        "post_transfer_ci_verified": false,
+        "post_transfer_ci_verified": true,
         "woodland_checkpoint_branch": "feature/ws77-woodland-album-v120-2026-11-24",
-        "woodland_checkpoint_source": "59030b660f47fd3abc6fba548206065764c9b327"
+        "woodland_checkpoint_source": "59030b660f47fd3abc6fba548206065764c9b327",
+        "post_transfer_read_write_verified": true,
+        "post_transfer_verified_source": "7df956c779d5047cd7bc7a5ad1d765b3873f81eb",
+        "post_transfer_android_verification": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489605994",
+        "post_transfer_release_isolation": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45489606038",
+        "transfer_report": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/77f5620e22946deb3059ed4cbbb00cb94a63f2d0/docs/devlog/2026-11-24_EDENP_WORD_SEARCH_TRANSFER.md"
       },
       "future_google_play": {
         "status": "long_term_not_configured",
