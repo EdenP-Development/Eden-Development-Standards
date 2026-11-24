@@ -154,12 +154,12 @@
           "key_custody": "public_test_only_key_tracked_in_repository_not_secure",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "last_verified_version_code": 10296,
-          "last_verified_version_name": "0.3.0-gh02c-qa.296",
-          "last_verified_source": "d5bb96d77c958c4a7c87ca77848d24f976c1886a",
-          "last_verified_apk_sha256": "4046bcafe1ac6943ee998243aa8ad096b21a91bc256837b38792f308aac7c99a",
-          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45472227300",
-          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45472227300/artifacts/14958720466",
+          "last_verified_version_code": 10302,
+          "last_verified_version_name": "0.3.0-gh02c-qa.302",
+          "last_verified_source": "2b4dc28766a3499844fc26a09b09eb775b9e64b7",
+          "last_verified_apk_sha256": "a9fc4df201a9c8bde332913ce046857a2bf433a0da64ca4c85f4e26da6439738",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246/artifacts/14965073405",
           "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45067741823",
           "owner_backup_status": "unverified"
         },
@@ -177,23 +177,40 @@
           "certificate_sha256": null,
           "key_custody": "ephemeral_historical_incompatible_with_fixed_qa",
           "status": "retired"
+        },
+        {
+          "name": "itch.io public beta",
+          "package_id": "com.playereden.gridmates.gridhunt.beta",
+          "certificate_sha256": "004f83350ed36c019987db2168090b318857d0e00f921bebf6076c4830ccafe6",
+          "secret_names": [
+            "GRIDMATES_GRID_HUNT_BETA_KEYSTORE_BASE64",
+            "GRIDMATES_GRID_HUNT_BETA_KEYSTORE_PASSWORD"
+          ],
+          "key_custody": "organization secret private-key functionality verified; independent owner backup recovery unverified",
+          "secret_scope": "organization secrets; owner confirmed setup; repository restriction not independently inspected",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45487885709",
+          "unsigned_staging": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246",
+          "signed_apk_proof_workflow": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/workflows/gridhunt-beta-apk-proof.yml",
+          "status": "private_key_verified_signed_apk_proof_pending"
         }
       ],
-      "status": "qa_verified_production_identity_unestablished",
+      "status": "organization_migrated_private_beta_signer_verified_apk_proof_pending",
       "candidate": {
-        "source": "d5bb96d77c958c4a7c87ca77848d24f976c1886a",
-        "version_code": 10296,
-        "version_name": "0.3.0-gh02c-qa.296",
+        "source": "2b4dc28766a3499844fc26a09b09eb775b9e64b7",
+        "version_code": 10302,
+        "version_name": "0.3.0-gh02c-qa.302",
         "status": "qa_full_ci_pass_owner_acceptance_pending",
-        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45472227300"
+        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45489336246"
       },
       "migration": {
         "target_organization": "EdenP-Development",
         "repository_id": 1466877109,
-        "status": "transfer_verified_post_transfer_ci_pending",
+        "status": "transfer_and_regression_verified",
         "development_branch": "feature/gh-v02-in-puzzle-map-look",
         "draft_pr": 12,
-        "public_beta_signing": "not established; inventory and owner confirmation required before first new private signer",
+        "public_beta_signing": "first public beta identity; owner confirmed no prior public release; private-key proof passed; APK proof pending",
         "read_write_verified": true,
         "pre_transfer_head": "1c12e591e130f949d767608e8d41ab261ebfe318",
         "post_transfer_documentation_head": "7422b1eb7ea40956062240c4f3d949b932bf5648"
