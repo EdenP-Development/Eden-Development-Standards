@@ -41,19 +41,22 @@
             "GRIDMATES_SUDOKU_BETA_KEYSTORE_BASE64",
             "GRIDMATES_SUDOKU_BETA_KEYSTORE_PASSWORD"
           ],
-          "last_accepted_version_code": null,
-          "last_accepted_version_name": null,
-          "evidence": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45479430913"
+          "last_accepted_version_code": 31,
+          "last_accepted_version_name": "1.0.0-beta.2",
+          "evidence": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45479430913",
+          "last_accepted_source": "c59bdf6860f7ff3ea0e01e28fe63643a7ac5342c",
+          "publication": "owner reported published 2026-11-24; live download verification pending",
+          "public_url": "https://sir-spudacus.itch.io/gridmates-sudoku"
         }
       ],
       "candidate": {
         "source": "c59bdf6860f7ff3ea0e01e28fe63643a7ac5342c",
         "staging_verified_source": "d490fc32d7c4a381b07b4d542b6bd685e1824813",
-        "handoff_source": "7072ef246c28e8a40c0ed44dbf782076c2eacd5d",
+        "handoff_source": "ea88da8321a93291c8acdd0e7d1d3486a01529e2",
         "branch": "feat/beta2-permanent-identity-staging",
         "version_code": 31,
         "version_name": "1.0.0-beta.2",
-        "status": "signed_ci_passed_owner_visual_feedback_positive",
+        "status": "owner_accepted_published_reported",
         "android_regression": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45451955312",
         "migration_rehearsal": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45451955470",
         "portable_migration": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45464118951",
@@ -65,9 +68,12 @@
         "artifact_zip_sha256": "0dc6b20ac75db841f5b2fd407e4991111764301d6f9f28faead74c01afd9b432",
         "apk_sha256": null,
         "owner_visual_review": "positive; launch, mode art, profile and statistics observed",
-        "publication": "not published"
+        "publication": "owner reported published 2026-11-24; web recheck cached Beta 1 and devlog cache miss",
+        "devlog_url": "https://sir-spudacus.itch.io/gridmates-sudoku/devlog/1804670/gridmates-sudoku-beta-2-growing-our-little-puzzle-game",
+        "owner_reinstall": "same-version signed reinstall with retained progress reported",
+        "next": "optional evergreen itch promo assets, durable archive and source promotion, Beta 3"
       },
-      "status": "signed_beta2_candidate_verified_publication_pending",
+      "status": "beta2_published_owner_report_public_verification_pending",
       "future_google_play": {
         "proposed_package_id": "com.playereden.gridmates.sudoku",
         "status": "long_term_not_configured",
