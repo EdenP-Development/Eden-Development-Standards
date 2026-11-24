@@ -100,10 +100,10 @@
           "certificate_sha256": "c29c0c593ac99ae81b5a5aaf5fca37bbed3bbd419e8f08287296de6681babba3",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "status": "private_identity_prepared_organization_secrets_pending",
+          "status": "organization_signer_verified_beta_apk_pending",
           "key_custody": "owner_encrypted_backups_unconfirmed",
           "package_verification": "planned_pending_signed_apk",
-          "certificate_verification": "private_key_operation_verified_locally",
+          "certificate_verification": "github_actions_private_key_operation_verified",
           "secret_names": [
             "GRIDMATES_WORD_SEARCH_BETA_KEYSTORE_BASE64",
             "GRIDMATES_WORD_SEARCH_BETA_KEYSTORE_PASSWORD"
@@ -111,7 +111,10 @@
           "signing_draft": "https://github.com/EdenP-Development/GridMates-Word-Search/pull/199",
           "preflight_source": "768a179b1d9da1be061a938d116eeeff0a9f201e",
           "preflight_attempt": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45496175839",
-          "signing_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/52e52a3e8b6f1e21ac4a7f969d35aaf30f54b670/docs/devlog/2026-11-24_EDENP_WORD_SEARCH_BETA_SIGNING.md"
+          "signing_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/3072c7a6392558192b43aa7c50e50ea07fc6af27/docs/devlog/2026-11-24_EDENP_WORD_SEARCH_BETA_SIGNING_VERIFIED.md",
+          "verified_workflow_run": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45496175839",
+          "verified_run_attempt": 2,
+          "verified_job_id": 138815149344
         },
         {
           "name": "production",
@@ -125,7 +128,7 @@
           "key_custody": "unverified"
         }
       ],
-      "status": "organization_transfer_verified_signed_qa_public_beta_signing_pending",
+      "status": "organization_transfer_verified_signed_qa_itch_beta_signer_verified",
       "candidate": {
         "source": "9b47e8e8aee4d8d94e8fcab3e5b461d6f7b31107",
         "branch": "feature/ws77-woodland-album-v120-2026-11-24",
