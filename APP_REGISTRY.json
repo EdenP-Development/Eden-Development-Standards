@@ -132,9 +132,96 @@
     },
     {
       "name": "Sector Rebound",
-      "repository": null,
-      "channels": [],
-      "status": "inventory_pending"
+      "repository": "PlayerEden/Ricochet-Rumble",
+      "status": "active_development_m13f_qa_pass_no_public_beta",
+      "channels": [
+        {
+          "name": "owner internal preview",
+          "package_id": "com.playereden.ricochetrumble.preview",
+          "certificate_sha256": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+          "key_custody": "public_AOSP_test_key_not_private_beta_signer",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "last_verified_version_code": 420001,
+          "last_verified_version_name": "0.9.80-main.1",
+          "last_verified_source": "50401f71a63a8375f1b7a7230617acb1167682af",
+          "last_verified_apk_sha256": "1bc0aaed1b7557ff2b894b6e25441a4181e7f6a7440d9fcad7b14c5ceed35f36",
+          "evidence": "https://github.com/PlayerEden/Ricochet-Rumble/actions/runs/41721309696",
+          "artifact_status": "expired",
+          "physical_install_over_verified": false
+        },
+        {
+          "name": "production",
+          "package_id": "com.playereden.ricochetrumble",
+          "certificate_sha256": null,
+          "key_custody": "historical_encrypted_backup_blob_in_public_repo_original_access_unverified",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "status": "not_signed_or_published"
+        },
+        {
+          "name": "M13-C disposable QA",
+          "package_id": "com.playereden.ricochetrumble.m13fusion",
+          "certificate_sha256": null,
+          "key_custody": "ephemeral_debug_not_upgrade_safe",
+          "version_code": 50,
+          "version_name": "0.9.54-lan-timeout-test",
+          "source": "d230227bf4028bb28d73609c16521d6287ef9671",
+          "evidence": "https://github.com/PlayerEden/Ricochet-Rumble/actions/runs/42097017237",
+          "status": "art_and_gameplay_qa_only"
+        },
+        {
+          "name": "M13-F disposable QA",
+          "package_id": "com.playereden.ricochetrumble.m13compare",
+          "certificate_sha256": null,
+          "key_custody": "ephemeral_debug_not_upgrade_safe",
+          "version_code": 50,
+          "version_name": "0.9.54-lan-timeout-test",
+          "source": "9e52730485c1b9455f5796a2b318e227fbdb456d",
+          "evidence": "https://github.com/PlayerEden/Ricochet-Rumble/actions/runs/42293103785",
+          "status": "android_and_browser_qa_pass_phone_acceptance_pending_artifact_expired"
+        }
+      ],
+      "migration": {
+        "target_organization": "EdenP-Development",
+        "target_repository": "EdenP-Development/Ricochet-Rumble",
+        "repository_id": 1434527636,
+        "status": "owner_transfer_required",
+        "read_write_verified_pre_transfer": true,
+        "post_transfer_access_verified": false,
+        "post_transfer_ci_verified": false
+      },
+      "candidate": {
+        "main_source": "355ef1761ea658e949d807e55d5ac022229711ee",
+        "branch": "feature/m13-f-tdm-40ko-six-minute-phone-comparator-2026-11-06",
+        "source": "9e52730485c1b9455f5796a2b318e227fbdb456d",
+        "draft_pr": 147,
+        "stacked_draft_prs": [
+          141,
+          143,
+          144,
+          145,
+          146,
+          147
+        ],
+        "status": "CI_pass_physical_phone_A_B_pending",
+        "android_regression": "https://github.com/PlayerEden/Ricochet-Rumble/actions/runs/42293103785"
+      },
+      "public_beta": {
+        "platform": "itch.io",
+        "status": "not_published_owner_reports_only_sudoku_distributed",
+        "package_id": null,
+        "certificate_sha256": null,
+        "key_custody": "no_private_public_beta_signer_verified",
+        "proposed_secret_names": [
+          "SECTOR_REBOUND_BETA_KEYSTORE_BASE64",
+          "SECTOR_REBOUND_BETA_KEYSTORE_PASSWORD",
+          "SECTOR_REBOUND_BETA_KEY_ALIAS",
+          "SECTOR_REBOUND_BETA_KEY_PASSWORD"
+        ],
+        "note": "Names reserved only; do not create/replace a key before original identity inventory and owner channel decision"
+      },
+      "owner_backup_status": "unverified"
     },
     {
       "name": "Eden Comms",
