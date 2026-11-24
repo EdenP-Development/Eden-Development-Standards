@@ -201,7 +201,7 @@
     },
     {
       "name": "Sector Rebound",
-      "repository": "PlayerEden/Ricochet-Rumble",
+      "repository": "EdenP-Development/Ricochet-Rumble",
       "status": "active_development_m13f_qa_pass_no_public_beta",
       "channels": [
         {
@@ -255,10 +255,12 @@
         "target_organization": "EdenP-Development",
         "target_repository": "EdenP-Development/Ricochet-Rumble",
         "repository_id": 1434527636,
-        "status": "owner_transfer_required",
+        "status": "ownership_and_connector_read_write_verified_post_transfer_ci_in_progress",
         "read_write_verified_pre_transfer": true,
-        "post_transfer_access_verified": false,
-        "post_transfer_ci_verified": false
+        "post_transfer_access_verified": true,
+        "post_transfer_ci_verified": false,
+        "post_transfer_ci_rerun": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785",
+        "owner_transfer_confirmed": "2026-11-24"
       },
       "candidate": {
         "main_source": "355ef1761ea658e949d807e55d5ac022229711ee",
@@ -274,23 +276,41 @@
           147
         ],
         "status": "CI_pass_physical_phone_A_B_pending",
-        "android_regression": "https://github.com/PlayerEden/Ricochet-Rumble/actions/runs/42293103785"
+        "android_regression": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785"
       },
       "public_beta": {
         "platform": "itch.io",
-        "status": "not_published_owner_reports_only_sudoku_distributed",
-        "package_id": null,
-        "certificate_sha256": null,
-        "key_custody": "no_private_public_beta_signer_verified",
+        "status": "private_signer_generated_not_configured_no_beta_published",
+        "package_id": "com.playereden.ricochetrumble.beta",
+        "certificate_sha256": "43840f1525c03a5279fa4d76723b593779fad5837c655296f182cb642e4656c7",
+        "key_custody": "new_original_pkcs12_and_independent_gpg_recovery_generated_local_signing_verified_owner_offline_custody_unconfirmed",
         "proposed_secret_names": [
           "SECTOR_REBOUND_BETA_KEYSTORE_BASE64",
           "SECTOR_REBOUND_BETA_KEYSTORE_PASSWORD",
           "SECTOR_REBOUND_BETA_KEY_ALIAS",
           "SECTOR_REBOUND_BETA_KEY_PASSWORD"
         ],
-        "note": "Names reserved only; do not create/replace a key before original identity inventory and owner channel decision"
+        "note": "This newly generated beta identity is separate from .preview/public AOSP test key, historical default production identity and disposable M13 previews; no release or upgrade compatibility claims.",
+        "secret_names": [
+          "SECTOR_REBOUND_BETA_KEYSTORE_BASE64",
+          "SECTOR_REBOUND_BETA_KEYSTORE_PASSWORD",
+          "SECTOR_REBOUND_BETA_KEY_ALIAS",
+          "SECTOR_REBOUND_BETA_KEY_PASSWORD"
+        ],
+        "secret_scope": "EdenP-Development organization, selected Ricochet-Rumble only — pending owner setup",
+        "secret_status": "values_generated_organization_secret_entry_pending",
+        "key_algorithm": "RSA-4096",
+        "keystore_type": "PKCS12",
+        "alias": "sector-rebound-beta",
+        "local_signing_verified": true,
+        "encrypted_recovery_roundtrip_verified": true,
+        "github_actions_signing_verified": false,
+        "owner_independent_backup_confirmed": false,
+        "preflight_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/.github/workflows/sector-rebound-beta-signing-preflight.yml",
+        "documentation": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/docs/SECTOR_REBOUND_BETA_SIGNING_SETUP_2026-11-24.md",
+        "first_signed_beta_apk_verified": false
       },
-      "owner_backup_status": "unverified"
+      "owner_backup_status": "new_beta_original_and_gpg_recovery_generated_owner_independent_storage_unconfirmed"
     },
     {
       "name": "Eden Comms",
@@ -346,7 +366,7 @@
       },
       "development": {
         "design_bible": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
-      "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
+        "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "last_android_ci": "https://github.com/PlayerEden/Eden-Comms/actions/runs/42969199279",
         "visual_qa": "13 emulator screenshots captured; final landscape scene failed",
         "open_visual_issue": "https://github.com/PlayerEden/Eden-Comms/issues/167",
