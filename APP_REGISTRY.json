@@ -85,12 +85,12 @@
           "key_custody": "public_test_only_key_tracked_in_repository_not_secure",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "last_verified_version_code": 10292,
-          "last_verified_version_name": "0.3.0-gh02c-qa.292",
-          "last_verified_source": "63f0fc271eb731a1d9b6109ddd71164f4afdb19a",
-          "last_verified_apk_sha256": "8bf801d3df2a0b6e771b70b603f45f506426dee9ac839ee0c37cdf2bed6e3db8",
-          "evidence": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45460697797",
-          "artifact": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45460697797/artifacts/14951748911",
+          "last_verified_version_code": 10296,
+          "last_verified_version_name": "0.3.0-gh02c-qa.296",
+          "last_verified_source": "d5bb96d77c958c4a7c87ca77848d24f976c1886a",
+          "last_verified_apk_sha256": "4046bcafe1ac6943ee998243aa8ad096b21a91bc256837b38792f308aac7c99a",
+          "evidence": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45472227300",
+          "artifact": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45472227300/artifacts/14958720466",
           "save_rehearsal": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45067741823",
           "owner_backup_status": "unverified"
         },
@@ -112,10 +112,19 @@
       ],
       "status": "qa_verified_production_identity_unestablished",
       "candidate": {
-        "source": "63f0fc271eb731a1d9b6109ddd71164f4afdb19a",
-        "version_code": 10292,
+        "source": "d5bb96d77c958c4a7c87ca77848d24f976c1886a",
+        "version_code": 10296,
+        "version_name": "0.3.0-gh02c-qa.296",
         "status": "qa_full_ci_pass_owner_acceptance_pending",
-        "android_regression": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45460697797"
+        "android_regression": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45472227300"
+      },
+      "migration": {
+        "target_organization": "EdenP-Development",
+        "repository_id": 1466877109,
+        "status": "owner_transfer_pending",
+        "development_branch": "feature/gh-v02-in-puzzle-map-look",
+        "draft_pr": 12,
+        "public_beta_signing": "not established; inventory and owner confirmation required before first new private signer"
       }
     },
     {
