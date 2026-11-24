@@ -177,18 +177,32 @@
         "separate_signed_channel": false
       },
       "candidate": {
-        "source": "638f6b65fc26a9b5897548ea04d04fbe3e710b17",
-        "built_source": "6743a8f1b021bb6b77cb41ac53ec1f8ba596330c",
-        "version_code": 1706,
+        "source": "f053103ca73ed97e4beeaa715c21c2bae04be783",
+        "built_source": "b376ab18a6d5fd504db54fd1277e837a977536cc",
+        "version_code": 1707,
         "version_name": "0.1.0-qa",
         "status": "android_qa_passed_owner_acceptance_pending",
-        "android_regression": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45467623391",
-        "artifact": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45467623391/artifacts/14957455551",
+        "android_regression": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45472755326",
+        "artifact": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45472755326/artifacts/14959095635",
         "apk_sha256": null,
-        "artifact_zip_sha256": "0db0c7389af19a72ec47e65cf209674080cc2a87213b2905d4e75f1f6e239611"
+        "artifact_zip_sha256": "51f35d57015eb7a5c70e3bb7832273207e9ac6f02f3edff1061f8a351af7cdc5"
       },
       "recovery_status": "owner_private_backup_and_secret_availability_unverified",
-      "physical_upgrade_verified": false
+      "physical_upgrade_verified": false,
+      "migration": {
+        "status": "owner_transfer_pending",
+        "target_repository": "EdenP-Development/GridMates-Crossroads",
+        "repository_id": 1460737884
+      },
+      "public_beta": {
+        "status": "not_configured",
+        "proposed_package_id": "com.playereden.gridmates.crossroads",
+        "proposed_secret_names": [
+          "GRIDMATES_CROSSROADS_BETA_KEYSTORE_BASE64",
+          "GRIDMATES_CROSSROADS_BETA_KEYSTORE_PASSWORD"
+        ],
+        "certificate_sha256": null
+      }
     },
     {
       "name": "The Town Was Fine",
