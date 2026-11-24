@@ -70,9 +70,78 @@
     },
     {
       "name": "GridMates: Word Search",
-      "repository": null,
-      "channels": [],
-      "status": "inventory_pending"
+      "repository": "PlayerEden/GridMates-Word-Search",
+      "channels": [
+        {
+          "name": "persistent QA",
+          "package_id": "com.playereden.gridmates.wordsearch.qa",
+          "certificate_sha256": "75cc3c896247d71fbd51f7a3ed41f90c8218a8a5a70df8c0f6b494b5cc23d419",
+          "key_custody": "public_test_only_key_tracked_in_repository_not_secure",
+          "secret_names": [],
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "last_verified_version_code": 119,
+          "last_verified_version_name": "0.9.74-ws76-activity-album-qa",
+          "last_verified_source": "f0a7152b43d8fb69ecd629e34b0b1a789a35c9cd",
+          "last_verified_apk_sha256": "ae0a9a9834c48d1d94dcf4a188d7e5020c672393ba36bdcbd50026bb9e78a2b4",
+          "evidence": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318",
+          "artifact": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318/artifacts/14946605616",
+          "save_rehearsal": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318/artifacts/14947400389"
+        },
+        {
+          "name": "itch.io public beta",
+          "package_id": null,
+          "certificate_sha256": null,
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "status": "identity_and_credentials_not_configured",
+          "key_custody": "unverified"
+        },
+        {
+          "name": "production",
+          "package_id": "com.playereden.gridmates.wordsearch",
+          "certificate_sha256": null,
+          "configured_default_version_code": 108,
+          "configured_version_name": "0.9.64-ws60-book-page-readability",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "status": "unsigned_build_variant",
+          "key_custody": "unverified"
+        }
+      ],
+      "status": "qa_verified_organization_transfer_pending",
+      "candidate": {
+        "source": "f0a7152b43d8fb69ecd629e34b0b1a789a35c9cd",
+        "branch": "feature/ws76-activity-album-v119-2026-11-24",
+        "draft_pr": 197,
+        "version_code": 119,
+        "version_name": "0.9.74-ws76-activity-album-qa",
+        "status": "android_qa_passed_owner_acceptance_pending",
+        "android_regression": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318",
+        "release_isolation": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328171",
+        "artifact": "https://github.com/PlayerEden/GridMates-Word-Search/actions/runs/45446328318/artifacts/14946605616",
+        "apk_sha256": "ae0a9a9834c48d1d94dcf4a188d7e5020c672393ba36bdcbd50026bb9e78a2b4",
+        "handoff": "https://github.com/PlayerEden/GridMates-Word-Search/blob/ac6bf762e8adbe96182600d4141ca3c4b1b44bd5/CONTINUE_HERE.md"
+      },
+      "preview": {
+        "status": "separate_disposable_channel_not_configured"
+      },
+      "migration": {
+        "target_repository": "EdenP-Development/GridMates-Word-Search",
+        "repository_id": 1447522480,
+        "status": "owner_transfer_pending",
+        "pre_transfer_read_write_verified": true,
+        "pre_transfer_documentation_head": "ac6bf762e8adbe96182600d4141ca3c4b1b44bd5",
+        "development_branch": "feature/ws76-activity-album-v119-2026-11-24",
+        "draft_pr": 197,
+        "post_transfer_ci_verified": false,
+        "woodland_checkpoint_branch": "feature/ws77-woodland-album-v120-2026-11-24",
+        "woodland_checkpoint_source": "59030b660f47fd3abc6fba548206065764c9b327"
+      },
+      "future_google_play": {
+        "status": "long_term_not_configured",
+        "beta_save_migration": "not promised"
+      }
     },
     {
       "name": "GridMates: Grid Hunt",
