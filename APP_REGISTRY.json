@@ -52,7 +52,7 @@
       "candidate": {
         "source": "c59bdf6860f7ff3ea0e01e28fe63643a7ac5342c",
         "staging_verified_source": "d490fc32d7c4a381b07b4d542b6bd685e1824813",
-        "handoff_source": "ea88da8321a93291c8acdd0e7d1d3486a01529e2",
+        "handoff_source": "52ae50db0229e5c1c4147dec2a694fdedfe1dcdf",
         "branch": "feat/beta2-permanent-identity-staging",
         "version_code": 31,
         "version_name": "1.0.0-beta.2",
@@ -71,13 +71,19 @@
         "publication": "owner reported published 2026-11-24; web recheck cached Beta 1 and devlog cache miss",
         "devlog_url": "https://sir-spudacus.itch.io/gridmates-sudoku/devlog/1804670/gridmates-sudoku-beta-2-growing-our-little-puzzle-game",
         "owner_reinstall": "same-version signed reinstall with retained progress reported",
-        "next": "optional evergreen itch promo assets, durable archive and source promotion, Beta 3"
+        "next": "Beta 3 development; outstanding housekeeping: public verification, durable APK/art archive and reviewed source promotion"
       },
       "status": "beta2_published_owner_report_public_verification_pending",
       "future_google_play": {
         "proposed_package_id": "com.playereden.gridmates.sudoku",
         "status": "long_term_not_configured",
         "beta_save_migration": "not promised"
+      },
+      "branding": {
+        "status": "evergreen designs selected; optional metadata uploads not independently verified; source image archive pending",
+        "favicon": "plain-background text-free fox/grid",
+        "beta3_launcher": "leaf-accent text-free fox/grid; implementation and mask testing pending",
+        "guide": "https://github.com/EdenP-Development/Eden-Development-Standards/blob/main/ITCH_PUBLISHING_GUIDE.md"
       }
     },
     {
