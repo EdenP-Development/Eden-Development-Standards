@@ -382,7 +382,7 @@
           "last_verified_apk_sha256": "a62cef8b2c2d6c158bef50024f2ef8456123a3d267716905bebec9a48c7a3373",
           "last_accepted_version_code": null,
           "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041287",
-          "status": "org_signed_preview_build_verified_emulator_visual_in_progress",
+          "status": "org_signed_preview_build_and_14_disconnected_emulator_scenes_passed",
           "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041287/artifacts/14967467853"
         },
         {
@@ -429,12 +429,13 @@
         "design_bible": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
         "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041643",
-        "visual_qa": "200017 corrected emulator driver, full screenshot run in progress",
+        "visual_qa": "PASS: 14 disconnected Android 35 emulator screenshot/navigation scenes including landscape Voice/PTT, compact, large-font and empty IME; real phone and 18x3 connectivity NOT RUN",
         "open_visual_issue": "https://github.com/EdenP-Development/Eden-Comms/issues/167",
         "two_phone_acceptance": "not_run",
         "independent_security_review": "not_run",
         "public_beta": "not_published",
-        "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md"
+        "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
+        "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041287/artifacts/14966559086"
       }
     },
     {
