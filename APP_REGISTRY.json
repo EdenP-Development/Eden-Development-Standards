@@ -76,7 +76,7 @@
     },
     {
       "name": "GridMates: Grid Hunt",
-      "repository": "PlayerEden/GridMates-Grid-Hunt",
+      "repository": "EdenP-Development/GridMates-Grid-Hunt",
       "channels": [
         {
           "name": "persistent QA",
@@ -89,9 +89,9 @@
           "last_verified_version_name": "0.3.0-gh02c-qa.296",
           "last_verified_source": "d5bb96d77c958c4a7c87ca77848d24f976c1886a",
           "last_verified_apk_sha256": "4046bcafe1ac6943ee998243aa8ad096b21a91bc256837b38792f308aac7c99a",
-          "evidence": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45472227300",
-          "artifact": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45472227300/artifacts/14958720466",
-          "save_rehearsal": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45067741823",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45472227300",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45472227300/artifacts/14958720466",
+          "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45067741823",
           "owner_backup_status": "unverified"
         },
         {
@@ -116,15 +116,18 @@
         "version_code": 10296,
         "version_name": "0.3.0-gh02c-qa.296",
         "status": "qa_full_ci_pass_owner_acceptance_pending",
-        "android_regression": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45472227300"
+        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45472227300"
       },
       "migration": {
         "target_organization": "EdenP-Development",
         "repository_id": 1466877109,
-        "status": "owner_transfer_pending",
+        "status": "transfer_verified_post_transfer_ci_pending",
         "development_branch": "feature/gh-v02-in-puzzle-map-look",
         "draft_pr": 12,
-        "public_beta_signing": "not established; inventory and owner confirmation required before first new private signer"
+        "public_beta_signing": "not established; inventory and owner confirmation required before first new private signer",
+        "read_write_verified": true,
+        "pre_transfer_head": "1c12e591e130f949d767608e8d41ab261ebfe318",
+        "post_transfer_documentation_head": "7422b1eb7ea40956062240c4f3d949b932bf5648"
       }
     },
     {
