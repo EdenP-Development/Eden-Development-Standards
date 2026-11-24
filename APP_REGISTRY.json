@@ -202,7 +202,7 @@
     {
       "name": "Sector Rebound",
       "repository": "EdenP-Development/Ricochet-Rumble",
-      "status": "active_development_m13f_qa_pass_no_public_beta",
+      "status": "m13f_qa_pass_private_beta_signer_verified_release_pending",
       "channels": [
         {
           "name": "owner internal preview",
@@ -285,7 +285,7 @@
       },
       "public_beta": {
         "platform": "itch.io",
-        "status": "private_signer_generated_not_configured_no_beta_published",
+        "status": "private_signer_verified_beta_apk_not_built_no_publication",
         "package_id": "com.playereden.ricochetrumble.beta",
         "certificate_sha256": "43840f1525c03a5279fa4d76723b593779fad5837c655296f182cb642e4656c7",
         "key_custody": "new_original_pkcs12_and_independent_gpg_recovery_generated_local_signing_verified_owner_offline_custody_unconfirmed",
@@ -302,19 +302,21 @@
           "SECTOR_REBOUND_BETA_KEY_ALIAS",
           "SECTOR_REBOUND_BETA_KEY_PASSWORD"
         ],
-        "secret_scope": "EdenP-Development organization, selected Ricochet-Rumble only — pending owner setup",
-        "secret_status": "values_generated_organization_secret_entry_pending",
+        "secret_scope": "EdenP-Development organization; verification succeeded for Ricochet-Rumble (exclusive scope requires settings review)",
+        "secret_status": "four_org_secrets_configured_private_key_signing_verified_in_actions",
         "key_algorithm": "RSA-4096",
         "keystore_type": "PKCS12",
         "alias": "sector-rebound-beta",
         "local_signing_verified": true,
         "encrypted_recovery_roundtrip_verified": true,
-        "github_actions_signing_verified": false,
+        "github_actions_signing_verified": true,
         "owner_independent_backup_confirmed": false,
         "preflight_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/.github/workflows/sector-rebound-beta-signing-preflight.yml",
         "documentation": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/docs/SECTOR_REBOUND_BETA_SIGNING_SETUP_2026-11-24.md",
         "first_signed_beta_apk_verified": false,
-        "preflight_installed_main_sha": "c6b3dc092744156b4519b569d5a9b4263b82faaf"
+        "preflight_installed_main_sha": "c6b3dc092744156b4519b569d5a9b4263b82faaf",
+        "signing_preflight_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45491161871",
+        "signing_preflight_source": "0c48be6ca5402a3373f63d79207fbd0b097f624e"
       },
       "owner_backup_status": "new_beta_original_and_gpg_recovery_generated_owner_independent_storage_unconfirmed"
     },
