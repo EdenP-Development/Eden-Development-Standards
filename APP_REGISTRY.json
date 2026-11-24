@@ -144,7 +144,7 @@
     },
     {
       "name": "GridMates: Crossroads",
-      "repository": "PlayerEden/GridMates-Crossroads",
+      "repository": "EdenP-Development/GridMates-Crossroads",
       "status": "qa_only_production_signing_unconfigured",
       "channels": [
         {
@@ -171,7 +171,7 @@
           "last_accepted_apk_sha256": null,
           "latest_emulator_upgrade_verified_version_code": 1613,
           "latest_emulator_upgrade_verified_apk_sha256": "c42054e446c35e0b805ac69950e1ee478c39eb0058d32ff0290e8389f0f94779",
-          "evidence": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45031430316",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Crossroads/actions/runs/45031430316",
           "secret_names": []
         }
       ],
@@ -185,15 +185,15 @@
         "version_code": 1707,
         "version_name": "0.1.0-qa",
         "status": "android_qa_passed_owner_acceptance_pending",
-        "android_regression": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45472755326",
-        "artifact": "https://github.com/PlayerEden/GridMates-Crossroads/actions/runs/45472755326/artifacts/14959095635",
+        "android_regression": "https://github.com/EdenP-Development/GridMates-Crossroads/actions/runs/45472755326",
+        "artifact": "https://github.com/EdenP-Development/GridMates-Crossroads/actions/runs/45472755326/artifacts/14959095635",
         "apk_sha256": null,
         "artifact_zip_sha256": "51f35d57015eb7a5c70e3bb7832273207e9ac6f02f3edff1061f8a351af7cdc5"
       },
       "recovery_status": "owner_private_backup_and_secret_availability_unverified",
       "physical_upgrade_verified": false,
       "migration": {
-        "status": "owner_transfer_pending",
+        "status": "ownership_and_read_write_verified_fresh_ci_pending",
         "target_repository": "EdenP-Development/GridMates-Crossroads",
         "repository_id": 1460737884
       },
