@@ -255,12 +255,15 @@
         "target_organization": "EdenP-Development",
         "target_repository": "EdenP-Development/Ricochet-Rumble",
         "repository_id": 1434527636,
-        "status": "ownership_and_connector_read_write_verified_post_transfer_ci_in_progress",
+        "status": "ownership_access_history_and_android_ci_verified",
         "read_write_verified_pre_transfer": true,
         "post_transfer_access_verified": true,
-        "post_transfer_ci_verified": false,
+        "post_transfer_ci_verified": true,
         "post_transfer_ci_rerun": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785",
-        "owner_transfer_confirmed": "2026-11-24"
+        "owner_transfer_confirmed": "2026-11-24",
+        "post_transfer_tested_game_source": "9e52730485c1b9455f5796a2b318e227fbdb456d",
+        "post_transfer_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785/artifacts/14965381933",
+        "signing_preflight_source": "c6b3dc092744156b4519b569d5a9b4263b82faaf"
       },
       "candidate": {
         "main_source": "355ef1761ea658e949d807e55d5ac022229711ee",
@@ -275,8 +278,10 @@
           146,
           147
         ],
-        "status": "CI_pass_physical_phone_A_B_pending",
-        "android_regression": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785"
+        "status": "M13F_post_transfer_Android_browser_QA_pass_draft_unmerged_physical_test_pending",
+        "android_regression": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785",
+        "current_main_after_infra": "c6b3dc092744156b4519b569d5a9b4263b82faaf",
+        "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/42293103785/artifacts/14965381933"
       },
       "public_beta": {
         "platform": "itch.io",
@@ -308,7 +313,8 @@
         "owner_independent_backup_confirmed": false,
         "preflight_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/.github/workflows/sector-rebound-beta-signing-preflight.yml",
         "documentation": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/docs/SECTOR_REBOUND_BETA_SIGNING_SETUP_2026-11-24.md",
-        "first_signed_beta_apk_verified": false
+        "first_signed_beta_apk_verified": false,
+        "preflight_installed_main_sha": "c6b3dc092744156b4519b569d5a9b4263b82faaf"
       },
       "owner_backup_status": "new_beta_original_and_gpg_recovery_generated_owner_independent_storage_unconfirmed"
     },
