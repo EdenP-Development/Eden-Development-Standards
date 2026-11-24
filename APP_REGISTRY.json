@@ -47,21 +47,27 @@
         }
       ],
       "candidate": {
-        "source": "ba620d247d10e9d4cbe7ecaeb0a4dc6819a69ff0",
+        "source": "c59bdf6860f7ff3ea0e01e28fe63643a7ac5342c",
         "staging_verified_source": "d490fc32d7c4a381b07b4d542b6bd685e1824813",
-        "handoff_source": "d07bd450e64b34f37249bba81bf49e4c01f87d76",
+        "handoff_source": "7072ef246c28e8a40c0ed44dbf782076c2eacd5d",
         "branch": "feat/beta2-permanent-identity-staging",
         "version_code": 31,
         "version_name": "1.0.0-beta.2",
-        "status": "signer_verified_signed_candidate_pending",
+        "status": "signed_ci_passed_owner_visual_feedback_positive",
         "android_regression": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45451955312",
         "migration_rehearsal": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45451955470",
         "portable_migration": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45464118951",
         "physical_migration": "owner-reported Beta1 QA to Beta2 reviewer; visible counts and portrait matched; spouse test deferred",
         "unsigned_staging": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45479430644",
-        "signing_preflight": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45479430913"
+        "signing_preflight": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45479430913",
+        "signed_build": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45487842212",
+        "artifact": "https://github.com/EdenP-Development/SudokuTogether/actions/runs/45487842212/artifacts/14962779795",
+        "artifact_zip_sha256": "0dc6b20ac75db841f5b2fd407e4991111764301d6f9f28faead74c01afd9b432",
+        "apk_sha256": null,
+        "owner_visual_review": "positive; launch, mode art, profile and statistics observed",
+        "publication": "not published"
       },
-      "status": "new_beta_signer_verified_signed_release_pending",
+      "status": "signed_beta2_candidate_verified_publication_pending",
       "future_google_play": {
         "proposed_package_id": "com.playereden.gridmates.sudoku",
         "status": "long_term_not_configured",
