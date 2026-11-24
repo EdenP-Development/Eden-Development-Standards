@@ -48,9 +48,47 @@
     },
     {
       "name": "GridMates: Grid Hunt",
-      "repository": null,
-      "channels": [],
-      "status": "inventory_pending"
+      "repository": "PlayerEden/GridMates-Grid-Hunt",
+      "channels": [
+        {
+          "name": "persistent QA",
+          "package_id": "com.playereden.gridmates.gridhunt.qa",
+          "certificate_sha256": "0ff2e763e5667bdfda45aab662639ea6c1c7efa813f82cd4a5cdba8225febd52",
+          "key_custody": "public_test_only_key_tracked_in_repository_not_secure",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null,
+          "last_verified_version_code": 10292,
+          "last_verified_version_name": "0.3.0-gh02c-qa.292",
+          "last_verified_source": "63f0fc271eb731a1d9b6109ddd71164f4afdb19a",
+          "last_verified_apk_sha256": "8bf801d3df2a0b6e771b70b603f45f506426dee9ac839ee0c37cdf2bed6e3db8",
+          "evidence": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45460697797",
+          "artifact": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45460697797/artifacts/14951748911",
+          "save_rehearsal": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45067741823",
+          "owner_backup_status": "unverified"
+        },
+        {
+          "name": "production",
+          "package_id": "com.playereden.gridmates.gridhunt",
+          "certificate_sha256": null,
+          "key_custody": "unverified",
+          "last_accepted_version_code": null,
+          "last_accepted_version_name": null
+        },
+        {
+          "name": "legacy ephemeral preview QA",
+          "package_id": "com.playereden.gridmates.gridhunt.qa",
+          "certificate_sha256": null,
+          "key_custody": "ephemeral_historical_incompatible_with_fixed_qa",
+          "status": "retired"
+        }
+      ],
+      "status": "qa_verified_production_identity_unestablished",
+      "candidate": {
+        "source": "63f0fc271eb731a1d9b6109ddd71164f4afdb19a",
+        "version_code": 10292,
+        "status": "qa_full_ci_pass_owner_acceptance_pending",
+        "android_regression": "https://github.com/PlayerEden/GridMates-Grid-Hunt/actions/runs/45460697797"
+      }
     },
     {
       "name": "Sector Rebound",
