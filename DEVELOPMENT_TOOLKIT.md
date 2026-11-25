@@ -47,3 +47,6 @@ Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob
 
 ## EDT-08 v0.1 — verified baseline utility
 [Read-only baseline verifier](toolkit/edt-08/v0.1/README.md) implemented as original standard-library Python. Twelve local tests passed in standard and optimized modes; exact committed blobs verified. Requires trusted independently recorded manifest and stable local directory; verifies listed bytes only. No consumer integration, runtime verification or release acceptance.
+
+## EDT-09 v0.1 — verified archive intake
+[Read-only asset archive verifier](toolkit/edt-09/v0.1/README.md) implemented; 14/14 local synthetic tests passed in normal and optimized Python, exact committed blobs matched. Requires trusted archive/member receipt; bounded ZIP verification, no extraction or image decoding. Real archive integration, image contract and runtime packaging gates remain pending.
