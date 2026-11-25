@@ -27,3 +27,6 @@ This pass inspected actual source and selected test files, not executed CI or au
 
 ## EDT-02 v0.1 implementation checkpoint — 2026-11-25
 [Read-only APK preflight](toolkit/edt-02/v0.1/README.md) implemented as new Python source; six local mocked/synthetic unit tests passed. Actual SDK/APK integration and disposable emulator upgrade harness remain pending. No consumer integration or release approval.
+
+## EDT-02 v0.2 — receipt-bound candidate
+[Version 0.2](toolkit/edt-02/v0.2/README.md) requires exact independently recorded hashes and versions, adds ZIP manifest presence check, ten unit test methods and real SDK synthetic signing fixture workflow. Tests authored; exact execution unverified. No device or save test yet; v0.1 preserved.
