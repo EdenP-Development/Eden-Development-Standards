@@ -34,3 +34,6 @@ Read [Google Play readiness (BUS-05)](GOOGLE_PLAY_READINESS.md) and use the [Pla
 
 ## Customer support and maintenance
 Read [Customer support and maintenance (BUS-06)](CUSTOMER_SUPPORT.md) and use the [support intake template](templates/SUPPORT_INTAKE.md) for proportionate triage, private reporting, refunds, maintenance and retirement planning. Actual contacts, customer-facing commitments and retirement decisions require owner approval.
+
+## Business establishment and reinvestment
+Read [Business establishment (BUS-07)](BUSINESS_ESTABLISHMENT.md) and use the [business readiness template](templates/BUSINESS_READINESS.md) privately for entity, tax, accounting and reinvestment planning. BUS-01 through BUS-07 establish the foundational business framework; actual compliance, product acceptance and owner decisions remain separate.
