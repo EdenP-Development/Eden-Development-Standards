@@ -8,7 +8,7 @@ Shared candidates, not released SDK or universal product acceptance.
 | EDT-02 | v0.2 | 15 Python cases reported passed | actual SDK and emulator CI logs |
 | EDT-03 | shared startup reference | product-specific evidence | exact-head CI and physical acceptance |
 | EDT-04 | inspected theme pattern | no shared extraction | consumer need |
-| EDT-05 | v0.1 maze-v1 | 14 local Node tests passed | browser and consumer acceptance |
+| EDT-05 | v0.1 generator + v0.2 analysis | 26 Node tests passed | consumer prototype and geometry verification |
 | EDT-06 | inspected bot pattern | no shared extraction | consumer need |
 | EDT-07 | generic simulation reuse candidate | no shared extraction | private review and rights |
 | EDT-08 | v0.1 | 12 Python cases reported passed | consumer baseline |
@@ -33,3 +33,6 @@ No product source, APP_REGISTRY signing records, release or storefront changed. 
 
 ## EDT-05 v0.1 — deterministic maze graph
 [Version 0.1](edt-05/v0.1/README.md) original standalone ES module with versioned seed contract, bounded dimensions, connected tree, straight preference and optional extra edges. Actual Node 22.16.0 14/14 tests passed; exact committed blobs match. Golden fixture established from observed initial implementation after correcting guessed expectation. No browser, Android, consumer or multiplayer verification; no existing generation behavior modified. Cumulative recorded local cases now 123, of which 14 executed in this checkpoint. Test counts do not establish readiness.
+
+## EDT-05 v0.2 — graph analysis checkpoint
+[Analysis and pathfinding](edt-05/v0.2/README.md): exact v0.1 generator 14/14 rerun; v0.2 12/12 passed in Node 22.16.0. Committed blobs match local tested bytes. Cumulative current toolkit test count 135 (109 previously recorded plus 26 EDT-05 cases; no double counting reruns). No product changes or consumer acceptance. Frozen maze-v1 seed contract retained.
