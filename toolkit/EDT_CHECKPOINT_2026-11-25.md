@@ -8,7 +8,7 @@ Shared candidates, not released SDK or universal product acceptance.
 | EDT-02 | v0.2 | 15 Python cases reported passed | actual SDK and emulator CI logs |
 | EDT-03 | shared startup reference | product-specific evidence | exact-head CI and physical acceptance |
 | EDT-04 | inspected theme pattern | no shared extraction | consumer need |
-| EDT-05 | inspected maze pattern | no shared extraction | consumer need |
+| EDT-05 | v0.1 maze-v1 | 14 local Node tests passed | browser and consumer acceptance |
 | EDT-06 | inspected bot pattern | no shared extraction | consumer need |
 | EDT-07 | generic simulation reuse candidate | no shared extraction | private review and rights |
 | EDT-08 | v0.1 | 12 Python cases reported passed | consumer baseline |
@@ -30,3 +30,6 @@ No product source, APP_REGISTRY signing records, release or storefront changed. 
 
 ## EDT-09 v0.5 — executed drawable pilot
 [Version 0.5](edt-09/v0.5/README.md) adds explicit byte-preserved PNG drawable mapping, separate from v0.4. Actual local Python normal and optimized runs passed 8/8 tests; exact committed blobs matched. Executed on real historical Sudoku Visual 4 APK from artifact 14993249624: both master logo hashes matched; status mapped_drawable_bytes_match. No Android resource resolution, signature, current-head, CI adoption or runtime verification. No product changes. Next prioritize targeted consumer adoption and EDT-05 only when a consumer need is established.
+
+## EDT-05 v0.1 — deterministic maze graph
+[Version 0.1](edt-05/v0.1/README.md) original standalone ES module with versioned seed contract, bounded dimensions, connected tree, straight preference and optional extra edges. Actual Node 22.16.0 14/14 tests passed; exact committed blobs match. Golden fixture established from observed initial implementation after correcting guessed expectation. No browser, Android, consumer or multiplayer verification; no existing generation behavior modified. Cumulative recorded local cases now 123, of which 14 executed in this checkpoint. Test counts do not establish readiness.
