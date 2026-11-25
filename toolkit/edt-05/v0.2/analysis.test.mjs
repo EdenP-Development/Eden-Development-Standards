@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {generateMaze} from '../v0.1/maze.mjs';
+import {analyzeMaze,shortestPath} from './analysis.mjs';
+const gen=(extra={})=>generateMaze({width:12,height:9,seed:42,...extra});
+test('tree statistics',()=>{const a=analyzeMaze(gen());assert.equal(a.edges,107);assert.equal(a.loops,0);assert.ok(a.deadEnds>=2);});
+test('fully open statistics',()=>{const a=analyzeMaze(gen({braidPercent:100}));assert.equal(a.edges,195);assert.equal(a.loops,88);assert.equal(a.deadEnds,0);});
+test('shortest open-grid path',()=>assert.equal(shortestPath(gen({braidPercent:100}),0,107).length,20));
+test('same endpoint',()=>assert.deepEqual(shortestPath(gen(),10,10),[10]));
+test('single cell',()=>{const m=gen({width:1,height:1});assert.deepEqual(analyzeMaze(m),{cells:1,edges:0,loops:0,deadEnds:0,junctions:0,connected:true});assert.deepEqual(shortestPath(m,0,0),[0]);});
+test('path follows passages over 100 seeds',()=>{for(let seed=0;seed<100;seed++){const m=gen({seed,braidPercent:30}), p=shortestPath(m,0,107);assert.equal(p[0],0);assert.equal(p.at(-1),107);assert.equal(new Set(p).size,p.length);for(let k=1;k<p.length;k++){const i=p[k-1],j=p[k],d=j-i;assert.ok(m.cells[i]&({[-12]:1,1:2,12:4,[-1]:8}[d]||0));}}});
+test('invalid endpoints',()=>{for(const x of [-1,108,1.5,'0'])assert.throws(()=>shortestPath(gen(),x,0),RangeError);});
+test('asymmetric passage',()=>assert.throws(()=>analyzeMaze({version:'maze-v1',width:2,height:1,cells:[2,0]}),RangeError));
+test('exterior passage',()=>assert.throws(()=>analyzeMaze({version:'maze-v1',width:1,height:1,cells:[1]}),RangeError));
+test('disconnected graph',()=>{const m={version:'maze-v1',width:2,height:1,cells:[0,0]};assert.throws(()=>analyzeMaze(m),RangeError);assert.throws(()=>shortestPath(m,0,0),RangeError);});
+test('malformed graph',()=>{for(const m of [{...gen(),version:'other'},{...gen(),cells:[]},{...gen(),cells:Array(108).fill(16)}])assert.throws(()=>analyzeMaze(m),RangeError);});
+test('no mutation',()=>{const m=gen(), before=JSON.stringify(m);Object.freeze(m.cells);Object.freeze(m);analyzeMaze(m);shortestPath(m,0,107);assert.equal(JSON.stringify(m),before);});
