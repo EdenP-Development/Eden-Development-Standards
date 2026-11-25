@@ -112,7 +112,7 @@
           "certificate_sha256": "c29c0c593ac99ae81b5a5aaf5fca37bbed3bbd419e8f08287296de6681babba3",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "status": "library_polish_playtest_verified_on_android",
+          "status": "gridmates_launcher_icon_playtest_verified_on_android",
           "key_custody": "owner_encrypted_backups_unconfirmed",
           "package_verification": "signed_apk_package_version_verified",
           "certificate_verification": "signed_apk_matches_pinned_certificate",
@@ -127,14 +127,14 @@
           "verified_workflow_run": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45496175839",
           "verified_run_attempt": 2,
           "verified_job_id": 138815149344,
-          "last_verified_version_code": 125,
-          "last_verified_version_name": "0.9.75-beta.1-library-polish-playtest",
-          "last_verified_source": "3354764ea46ca61e4c43bc40f5fd814366812857",
-          "last_verified_apk_sha256": "2728ea8952a17e9157edf19d62142ddf8c43a551214219b5ddf601f34f686901",
-          "evidence": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45572831566/attempts/2",
-          "artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45572831566/artifacts/15002893342",
-          "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45572831566/artifacts/15003871338",
-          "candidate_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/9ff464a50a636cca049659ab4182c88ee8c62fbf/docs/devlog/2026-11-25_WORD_SEARCH_HANDSET_LIBRARY_AND_COLLECTION.md",
+          "last_verified_version_code": 126,
+          "last_verified_version_name": "0.9.75-beta.1-gridmates-icon-playtest",
+          "last_verified_source": "96d03402ee8249a9dfd62304d334ad370925caf9",
+          "last_verified_apk_sha256": "99fcbbfd9101e730251dd3c1ce443dcbef1d6e62e07e8f5ebe3401782baf2479",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45577040557",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45577040557/artifacts/15004778367",
+          "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45577040557/artifacts/15005144036",
+          "candidate_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/1e0f804ab09a3c00022338ad3a35d43fc3715631/docs/devlog/2026-11-25_WORD_SEARCH_GRIDMATES_LAUNCHER_STANDARD.md",
           "signing_rehearsal": {
             "version_code": 121,
             "version_name": "0.9.75-beta.1",
@@ -173,7 +173,17 @@
             "record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/6475148f693f9138fdd38ded123cbe2a3b95d6e1/docs/devlog/2026-11-25_WORD_SEARCH_OWL_LAUNCHER_PLAYTEST.md",
             "handset_observation": "The owner shared screenshots of the owl launcher and illustrated app on their phone.",
             "handset_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/9ff464a50a636cca049659ab4182c88ee8c62fbf/docs/devlog/2026-11-25_WORD_SEARCH_HANDSET_LIBRARY_AND_COLLECTION.md"
-          }
+          },
+          "library_polish_playtest": {
+            "version_code": 125,
+            "version_name": "0.9.75-beta.1-library-polish-playtest",
+            "source": "3354764ea46ca61e4c43bc40f5fd814366812857",
+            "apk_sha256": "2728ea8952a17e9157edf19d62142ddf8c43a551214219b5ddf601f34f686901",
+            "artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45572831566/artifacts/15002893342",
+            "evidence": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45572831566/artifacts/15003871338",
+            "record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/9ff464a50a636cca049659ab4182c88ee8c62fbf/docs/devlog/2026-11-25_WORD_SEARCH_HANDSET_LIBRARY_AND_COLLECTION.md"
+          },
+          "launcher_icon_standard": "https://github.com/EdenP-Development/Eden-Development-Standards/blob/9821e84330057c7744ff0f84ae3e85d380445c57/branding/gridmates/app-icons/v1.0/README.md"
         },
         {
           "name": "production",
@@ -187,7 +197,7 @@
           "key_custody": "unverified"
         }
       ],
-      "status": "word_search_beta_library_polish_playtest_verified",
+      "status": "word_search_beta_gridmates_launcher_playtest_verified",
       "candidate": {
         "source": "9b47e8e8aee4d8d94e8fcab3e5b461d6f7b31107",
         "branch": "feature/ws77-woodland-album-v120-2026-11-24",
