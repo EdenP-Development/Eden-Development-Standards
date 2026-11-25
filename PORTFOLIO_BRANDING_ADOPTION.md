@@ -4,10 +4,10 @@
 
 | Product | Inspected ref / evidence | Nominal timing | Status / next action |
 | --- | --- | --- | --- |
-| Sudoku | feat/beta3-foundation StartupBranding.kt blob 54b5b5a0dcd387ff37ab02377d02af09402a265f; BETA3_STARTUP_PILOT.md | 250/1000/250 x2 | Historical owner acceptance; timing reopened; evaluate longer trial |
+| Sudoku | feat/beta3-foundation timing commit dd1ea0994662fd25b40103cdb75ed2061a139916; test commit 8db5c3a81cb1342898bcfe23d548c71e5b0c0910 | 300/1500/300 x2 | Revised timing implemented; exact-head CI and physical acceptance pending |
 | Grid Hunt | feature/gh-v02-in-puzzle-map-look StartupBranding.kt blob 4297eb29d9c764bef9b281f9577969fe1e602a9e; GH-V36-H handoff | 300/1500/300 x2 | Adopted in active development per owner 2026-11-25; revised timing physical acceptance and fresh combined CI not established |
-| Crossroads | feature/identity-17-art-import StartupBranding.kt blob 5a60f864e060cd8ca6e1a9f9de7b57d0ae0a836e; MainActivity mounts overlay; build script pins both hashes | 250/1000/250 x2 | Source integration verified on inspected branch; latest branch/device acceptance not established |
-| Word Search | ci/word-search-beta-signing MainActivity.kt blob 26a57ea971c68920a99cd80ba688e8129acaa116 | Native Android splash only | Shared overlay not present in inspected entry point; other branches not checked; integrate through normal milestone if needed |
+| Crossroads | feature/identity-17-art-import timing commit 3defb5eebc1652837aa7ff51ef6680a2fe9a0d58; test commit d5f16e146220b9fd47ec3e4b3c9148752670af77 | 300/1500/300 x2 | Revised timing implemented on existing draft branch; exact-head CI and physical acceptance pending |
+| Word Search | ci/word-search-beta-signing MainActivity.kt blob 26a57ea971c68920a99cd80ba688e8129acaa116 | Native Android splash only | Shared overlay not present in inspected entry point; WS77 and WS68 integration entry points also use native splash only; no new overlay added in timing-only rollout |
 | Sector Rebound | main CONTINUE_HERE.md blob ca428fa203a797ad91ece62c7400351d49b309d8; PR 154 merge 756b9a7a61f57b6851a7b91223ef659dbd3a1f4a | 250/2000/250 x1 | Owner acceptance and integration reported; preserve local approved 2.5s; exact native implementation not retrieved |
 | Eden Comms | main appearance/EpsStartup.kt blob 094947254815a6b10155ba9a53b7851187353e89; MainActivity mounts; pinned EPS build asset | 250/2500/250 x1 | Revised 3.0s source verified on main; exact revised signed APK and physical acceptance pending; EPS independent |
 | Older games | PORT-01 inventory | Unknown | Defer until active development resumes |
