@@ -46,3 +46,5 @@ Use the [living portfolio registry (PORT-02)](PORTFOLIO_REGISTRY.md) for managem
 See [PORT-03 branding adoption and timing audit](PORTFOLIO_BRANDING_ADOPTION.md) for inspected implementations, accepted local exceptions and provisional timing refinements.
 
 See [PORT-04 shared standards adoption audit](PORTFOLIO_STANDARDS_ADOPTION.md) for scoped evidence, recovery and release gaps, and corrective priorities. It does not establish commercial or security acceptance.
+
+See [PORT-05 development and release priorities](PORTFOLIO_PRIORITIES.md) for proposed work lanes, separate beta/commercial gates and corrective queue. No publication or dates authorized.
