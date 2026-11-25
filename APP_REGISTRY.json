@@ -443,16 +443,16 @@
           "baseline_version_name": "0.2.12-approval-review-only",
           "last_accepted_version_code": null,
           "status": "automatic_private_signing_verified_physical_upgrade_pending",
-          "last_verified_version_code": 10002,
-          "last_verified_version_name": "0.2.12-internal-10002",
-          "last_verified_source": "20eac5ae75cab2c89ffc290517ec014b43f20293",
-          "last_verified_apk_sha256": "ff8d0f02a5a22bb78a42e7b03fe05d8de9fd5a3b250da0eb5ce41b1d331e6c52",
-          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529515834",
-          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529515834/artifacts/14983823881",
-          "artifact_zip_sha256": "077a20f8f0df1ddbfe18fd34512ba88e7789aaaa852bff1b4cd8ff5ff81339f1",
+          "last_verified_version_code": 10008,
+          "last_verified_version_name": "0.2.12-internal-10008",
+          "last_verified_source": "86e6159465448955c036e0e2310b8217acedfc98",
+          "last_verified_apk_sha256": "6c5aa4e092bd88d563a8db860450fefd93dd269bf6d518b6a266da2b3b9a0a53",
+          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45543701160",
+          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45543701160/artifacts/14991150076",
+          "artifact_zip_sha256": "89234c1d0209cd33c07a82854e7ca79e1894ff0f546c5a84bfceb20a42c3e999",
           "static_upgrade_evidence": {
-            "previous_version_code": 10001,
-            "previous_run": 45529175721,
+            "previous_version_code": 10002,
+            "previous_run": 45529515834,
             "matching_package_and_signer": true,
             "physical_install_over": "not_run"
           }
@@ -486,7 +486,7 @@
       "development": {
         "design_bible": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
         "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
-        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529515883",
+        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45543701081",
         "visual_qa": "PASS: 14 disconnected Android 35 emulator screenshot/navigation scenes including landscape Voice/PTT, compact, large-font and empty IME; real phone and 18x3 connectivity NOT RUN",
         "open_visual_issue": "https://github.com/EdenP-Development/Eden-Comms/issues/167",
         "two_phone_acceptance": "not_run",
@@ -494,7 +494,10 @@
         "public_beta": "not_published",
         "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041287/artifacts/14966559086",
-        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/174"
+        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/180",
+        "beta_release_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_PLAN.md",
+        "current_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/CURRENT_HANDOFF.md",
+        "distribution_preference": "professional software channel; selection deferred; no public release approved"
       }
     },
     {
