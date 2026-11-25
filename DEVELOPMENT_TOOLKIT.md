@@ -44,3 +44,6 @@ Python 3.13.5: `python -m unittest -v` and `python -O -m unittest -q` each passe
 
 ## Verified local regression — 2026-11-25
 Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob hashes matched committed SafePreferences.kt d3dd262f98e0976bd4b56abd382b676360acf8d2 and SafePreferencesTest.kt e6b1854c98987aa1c0980f79d829d2048648e4ec. Android SDK/adapter instrumentation and consumer integration not verified.
+
+## EDT-08 v0.1 — verified baseline utility
+[Read-only baseline verifier](toolkit/edt-08/v0.1/README.md) implemented as original standard-library Python. Twelve local tests passed in standard and optimized modes; exact committed blobs verified. Requires trusted independently recorded manifest and stable local directory; verifies listed bytes only. No consumer integration, runtime verification or release acceptance.
