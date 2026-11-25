@@ -37,3 +37,6 @@ Read [Customer support and maintenance (BUS-06)](CUSTOMER_SUPPORT.md) and use th
 
 ## Business establishment and reinvestment
 Read [Business establishment (BUS-07)](BUSINESS_ESTABLISHMENT.md) and use the [business readiness template](templates/BUSINESS_READINESS.md) privately for entity, tax, accounting and reinvestment planning. BUS-01 through BUS-07 establish the foundational business framework; actual compliance, product acceptance and owner decisions remain separate.
+
+## Portfolio management
+See [PORT-01 repository inventory and evidence audit (2026-11-25)](PORTFOLIO_AUDIT_2026-11-25.md) for the initial two-owner inventory, documentation gaps and reuse leads. Use current project handoffs and APP_REGISTRY.json for release decisions; this dated audit does not replace them.
