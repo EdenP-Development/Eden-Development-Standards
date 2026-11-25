@@ -38,3 +38,6 @@ Python 3.13.5: `python -m unittest -v` and `python -O -m unittest -q` each passe
 
 ## EDT-01 v0.1 — independently tested candidate
 [Safe preference reads](toolkit/edt-01/v0.1/README.md): original pure Kotlin read-only helper with explicit valid/missing/invalid status, strict types, range/option checks and defensive set copies. Actual local Kotlin/JVM 14/14 tests passed; committed source/test blobs match. Android adapter and consumer verification pending. Non-sensitive settings only; no automatic save repair or migration.
+
+## EDT-01 v0.2 candidate
+[Android adapter and expanded snapshot API](toolkit/edt-01/v0.2/README.md) authored; 26 JVM test cases pending execution, Android compilation/instrumentation pending. No consumer changes.
