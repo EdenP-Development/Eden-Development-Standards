@@ -428,7 +428,31 @@
         "signing_preflight_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45491161871",
         "signing_preflight_source": "0c48be6ca5402a3373f63d79207fbd0b097f624e"
       },
-      "owner_backup_status": "new_beta_original_and_gpg_recovery_generated_owner_independent_storage_unconfirmed"
+      "owner_backup_status": "new_beta_original_and_gpg_recovery_generated_owner_independent_storage_unconfirmed",
+      "branding": {
+        "identity": "Spudacus",
+        "series": "standalone_not_GridMates",
+        "standard": "https://github.com/EdenP-Development/Eden-Development-Standards/blob/main/branding/game-startup/v1.0/README.md",
+        "exact_asset": "branding/spudacus/v1.0/full-transparent.png",
+        "asset_sha256": "74773dbda822161f73a639f959e8bce5c6e0b333a94ebeb8ee27f620d4995d25",
+        "sequence": [
+          "Spudacus",
+          "Sector Rebound existing menu"
+        ],
+        "background": "#FAE7CD",
+        "nominal_duration_ms": 1500,
+        "status": "isolated_Android_QA_pass_owner_physical_acceptance_pending_not_adopted_in_main",
+        "development_pr": 151,
+        "branch": "feature/spudacus-startup-standalone-2026-11-25",
+        "source": "ca46d3bcc9a8f679f1788ce736efd8a715fd3b52",
+        "isolated_qa_package": "com.playereden.ricochetrumble.spudacusqa",
+        "artwork_git_blob": "7f64339220f851c7e36ae1b0c0662892c0ed1694",
+        "verification_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45554448115",
+        "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45554448115/artifacts/14994769142",
+        "physical_tested": false,
+        "mainline_adopted": false,
+        "public_released": false
+      }
     },
     {
       "name": "Eden Comms",
