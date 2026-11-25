@@ -61,3 +61,6 @@ Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob
 [Packaged asset byte verification](toolkit/edt-09/v0.4/README.md) implemented. Actual local Python normal and optimized runs each passed 10/10 synthetic APK-shaped ZIP tests; committed source/test blob hashes matched. Checks required byte-preserved assets/ members and optional exclusive prefixes against independently recorded receipts. Actual signed APK, compiled res/ resources, runtime and consumer acceptance unverified. No application changes.
 
 Visibility correction (2026-11-25): current public document excludes identified private-project details. Earlier Git revisions may retain them; no history rewrite or repository visibility change performed.
+
+## Toolkit checkpoint — 2026-11-25
+See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOINT_2026-11-25.md) for implemented versions, recorded local tests, real historical Sudoku QA artwork byte verification and remaining consumer gates. No release promotion implied.
