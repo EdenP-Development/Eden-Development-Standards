@@ -24,3 +24,6 @@ Start with reference recipes, not a mandatory engine or package dependency. Pref
 EDT-02/01: generalize safe QA upgrade verification and non-sensitive settings read patterns first, because they protect existing products. EDT-05: isolated seeded graph utility with repeatability/connectivity tests when a consumer needs it. EDT-07: simulation decision architecture with injected RNG and explicit trace; preserve original Taters source. EDT-03 remains shared branding reference rather than mandatory library. PORT-07 will establish lightweight review process.
 
 This pass inspected actual source and selected test files, not executed CI or audited complete repositories. No app code, licenses, public releases or signing changed.
+
+## EDT-02 v0.1 implementation checkpoint — 2026-11-25
+[Read-only APK preflight](toolkit/edt-02/v0.1/README.md) implemented as new Python source; six local mocked/synthetic unit tests passed. Actual SDK/APK integration and disposable emulator upgrade harness remain pending. No consumer integration or release approval.
