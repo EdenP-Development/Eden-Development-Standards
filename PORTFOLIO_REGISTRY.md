@@ -10,11 +10,6 @@ Updated 2026-11-25. Management snapshot, not a release authority. APP_REGISTRY.j
 | Grid Hunt | Spudacus / GridMates | [GH-V36-H handoff](https://github.com/EdenP-Development/GridMates-Grid-Hunt/blob/feature/gh-v02-in-puzzle-map-look/docs/CURRENT_DEVELOPMENT_HANDOFF.md) | Internal alpha; GH-V36-H; QA370 baseline launch detection failed before candidate upgrade, fresh CI pending | Adopted per owner; 300/1500/300 ms in active branch; revised timing physical acceptance pending | Consolidated CI and phone QA, timing review, launcher surround and save checks |
 | Sector Rebound | Spudacus | [PR 158](https://github.com/EdenP-Development/Ricochet-Rumble/pull/158) | Beta 1 preparation; stacked visual/gameflow QA, physical acceptance pending in handoff | Owner-approved standalone 2.5s integration reported merged on main | Review stacked changes, signed beta and two-device QA |
 | Eden Comms | EPS | [handoff](https://github.com/EdenP-Development/Eden-Comms/blob/main/CONTINUE_HERE.md) | Visual Review 2 feedback; security prototype, not production messenger | EPS revised 3.0s source verified on main; physical acceptance pending | Visual QA, physical 54 cases and independent security review |
-| The Town Was Fine | Spudacus | [repo](https://github.com/PlayerEden/The-Town-Was-Fine) | Historical v3.81 baseline on main; newer dev branch not reconciled | Unknown | Verify active dev baseline |
-| The Last Taters | Spudacus | [repo](https://github.com/PlayerEden/the-last-taters) | Alpha 0.10.1 reported in README | Unknown | Reconcile release and 0.11 plan; investigate AI reuse |
-| Operation Phosphor | Spudacus | [repo](https://github.com/PlayerEden/Operation-Phosphor) | RC8 / Android preview reported | Unknown | Physical acceptance and current checkpoint |
-| Potato Simulator | Spudacus | [repo](https://github.com/PlayerEden/potato-simulator) | v0.8.8 prototype documented | Unknown | Visual UX closeout |
-| Ant Lab (working title) | Spudacus proposed | [repo](https://github.com/PlayerEden/ant-sim-sandbox) | Pre-production documented | Not applicable yet | Engine/prototype benchmark |
 | Text Adventure RPG | Spudacus proposed | [repo](https://github.com/PlayerEden/text-adv-rpg) | Unknown | Unknown | Inspect source and establish status |
 | Space Buddies | Spudacus proposed | Repository unverified | Unknown | Unknown | Locate project before classification |
 | EPD storefronts | EPD | Not audited in GitHub inventory | Unknown | Not applicable | Storefront inventory and brand work |
@@ -28,3 +23,7 @@ Startup v1.0 remains historical approved baseline; v1.1 candidate is 300 ms fade
 
 ## Next
 PORT-03 scoped adoption audit documented; PORT-04 scoped standards audit documented; [PORT-05 proposed priorities](PORTFOLIO_PRIORITIES.md) documented; [PORT-06 source catalog](DEVELOPMENT_TOOLKIT.md) documented; [PORT-07 review process](PORTFOLIO_REVIEW.md) documented. Continue operational remediation and product-specific milestones. Portfolio inventory scope and limitations: [PORT-01 audit](PORTFOLIO_AUDIT_2026-11-25.md).
+
+Private portfolio records belong in access-controlled contexts, not this public registry.
+
+Visibility correction (2026-11-25): current public document excludes identified private-project details. Earlier Git revisions may retain them; no history rewrite or repository visibility change performed.
