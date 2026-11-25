@@ -485,7 +485,7 @@
         "two_phone_lan": "PENDING",
         "actual_itch_publication": "NOT_PUBLISHED",
         "owner_publication_approval": false,
-        "current_development_pr": 159,
+        "current_development_pr": 160,
         "accepted_spudacus_standalone_duration_ms": 2500,
         "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
         "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet",
@@ -593,6 +593,26 @@
           "all_four_visual_prs_merged": false,
           "public_release": false,
           "next": "Audit current screenshots and computed cascade; fix real visual inconsistencies in small reversible PRs"
+        },
+        "refinement_r2": {
+          "name": "Mode Select original illustrated CSS background/title/caption selector specificity repair",
+          "pr": "https://github.com/EdenP-Development/Ricochet-Rumble/pull/160",
+          "branch": "polish/beta1-mode-card-cascade-r2-2026-11-25",
+          "parent_audit_pr": 159,
+          "source_sha": "accb09d19e7efdae5a04e0739f6db61e1b5c2f49",
+          "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45572860589",
+          "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45572860589/artifacts/15003565761",
+          "state": "source_5viewport_computed_A_B_Android_QA_PASS_pending_owner_visual_review",
+          "four_modes_checked": true,
+          "card_checks": 20,
+          "geometry_scenes": 102,
+          "geometry_failures": 0,
+          "geometry_warnings": 0,
+          "gameplay_or_saved_data_modified": false,
+          "owner_accepted": false,
+          "mainline_merged": false,
+          "public_beta_released": false,
+          "next": "Review current before/after Mode Select and start narrow Home/Hangar presentation audit"
         }
       }
     },
