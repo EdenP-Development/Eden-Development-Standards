@@ -44,3 +44,5 @@ See [PORT-01 repository inventory and evidence audit (2026-11-25)](PORTFOLIO_AUD
 Use the [living portfolio registry (PORT-02)](PORTFOLIO_REGISTRY.md) for management status, branding adoption and next milestones. APP_REGISTRY.json remains the signing/distribution evidence registry.
 
 See [PORT-03 branding adoption and timing audit](PORTFOLIO_BRANDING_ADOPTION.md) for inspected implementations, accepted local exceptions and provisional timing refinements.
+
+See [PORT-04 shared standards adoption audit](PORTFOLIO_STANDARDS_ADOPTION.md) for scoped evidence, recovery and release gaps, and corrective priorities. It does not establish commercial or security acceptance.
