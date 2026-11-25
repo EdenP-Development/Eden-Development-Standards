@@ -27,3 +27,6 @@ PORT-03 scoped adoption audit documented; PORT-04 scoped standards audit documen
 Private portfolio records belong in access-controlled contexts, not this public registry.
 
 Visibility correction (2026-11-25): current public document excludes identified private-project details. Earlier Git revisions may retain them; no history rewrite or repository visibility change performed.
+
+## Toolkit checkpoint — 2026-11-25
+See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOINT_2026-11-25.md) for implemented versions, recorded local tests, real historical Sudoku QA artwork byte verification and remaining consumer gates. No release promotion implied.
