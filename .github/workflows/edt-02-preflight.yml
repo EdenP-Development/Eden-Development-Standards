@@ -26,3 +26,36 @@ jobs:
         run: |
           set -euo pipefail
           python3 sdk_smoke.py
+  emulator:
+    needs: preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enable KVM access on hosted runner
+        run: |
+          set -euo pipefail
+          test -e /dev/kvm
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-edt-kvm.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Install disposable emulator image
+        run: |
+          set -euo pipefail
+          sdkmanager "platform-tools" "emulator" "system-images;android-35;google_apis;x86_64"
+          echo no | avdmanager create avd --force --name edt_fixture --package "system-images;android-35;google_apis;x86_64"
+      - name: Verify synthetic install-over
+        working-directory: toolkit/edt-02/v0.2
+        shell: bash
+        run: |
+          set -euo pipefail
+          emulator -avd edt_fixture -port 5554 -wipe-data -no-window -no-audio -no-boot-anim -no-snapshot -gpu swiftshader_indirect > "$RUNNER_TEMP/edt-emulator.log" 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 120); do
+            if [ "$(adb -s emulator-5554 shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')" = 1 ]; then break; fi
+            if ! kill -0 "$pid" 2>/dev/null; then cat "$RUNNER_TEMP/edt-emulator.log"; exit 1; fi
+            sleep 5
+          done
+          test "$(adb -s emulator-5554 shell getprop sys.boot_completed | tr -d '\r')" = 1
+          python3 sdk_smoke.py --emulator-serial emulator-5554 --disposable-emulator
