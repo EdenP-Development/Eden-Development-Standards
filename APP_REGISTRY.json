@@ -476,7 +476,7 @@
         "two_phone_lan": "PENDING",
         "actual_itch_publication": "NOT_PUBLISHED",
         "owner_publication_approval": false,
-        "current_development_pr": 155,
+        "current_development_pr": 156,
         "accepted_spudacus_standalone_duration_ms": 2500,
         "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
         "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet",
@@ -493,6 +493,32 @@
           "qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45562919258/artifacts/14999066421",
           "fast_regression_pass": true,
           "hybrid_android_pass": true,
+          "owner_approved": false,
+          "main_merged": false,
+          "public_beta_released": false
+        },
+        "visual_mode_cards_slice": {
+          "name": "B1-03-B original M13 illustrated core Mode Select",
+          "pr": "https://github.com/EdenP-Development/Ricochet-Rumble/pull/156",
+          "depends_on_parent_pr": 155,
+          "state": "draft_exact_head_Android_and_Chromium_QA_PASS_owner_phone_review_pending",
+          "source_sha": "7c06e5afb05d33276ec58db6151a0048bd05804c",
+          "qa_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45564859363",
+          "qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45564859363/artifacts/14999676671",
+          "mode_art": [
+            "cqc",
+            "ffa",
+            "tdm",
+            "custom"
+          ],
+          "original_git_blobs": [
+            "2a2e1913b8c5eae2548866b9bb300b7a4b90a7aa",
+            "01b600fe48a1d5c4ff7b994aa323cda42bad9f8b",
+            "e9f4ee39002bac2072a5f4bb8d107ee6ffbef6cf",
+            "d085dee30f92ead686aac2c9c22e3188a4092423"
+          ],
+          "gameplay_modified": false,
+          "tdm_30_vs_40_decision": "pending",
           "owner_approved": false,
           "main_merged": false,
           "public_beta_released": false
