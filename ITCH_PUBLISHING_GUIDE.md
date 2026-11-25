@@ -2,6 +2,8 @@
 
 Established from GridMates: Sudoku Beta 2, November 24, 2026. Apply proportionately to each game; do not copy Sudoku-specific features, keys, permissions, branding or claims.
 
+For creator, series and product identity, follow [BRAND_IDENTITY.md](BRAND_IDENTITY.md); games retain the personal Spudacus voice, not corporate umbrella branding.
+
 ## 1. Before publishing
 - Read the project's current handoff and shared RELEASE_POLICY.md, RELEASE_CHECKLIST.md, SIGNING_KEY_MANAGEMENT.md and SAVE_PRESERVATION.md.
 - Confirm distribution channel, stable package and certificate, version, exact source, APK checksum and receipt; run appropriate automated and physical QA. Record actual failures, limits and owner-approved deferrals.
