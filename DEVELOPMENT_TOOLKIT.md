@@ -53,3 +53,6 @@ Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob
 
 ## EDT-09 v0.2 — image contract candidate
 [Image verifier](toolkit/edt-09/v0.2/README.md) implemented with Pillow 12.3.0; 12/12 real-decoder synthetic tests passed locally in normal and optimized Python, exact committed blobs matched. GridMates nominal bounds/color examples documented. No actual product icon, XML resource, archive extraction, CI or package acceptance verified. v0.1 retained.
+
+## EDT-09 v0.3 — controlled staging candidate
+[Controlled staging](toolkit/edt-09/v0.3/README.md) integrates exact sibling v0.1/v0.2 modules, explicit image selections, exclusive new output directory and staged manifest. 12/12 local synthetic integration tests passed normal and optimized Python; exact committed blobs matched. No real artwork, CI, project import or packaged APK verified. Next consumer-specific packaged resource verification.
