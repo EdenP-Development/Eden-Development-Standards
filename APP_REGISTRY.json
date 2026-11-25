@@ -670,16 +670,16 @@
           "baseline_version_name": "0.2.12-approval-review-only",
           "last_accepted_version_code": null,
           "status": "automatic_private_signing_verified_physical_upgrade_pending",
-          "last_verified_version_code": 10034,
-          "last_verified_version_name": "0.2.12-internal-10034",
-          "last_verified_source": "542145f0389d8b32113bb9850bee7a9daa330081",
-          "last_verified_apk_sha256": "7d4a3617a0f620e5849e40a269160a2d99aaac705972f17192b5b13265dbbcde",
-          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45586732727",
-          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45586732727/artifacts/15008313812",
-          "artifact_zip_sha256": "542757954cbdf15aa71eda934c524832756d1a2044ff41f192fb20174d1c4b7c",
+          "last_verified_version_code": 10036,
+          "last_verified_version_name": "0.2.12-internal-10036",
+          "last_verified_source": "4ff686a4468d97f1707b8d4a655c6b0bd5a1b794",
+          "last_verified_apk_sha256": "11dd8964f5020b6a719671a4702b6b4235498f38831c297d6e208a8553e41fa4",
+          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45591364667",
+          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45591364667/artifacts/15011227339",
+          "artifact_zip_sha256": "6571cace7c9060941d503ef57ace99e7571f42548df0084185ee1de9516cf7a4",
           "static_upgrade_evidence": {
-            "previous_version_code": 10028,
-            "previous_run": 45574104439,
+            "previous_version_code": 10034,
+            "previous_run": 45586732727,
             "matching_package_and_signer": true,
             "physical_install_over": "not_formally_verified"
           }
@@ -713,21 +713,22 @@
       "development": {
         "design_bible": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
         "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
-        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45586732879",
-        "visual_qa": "Visual Review 5 internal 10034 signed; derivative artwork physical acceptance pending. Owner approved three-second skippable EPS splash on 10028 and original matte tower concept. Integrated pre-icon Preview 200036 passed 28 captures; post-icon QA pending. No beta authorization.",
+        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45591364629",
+        "visual_qa": "Visual Review 5 runtime artwork signed in internal 10034 and unchanged in verified 10036; original concept and splash approved, production derivative acceptance pending. Post-icon Preview 45590660687 pending; prior 28 captures passed. No public beta authorization.",
         "open_visual_issue": "https://github.com/EdenP-Development/Eden-Comms/issues/167",
         "two_phone_acceptance": "not_run",
         "independent_security_review": "not_run",
         "public_beta": "not_published",
         "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45582913336/artifacts/15007657884",
-        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/205",
+        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/209",
         "beta_release_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_PLAN.md",
         "current_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/CURRENT_HANDOFF.md",
         "distribution_preference": "professional software channel; selection deferred; no public release approved",
         "beta_readiness_checklist": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_READINESS_CHECKLIST.md",
         "visual_refinement_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EPS_VISUAL_REFINEMENT_PLAN.md",
-        "cross_project_reference": "SudokuTogether native theme tokens, contrast matrices, compact/200% font and deterministic visual fixtures; recorded in PR #188 handoff."
+        "cross_project_reference": "SudokuTogether native theme tokens, contrast matrices, compact/200% font and deterministic visual fixtures; recorded in PR #188 handoff.",
+        "reliability_checkpoint": "EC-R6A #207 and EC-R6B #208 merged after CI #584/#586; EC-R6C #209 pending. Physical 54 cases and independent security review not run."
       }
     },
     {
