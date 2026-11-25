@@ -31,3 +31,6 @@ Read [Commercial readiness (BUS-04)](COMMERCIAL_READINESS.md) and use the [comme
 
 ## Google Play readiness
 Read [Google Play readiness (BUS-05)](GOOGLE_PLAY_READINESS.md) and use the [Play release receipt](templates/GOOGLE_PLAY_RELEASE_RECEIPT.md). The policy snapshot is dated and must be rechecked before launch; no account creation, key transfer, pricing or publication is authorized.
+
+## Customer support and maintenance
+Read [Customer support and maintenance (BUS-06)](CUSTOMER_SUPPORT.md) and use the [support intake template](templates/SUPPORT_INTAKE.md) for proportionate triage, private reporting, refunds, maintenance and retirement planning. Actual contacts, customer-facing commitments and retirement decisions require owner approval.
