@@ -36,3 +36,6 @@ No product source, APP_REGISTRY signing records, release or storefront changed. 
 
 ## EDT-05 v0.2 — graph analysis checkpoint
 [Analysis and pathfinding](edt-05/v0.2/README.md): exact v0.1 generator 14/14 rerun; v0.2 12/12 passed in Node 22.16.0. Committed blobs match local tested bytes. Cumulative current toolkit test count 135 (109 previously recorded plus 26 EDT-05 cases; no double counting reruns). No product changes or consumer acceptance. Frozen maze-v1 seed contract retained.
+
+## Verified EDT-05 v0.1 checkpoint
+Node.js 22.16.0: 14/14 tests passed; exact source and test blobs 0d79ae47c1d3db7ce706d11edb1acbb454d9c831 and 1a7561e4fe4603f8c141c5193ab35729b48b05ba matched. 300 seeded configurations plus maximum grid and golden fixture. No consumer integration. Preserve maze-v1 algorithm and all configuration fields; new behavior requires new version. Cumulative recorded toolkit cases 123; prior suites not rerun.
