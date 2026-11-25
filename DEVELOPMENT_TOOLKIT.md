@@ -70,3 +70,6 @@ See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOIN
 
 ## EDT-05 v0.1 — deterministic maze graph
 [Version 0.1](toolkit/edt-05/v0.1/README.md) original standalone ES module with versioned seed contract, bounded dimensions, connected tree, straight preference and optional extra edges. Actual Node 22.16.0 14/14 tests passed; exact committed blobs match. Golden fixture established from observed initial implementation after correcting guessed expectation. No browser, Android, consumer or multiplayer verification; no existing generation behavior modified. Cumulative recorded local cases now 123, of which 14 executed in this checkpoint. Test counts do not establish readiness.
+
+## EDT-05 v0.2 — graph analysis checkpoint
+[Analysis and pathfinding](toolkit/edt-05/v0.2/README.md): exact v0.1 generator 14/14 rerun; v0.2 12/12 passed in Node 22.16.0. Committed blobs match local tested bytes. Cumulative current toolkit test count 135 (109 previously recorded plus 26 EDT-05 cases; no double counting reruns). No product changes or consumer acceptance. Frozen maze-v1 seed contract retained.
