@@ -40,3 +40,5 @@ Read [Business establishment (BUS-07)](BUSINESS_ESTABLISHMENT.md) and use the [b
 
 ## Portfolio management
 See [PORT-01 repository inventory and evidence audit (2026-11-25)](PORTFOLIO_AUDIT_2026-11-25.md) for the initial two-owner inventory, documentation gaps and reuse leads. Use current project handoffs and APP_REGISTRY.json for release decisions; this dated audit does not replace them.
+
+Use the [living portfolio registry (PORT-02)](PORTFOLIO_REGISTRY.md) for management status, branding adoption and next milestones. APP_REGISTRY.json remains the signing/distribution evidence registry.
