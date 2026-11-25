@@ -1,0 +1,28 @@
+name: EDT-02 APK preflight
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'toolkit/edt-02/v0.2/**'
+      - '.github/workflows/edt-02-preflight.yml'
+  pull_request:
+    paths:
+      - 'toolkit/edt-02/v0.2/**'
+      - '.github/workflows/edt-02-preflight.yml'
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python unit tests
+        working-directory: toolkit/edt-02/v0.2
+        run: python3 -m unittest -v
+      - name: Android SDK integration with disposable signed APKs
+        working-directory: toolkit/edt-02/v0.2
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 sdk_smoke.py
