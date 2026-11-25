@@ -1,9 +1,10 @@
-"""Real SDK smoke test: synthetic APKs only, no devices or production keys."""
+"""Real SDK smoke test; optional isolated emulator fixture, no production keys."""
 import hashlib
 import os
 from pathlib import Path
 import subprocess
-import sys
+import argparse
+import json
 import tempfile
 from preflight import inspect, verify_receipt
 
@@ -14,6 +15,12 @@ def run(*args):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--emulator-serial')
+    parser.add_argument('--disposable-emulator', action='store_true')
+    args = parser.parse_args()
+    if bool(args.emulator_serial) != args.disposable_emulator:
+        parser.error('Emulator serial and disposable-emulator acknowledgement must be supplied together')
     sdk = Path(os.environ.get('ANDROID_SDK_ROOT') or os.environ['ANDROID_HOME'])
     candidates = [p for p in (sdk/'build-tools').iterdir()
                   if (p/'aapt').is_file() and (p/'apksigner').is_file()]
@@ -33,7 +40,7 @@ def main():
             '-keystore',key,'-storepass','fixture-only','-keypass','fixture-only')
         def build(code, package='com.example.edtfixture'):
             manifest = root/'AndroidManifest.xml'
-            manifest.write_text(f'<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="{package}" android:versionCode="{code}" android:versionName="{code}"><uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/><application android:hasCode="false"/></manifest>')
+            manifest.write_text(f'<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="{package}" android:versionCode="{code}" android:versionName="{code}"><uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/><application android:hasCode="false" android:debuggable="true" android:allowBackup="false"/></manifest>')
             unsigned = root/f'{package}-{code}-unsigned.apk'
             signed = root/f'{package}-{code}.apk'
             run(aapt,'package','-f','-M',manifest,'-I',android,'-F',unsigned)
@@ -58,7 +65,14 @@ def main():
             except ValueError:
                 continue
             raise RuntimeError('Incompatible pair accepted')
-        print('PASS: real SDK signed fixture pair; wrong package and downgrade rejected. No install or save test.')
+        print('PASS: real SDK signed fixture pair; wrong package and downgrade rejected.')
+        if args.emulator_serial:
+            from emulator_smoke import exercise
+            # Recheck exact bytes immediately before the isolated installation.
+            check(inspect(old,aapt,signer),inspect(new,aapt,signer),old,new,1,2)
+            print(json.dumps(exercise(sdk/'platform-tools'/'adb',args.emulator_serial,old,new),indent=2))
+        else:
+            print('No install or save test requested.')
 
 
 if __name__ == '__main__':
