@@ -11,5 +11,8 @@ Use [itch.io publishing guide](ITCH_PUBLISHING_GUIDE.md) for evergreen storefron
 
 Adopt these standards incrementally across projects. Do not change existing app identities merely to standardize names.
 
+## Brand identity
+Use [Brand identity and product attribution](BRAND_IDENTITY.md) for Spudacus, GridMates, EPS, EPD and Eden Practical. Adopt creator attribution incrementally without changing app identity or approved product artwork.
+
 ## Shared artwork workflow
 Use [Original artwork pipeline](ARTWORK_PIPELINE.md) for asset provenance, original binary transfer, integration and evidence gates. A successful transfer is not equivalent to independent checksum or visual approval.
