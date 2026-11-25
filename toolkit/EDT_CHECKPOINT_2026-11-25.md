@@ -1,0 +1,29 @@
+# Eden Development Toolkit — verification checkpoint, 2026-11-25
+
+Shared candidates, not released SDK or universal product acceptance.
+
+| Component | Current candidate | Recorded local regression | Remaining gate |
+| --- | --- | --- | --- |
+| EDT-01 | v0.2 | 26 JVM cases reported passed | Android adapter and consumer |
+| EDT-02 | v0.2 | 15 Python cases reported passed | actual SDK and emulator CI logs |
+| EDT-03 | shared startup reference | product-specific evidence | exact-head CI and physical acceptance |
+| EDT-04 | inspected theme pattern | no shared extraction | consumer need |
+| EDT-05 | inspected maze pattern | no shared extraction | consumer need |
+| EDT-06 | inspected bot pattern | no shared extraction | consumer need |
+| EDT-07 | generic simulation reuse candidate | no shared extraction | private review and rights |
+| EDT-08 | v0.1 | 12 Python cases reported passed | consumer baseline |
+| EDT-09 | v0.1–v0.4 | 48 cases reported passed across four versions | consumer-specific packaged assets |
+
+Prior local evidence is recorded in version READMEs; this checkpoint did not re-run those suites. The cumulative 101 cases are not a measure of release readiness.
+
+## Real QA artifact inspection
+Sudoku Visual 4 historical QA run 45550962814, artifact 14993249624, source 96747991e98f78c90e10d6eda447d1be085a3674. Retrieved actual ZIP, 42830639 bytes, SHA256 1a1d26951560641f30d3caa6bef24b633d2c27492eb1235a55815632bc100b07 matches GitHub artifact metadata. APK SHA256 fa8cf012c1a0fa458da5cc8301e50aa34046a9c964f8bfa51e792ba8906a292a matches bundled SHA256SUMS. Bundled badging reports isolated package com.playereden.sudokutogether.qa.beta3visual4 versionCode 31. Not a public beta or current-head build. Actual ZIP member bytes independently hashed:
+- res/drawable-nodpi-v4/spudacus_v1_full_transparent.png: 74773dbda822161f73a639f959e8bce5c6e0b333a94ebeb8ee27f620d4995d25
+- res/drawable-nodpi-v4/gridmates_v1_runtime_transparent.png: eef6d631cac0b9523f7e0dbebac229f9a2458d36fe2e73e111d251704d9ff292
+
+Matches pinned master hashes. Manual independent ZIP inspection, not EDT-09 v0.4 execution: that tool deliberately supports assets/ only. No independent signature verification, emulator/phone test, actual runtime resource selection or launcher verification. Artifact metadata expiry 2026-12-09T05:10:38Z; durable owner archive not established. Next pilot: explicit resource mapping for byte-identical entries, separately validate transformed Android resources; do not expand v0.4 silently. Check exact EDT-02 workflow logs before consumer rollout.
+
+## Public documentation boundary
+Repository visibility verified via authenticated metadata. Current public audit, registry, priorities and toolkit catalog sanitized to remove identified private project specifics; prior revisions may remain accessible. No history rewrite, visibility change or private source publication authorized. Review remaining public history and any further exposure privately; owner decision required for history remediation.
+
+No product source, APP_REGISTRY signing records, release or storefront changed. Next resume from this checkpoint and current product handoffs, not stale artifact links.
