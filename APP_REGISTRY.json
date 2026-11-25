@@ -485,7 +485,7 @@
         "two_phone_lan": "PENDING",
         "actual_itch_publication": "NOT_PUBLISHED",
         "owner_publication_approval": false,
-        "current_development_pr": 158,
+        "current_development_pr": 159,
         "accepted_spudacus_standalone_duration_ms": 2500,
         "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
         "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet",
@@ -570,6 +570,29 @@
           "owner_phone_approved": false,
           "main_merged": false,
           "public_beta_released": false
+        },
+        "current_owner_feedback": "More refinement, audits and cleanup required; prior combined visuals not fully approved",
+        "refinement_baseline": {
+          "phase": "B1-R1 exact-head source, CSS and current UX audit",
+          "pr": "https://github.com/EdenP-Development/Ricochet-Rumble/pull/159",
+          "base_approved_runtime_head": "6796265df57d1f561c44cc52581841f5e3398ea8",
+          "tested_audit_head": "c4a613f4d96794de59b82e5188e8c5789730fa5a",
+          "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45571138944",
+          "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45571138944/artifacts/15001454722",
+          "status": "audit_only_CI_PASS",
+          "geometry_scenes": 102,
+          "geometry_failures": 0,
+          "geometry_warnings": 0,
+          "css_lines": 4306,
+          "css_media_blocks": 169,
+          "css_important_occurrences": 129,
+          "open_pr_inventory": 73,
+          "full_owner_visual_approval": false,
+          "physical_two_phone_lan": false,
+          "signed_beta_built": false,
+          "all_four_visual_prs_merged": false,
+          "public_release": false,
+          "next": "Audit current screenshots and computed cascade; fix real visual inconsistencies in small reversible PRs"
         }
       }
     },
