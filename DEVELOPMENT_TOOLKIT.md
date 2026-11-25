@@ -30,3 +30,5 @@ This pass inspected actual source and selected test files, not executed CI or au
 
 ## EDT-02 v0.2 — receipt-bound candidate
 [Version 0.2](toolkit/edt-02/v0.2/README.md) requires exact independently recorded hashes and versions, adds ZIP manifest presence check, ten unit test methods and real SDK synthetic signing fixture workflow. Tests authored; exact execution unverified. No device or save test yet; v0.1 preserved.
+
+EDT-02 v0.2 integrated synthetic emulator job added (workflow commit 2b670f463ededbc5539dea8635c3389499352cdc). Preflight gates emulator job; actual install-over and synthetic file check designed, CI result unverified. No consumer integration yet.
