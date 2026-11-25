@@ -48,3 +48,5 @@ See [PORT-03 branding adoption and timing audit](PORTFOLIO_BRANDING_ADOPTION.md)
 See [PORT-04 shared standards adoption audit](PORTFOLIO_STANDARDS_ADOPTION.md) for scoped evidence, recovery and release gaps, and corrective priorities. It does not establish commercial or security acceptance.
 
 See [PORT-05 development and release priorities](PORTFOLIO_PRIORITIES.md) for proposed work lanes, separate beta/commercial gates and corrective queue. No publication or dates authorized.
+
+See [PORT-06 Eden Development Toolkit source catalog](DEVELOPMENT_TOOLKIT.md) for inspected reusable candidates, provenance, limitations and proposed extraction order. This is not a released SDK.
