@@ -25,3 +25,6 @@ Read [Asset licensing and IP readiness (BUS-02)](ASSET_LICENSING.md) and use the
 
 ## Privacy and data handling
 Read [Privacy standards (BUS-03)](PRIVACY_STANDARDS.md) and use the [data handling register](templates/DATA_HANDLING_REGISTER.md) to document release-specific data, permissions, dependencies, storage, network behavior and verification. Stricter project security charters remain binding; this is not a published privacy policy or compliance certification.
+
+## Commercial release readiness
+Read [Commercial readiness (BUS-04)](COMMERCIAL_READINESS.md) and use the [commercial release acceptance receipt](templates/COMMERCIAL_RELEASE_RECEIPT.md) alongside the existing release checklist. Passing CI or completing branding does not establish paid-release acceptance; mandatory project gates and explicit owner authorization remain required.
