@@ -404,7 +404,7 @@
     {
       "name": "Eden Comms",
       "repository": "EdenP-Development/Eden-Comms",
-      "status": "organization_transfer_and_org_preview_signing_verified_private_original_signer_unverified",
+      "status": "organization_transfer_and_automatic_private_internal_signing_verified",
       "channels": [
         {
           "name": "development Preview (public AOSP test signer)",
@@ -421,21 +421,25 @@
           "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041287/artifacts/14967467853"
         },
         {
-          "name": "original-package internal QA (private signer not verified)",
+          "name": "original-package internal QA (private signer verified)",
           "package_id": "com.edenpractical.comms",
-          "certificate_sha256": null,
-          "key_custody": "unknown; manual protected-workflow path exists; credentials/preflight unverified",
+          "certificate_sha256": "dad2159585f8bc804c47de056bf8a2c2f546ad25893cb64e0448eb0cf8676d06",
+          "key_custody": "organization secrets configured per owner; actual private APK signing verified; independent owner backup recovery unverified",
           "secret_names": [
             "EC_INTERNAL_KEYSTORE_BASE64",
-            "EC_INTERNAL_KEYSTORE_PASSWORD",
-            "EC_INTERNAL_KEY_ALIAS",
-            "EC_INTERNAL_KEY_PASSWORD",
-            "EC_INTERNAL_CERT_SHA256"
+            "EC_INTERNAL_KEYSTORE_PASSWORD"
           ],
           "baseline_version_code": 11,
           "baseline_version_name": "0.2.12-approval-review-only",
           "last_accepted_version_code": null,
-          "status": "not_signed_or_install_over_verified"
+          "status": "automatic_private_signing_verified_physical_upgrade_pending",
+          "last_verified_version_code": 10001,
+          "last_verified_version_name": "0.2.12-internal-10001",
+          "last_verified_source": "46a372e782212e70fc50f9e7038f2dbdcb3f62fe",
+          "last_verified_apk_sha256": "5c32d58369f4a473c999f0e094d04d703dfbb188ca1f71fb8bf68eb46484aed3",
+          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529175721",
+          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529175721/artifacts/14983613375",
+          "artifact_zip_sha256": "c8bf1935f6ad1c3dc167597b4a5be805ceb019ce985d177a13eaaacf4975d2c0"
         },
         {
           "name": "future production",
@@ -458,12 +462,15 @@
         "post_transfer_preview_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041287",
         "post_transfer_read_write_verified": true,
         "branches_verified": 162,
-        "open_issues_verified": 10
+        "open_issues_verified": 10,
+        "private_signing_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/172",
+        "automatic_signing_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/173",
+        "private_signing_run": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529175721"
       },
       "development": {
         "design_bible": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
         "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
-        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45494041643",
+        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45529175761",
         "visual_qa": "PASS: 14 disconnected Android 35 emulator screenshot/navigation scenes including landscape Voice/PTT, compact, large-font and empty IME; real phone and 18x3 connectivity NOT RUN",
         "open_visual_issue": "https://github.com/EdenP-Development/Eden-Comms/issues/167",
         "two_phone_acceptance": "not_run",
