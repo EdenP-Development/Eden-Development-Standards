@@ -35,3 +35,6 @@ EDT-02 v0.2 integrated synthetic emulator job added (workflow commit 2b670f463ed
 
 ## Local integrated Python regression — 2026-11-25
 Python 3.13.5: `python -m unittest -v` and `python -O -m unittest -q` each passed all 15 tests using the actual preflight module (no stub). All four local source/test Git blob hashes matched repository files: preflight.py 914be34700be98c639a4a5c106ada51b558c6016; test_preflight.py e508e7b3ea7f5b42aef92167174516f3d2ac45b5; emulator_smoke.py 91818355c00c7a48cc390d3378e025a38b64143e; test_emulator_smoke.py 97aa966344dec86584a2b8ab815ed10b468f862e. These are mocked SDK/ADB tests only. No Android SDK executables on PATH; direct raw GitHub retrieval unavailable in local environment. Connected commit status/run queries returned empty (PR-filtered runs), not proof of workflow failure or success. Consumer pilot remains gated on actual SDK/emulator logs. No new runtime or workflow changes.
+
+## EDT-01 v0.1 — independently tested candidate
+[Safe preference reads](toolkit/edt-01/v0.1/README.md): original pure Kotlin read-only helper with explicit valid/missing/invalid status, strict types, range/option checks and defensive set copies. Actual local Kotlin/JVM 14/14 tests passed; committed source/test blobs match. Android adapter and consumer verification pending. Non-sensitive settings only; no automatic save repair or migration.
