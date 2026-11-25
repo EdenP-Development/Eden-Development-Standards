@@ -456,9 +456,9 @@
         "owner_feedback": "Original 1500ms felt too fast. Owner tested revised 2500ms and said 'That's perfect'; no claim of full accessibility/release QA.",
         "physical_acceptance": "owner_approved_revised_2500ms_Spudacus_standalone_splash",
         "mainline_integration_pr": 154,
-        "mainline_integration_qa": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556695604",
-        "mainline_integration_qa_source": "38dc291c8c0df3e51939de924477c27953f1219d",
-        "mainline_integration_qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556695604/artifacts/14994844697"
+        "mainline_integration_qa": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556834260",
+        "mainline_integration_qa_source": "0e25cf5189c576760c10b6e3952fae8ef28cbc14",
+        "mainline_integration_qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556834260/artifacts/14996256774"
       },
       "beta1_itch": {
         "platform": "itch.io",
@@ -476,7 +476,7 @@
         "owner_publication_approval": false,
         "current_development_pr": 154,
         "accepted_spudacus_standalone_duration_ms": 2500,
-        "normal_startup_adoption": "draft_PR_154_Android_QA_pass_not_merged"
+        "normal_startup_adoption": "draft_PR_154_exact_head_Android_QA_pass_physical_acceptance_before_merge"
       }
     },
     {
