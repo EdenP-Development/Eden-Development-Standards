@@ -200,12 +200,12 @@
           "key_custody": "public_test_only_key_tracked_in_repository_not_secure",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "last_verified_version_code": 10313,
-          "last_verified_version_name": "0.3.0-gh02c-qa.313",
-          "last_verified_source": "b3ae9a66122e0379456b8e552f2b57402c18c6dc",
-          "last_verified_apk_sha256": "bdb745e88e1c0b2cc2e92305d3f09eda0cdc3725884778cc2834dea950ce69ce",
-          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45529337991",
-          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45529337991/artifacts/14984220864",
+          "last_verified_version_code": 10320,
+          "last_verified_version_name": "0.3.0-gh02c-qa.320",
+          "last_verified_source": "c5681577bf66636d02fa8ea8c07d5777d1438ff8",
+          "last_verified_apk_sha256": "0e715dd56efbf6736a0dab9c9d5b7fd2405823c2fe8ca04f4b955f52ff646bb0",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45543247185",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45543247185/artifacts/14989913897",
           "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45067741823",
           "owner_backup_status": "unverified"
         },
@@ -249,11 +249,11 @@
       ],
       "status": "active_alpha_public_beta_deferred_signing_verified",
       "candidate": {
-        "source": "b3ae9a66122e0379456b8e552f2b57402c18c6dc",
-        "version_code": 10313,
-        "version_name": "0.3.0-gh02c-qa.313",
-        "status": "internal_alpha_full_ci_pass_physical_review_public_beta_deferred",
-        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45529337991"
+        "source": "c5681577bf66636d02fa8ea8c07d5777d1438ff8",
+        "version_code": 10320,
+        "version_name": "0.3.0-gh02c-qa.320",
+        "status": "internal_alpha_full_ci_pass_partial_physical_acceptance_public_beta_deferred",
+        "android_regression": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/actions/runs/45543247185"
       },
       "migration": {
         "target_organization": "EdenP-Development",
@@ -267,11 +267,11 @@
         "post_transfer_documentation_head": "7422b1eb7ea40956062240c4f3d949b932bf5648"
       },
       "development_checkpoint": {
-        "milestone": "GH-V28-A",
-        "source": "7aa369de16e1b1ff7657b552da6ba9ad52ce0739",
-        "status": "style retirement implemented; CI pending",
+        "milestone": "GH-V28-F",
+        "source": "e55fc719c8d8c9f78f31e8d593cdd065218ccb3b",
+        "status": "journal refinement implemented; CI pending",
         "handoff": "https://github.com/EdenP-Development/GridMates-Grid-Hunt/blob/feature/gh-v02-in-puzzle-map-look/docs/CURRENT_DEVELOPMENT_HANDOFF.md",
-        "next": "keyboard submission, map guide accuracy, scroll affordances, then richer adventure content; launcher icon deferred"
+        "next": "GH-V29 cohesive terrain and map readability; then Adventure presentation and expansion"
       }
     },
     {
