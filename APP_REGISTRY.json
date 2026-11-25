@@ -440,18 +440,21 @@
           "Sector Rebound existing menu"
         ],
         "background": "#FAE7CD",
-        "nominal_duration_ms": 1500,
-        "status": "isolated_Android_QA_pass_owner_physical_acceptance_pending_not_adopted_in_main",
+        "nominal_duration_ms": 2500,
+        "status": "isolated_Android_QA_revised_2500ms_pass_owner_timing_review_pending_not_adopted_in_main",
         "development_pr": 151,
         "branch": "feature/spudacus-startup-standalone-2026-11-25",
-        "source": "ca46d3bcc9a8f679f1788ce736efd8a715fd3b52",
+        "source": "9ea52201ca1fe3c2ce36f086cc0625e9f35861dd",
         "isolated_qa_package": "com.playereden.ricochetrumble.spudacusqa",
         "artwork_git_blob": "7f64339220f851c7e36ae1b0c0662892c0ed1694",
-        "verification_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45554448115",
-        "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45554448115/artifacts/14994769142",
-        "physical_tested": false,
+        "verification_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45555459946",
+        "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45555459946/artifacts/14995746989",
+        "physical_tested": true,
         "mainline_adopted": false,
-        "public_released": false
+        "public_released": false,
+        "original_shared_duration_ms": 1500,
+        "owner_feedback": "Owner supplied physical startup and game menu screenshots. Original nominal 1.5s logo visibly worked but felt too fast; revised Sector Rebound-specific 2.5s trial requires physical acceptance.",
+        "physical_acceptance": "initial_1500ms_too_fast_revised_2500ms_unreviewed"
       }
     },
     {
