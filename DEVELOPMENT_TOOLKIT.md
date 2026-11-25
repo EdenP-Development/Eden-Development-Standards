@@ -50,3 +50,6 @@ Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob
 
 ## EDT-09 v0.1 — verified archive intake
 [Read-only asset archive verifier](toolkit/edt-09/v0.1/README.md) implemented; 14/14 local synthetic tests passed in normal and optimized Python, exact committed blobs matched. Requires trusted archive/member receipt; bounded ZIP verification, no extraction or image decoding. Real archive integration, image contract and runtime packaging gates remain pending.
+
+## EDT-09 v0.2 — image contract candidate
+[Image verifier](toolkit/edt-09/v0.2/README.md) implemented with Pillow 12.3.0; 12/12 real-decoder synthetic tests passed locally in normal and optimized Python, exact committed blobs matched. GridMates nominal bounds/color examples documented. No actual product icon, XML resource, archive extraction, CI or package acceptance verified. v0.1 retained.
