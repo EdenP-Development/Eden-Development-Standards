@@ -16,3 +16,6 @@ Use [Brand identity and product attribution](BRAND_IDENTITY.md) for Spudacus, Gr
 
 ## Shared artwork workflow
 Use [Original artwork pipeline](ARTWORK_PIPELINE.md) for asset provenance, original binary transfer, integration and evidence gates. A successful transfer is not equivalent to independent checksum or visual approval.
+
+## Commercial strategy
+Read [Commercial strategy and monetization (BUS-01)](MONETIZATION_STRATEGY.md) for owner-approved phased commercialization, paid-product preferences, customer safeguards and follow-on compliance milestones. This does not authorize storefront changes or paid releases.
