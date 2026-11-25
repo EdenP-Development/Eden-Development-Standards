@@ -112,10 +112,10 @@
           "certificate_sha256": "c29c0c593ac99ae81b5a5aaf5fca37bbed3bbd419e8f08287296de6681babba3",
           "last_accepted_version_code": null,
           "last_accepted_version_name": null,
-          "status": "organization_signer_verified_beta_apk_pending",
+          "status": "signed_candidate_android_save_rehearsal_passed",
           "key_custody": "owner_encrypted_backups_unconfirmed",
-          "package_verification": "planned_pending_signed_apk",
-          "certificate_verification": "github_actions_private_key_operation_verified",
+          "package_verification": "signed_apk_package_version_verified",
+          "certificate_verification": "signed_apk_matches_pinned_certificate",
           "secret_names": [
             "GRIDMATES_WORD_SEARCH_BETA_KEYSTORE_BASE64",
             "GRIDMATES_WORD_SEARCH_BETA_KEYSTORE_PASSWORD"
@@ -126,7 +126,15 @@
           "signing_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/3072c7a6392558192b43aa7c50e50ea07fc6af27/docs/devlog/2026-11-24_EDENP_WORD_SEARCH_BETA_SIGNING_VERIFIED.md",
           "verified_workflow_run": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45496175839",
           "verified_run_attempt": 2,
-          "verified_job_id": 138815149344
+          "verified_job_id": 138815149344,
+          "last_verified_version_code": 121,
+          "last_verified_version_name": "0.9.75-beta.1",
+          "last_verified_source": "06f03af17835192bd189936508608a50d4bfb92c",
+          "last_verified_apk_sha256": "b43fabba58bbefe0ab042bf6bf8b708dde874c2b5cdc70d4ea96d002ca6cfdc3",
+          "evidence": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45538637429",
+          "artifact": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45538637429/artifacts/14988966094",
+          "save_rehearsal": "https://github.com/EdenP-Development/GridMates-Word-Search/actions/runs/45538637429/artifacts/14988223062",
+          "candidate_record": "https://github.com/EdenP-Development/GridMates-Word-Search/blob/b27a6d80f2d82c45494200d017995d5db26a6ca7/docs/devlog/2026-11-24_EDENP_WORD_SEARCH_BETA_CANDIDATE.md"
         },
         {
           "name": "production",
@@ -140,7 +148,7 @@
           "key_custody": "unverified"
         }
       ],
-      "status": "organization_transfer_verified_signed_qa_itch_beta_signer_verified",
+      "status": "organization_transfer_verified_signed_qa_beta_candidate_verified",
       "candidate": {
         "source": "9b47e8e8aee4d8d94e8fcab3e5b461d6f7b31107",
         "branch": "feature/ws77-woodland-album-v120-2026-11-24",
