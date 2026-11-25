@@ -441,7 +441,7 @@
         ],
         "background": "#FAE7CD",
         "nominal_duration_ms": 2500,
-        "status": "isolated_Android_QA_revised_2500ms_pass_owner_timing_review_pending_not_adopted_in_main",
+        "status": "owner_visual_timing_accepted_normal_game_integration_draft_pending_CI",
         "development_pr": 151,
         "branch": "feature/spudacus-startup-standalone-2026-11-25",
         "source": "9ea52201ca1fe3c2ce36f086cc0625e9f35861dd",
@@ -453,8 +453,27 @@
         "mainline_adopted": false,
         "public_released": false,
         "original_shared_duration_ms": 1500,
-        "owner_feedback": "Owner supplied physical startup and game menu screenshots. Original nominal 1.5s logo visibly worked but felt too fast; revised Sector Rebound-specific 2.5s trial requires physical acceptance.",
-        "physical_acceptance": "initial_1500ms_too_fast_revised_2500ms_unreviewed"
+        "owner_feedback": "Original 1500ms felt too fast. Owner tested revised 2500ms and said 'That's perfect'; no claim of full accessibility/release QA.",
+        "physical_acceptance": "owner_approved_revised_2500ms_Spudacus_standalone_splash",
+        "mainline_integration_pr": 154
+      },
+      "beta1_itch": {
+        "platform": "itch.io",
+        "planned_channel": "Android APK Beta 1",
+        "status": "development_in_progress_not_published",
+        "plan": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/docs/BETA1_ITCH_READINESS_2026-11-25.md",
+        "issue": "https://github.com/EdenP-Development/Ricochet-Rumble/issues/152",
+        "main_handoff": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/main/CONTINUE_HERE.md",
+        "signing_preflight": "PASS; https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45491161871",
+        "signing_apk": "NOT_BUILT",
+        "owner_android_install_over": "NOT_VERIFIED",
+        "owner_30v40_physical_playtest": "PENDING",
+        "two_phone_lan": "PENDING",
+        "actual_itch_publication": "NOT_PUBLISHED",
+        "owner_publication_approval": false,
+        "current_development_pr": 154,
+        "accepted_spudacus_standalone_duration_ms": 2500,
+        "normal_startup_adoption": "draft_PR_154_CI_pending"
       }
     },
     {
