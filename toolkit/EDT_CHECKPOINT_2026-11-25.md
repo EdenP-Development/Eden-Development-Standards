@@ -12,9 +12,9 @@ Shared candidates, not released SDK or universal product acceptance.
 | EDT-06 | inspected bot pattern | no shared extraction | consumer need |
 | EDT-07 | generic simulation reuse candidate | no shared extraction | private review and rights |
 | EDT-08 | v0.1 | 12 Python cases reported passed | consumer baseline |
-| EDT-09 | v0.1–v0.4 | 48 cases reported passed across four versions | consumer-specific packaged assets |
+| EDT-09 | v0.1–v0.5 | 56 local cases across five versions; v0.5 real historical Sudoku two-drawable pilot passed | current-head consumer integration and runtime resource verification |
 
-Prior local evidence is recorded in version READMEs; this checkpoint did not re-run those suites. The cumulative 101 cases are not a measure of release readiness.
+Prior local evidence is recorded in version READMEs; this checkpoint did not re-run those suites. The cumulative 109 cases (101 previously reported, 8 newly executed) are not a measure of release readiness. Only the v0.5 suite was newly executed here.
 
 ## Real QA artifact inspection
 Sudoku Visual 4 historical QA run 45550962814, artifact 14993249624, source 96747991e98f78c90e10d6eda447d1be085a3674. Retrieved actual ZIP, 42830639 bytes, SHA256 1a1d26951560641f30d3caa6bef24b633d2c27492eb1235a55815632bc100b07 matches GitHub artifact metadata. APK SHA256 fa8cf012c1a0fa458da5cc8301e50aa34046a9c964f8bfa51e792ba8906a292a matches bundled SHA256SUMS. Bundled badging reports isolated package com.playereden.sudokutogether.qa.beta3visual4 versionCode 31. Not a public beta or current-head build. Actual ZIP member bytes independently hashed:
@@ -27,3 +27,6 @@ Matches pinned master hashes. Manual independent ZIP inspection, not EDT-09 v0.4
 Repository visibility verified via authenticated metadata. Current public audit, registry, priorities and toolkit catalog sanitized to remove identified private project specifics; prior revisions may remain accessible. No history rewrite, visibility change or private source publication authorized. Review remaining public history and any further exposure privately; owner decision required for history remediation.
 
 No product source, APP_REGISTRY signing records, release or storefront changed. Next resume from this checkpoint and current product handoffs, not stale artifact links.
+
+## EDT-09 v0.5 — executed drawable pilot
+[Version 0.5](edt-09/v0.5/README.md) adds explicit byte-preserved PNG drawable mapping, separate from v0.4. Actual local Python normal and optimized runs passed 8/8 tests; exact committed blobs matched. Executed on real historical Sudoku Visual 4 APK from artifact 14993249624: both master logo hashes matched; status mapped_drawable_bytes_match. No Android resource resolution, signature, current-head, CI adoption or runtime verification. No product changes. Next prioritize targeted consumer adoption and EDT-05 only when a consumer need is established.
