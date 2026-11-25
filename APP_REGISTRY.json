@@ -441,7 +441,7 @@
         ],
         "background": "#FAE7CD",
         "nominal_duration_ms": 2500,
-        "status": "owner_accepted_2500ms_startup_mainline_integration_draft_QA_pass_not_merged",
+        "status": "owner_approved_2500ms_startup_merged_main_full_beta_phone_qa_pending",
         "development_pr": 151,
         "branch": "feature/spudacus-startup-standalone-2026-11-25",
         "source": "9ea52201ca1fe3c2ce36f086cc0625e9f35861dd",
@@ -450,7 +450,7 @@
         "verification_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45555459946",
         "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45555459946/artifacts/14995746989",
         "physical_tested": true,
-        "mainline_adopted": false,
+        "mainline_adopted": true,
         "public_released": false,
         "original_shared_duration_ms": 1500,
         "owner_feedback": "Original 1500ms felt too fast. Owner tested revised 2500ms and said 'That's perfect'; no claim of full accessibility/release QA.",
@@ -458,7 +458,9 @@
         "mainline_integration_pr": 154,
         "mainline_integration_qa": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556834260",
         "mainline_integration_qa_source": "0e25cf5189c576760c10b6e3952fae8ef28cbc14",
-        "mainline_integration_qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556834260/artifacts/14996256774"
+        "mainline_integration_qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45556834260/artifacts/14996256774",
+        "mainline_merged_sha": "756b9a7a61f57b6851a7b91223ef659dbd3a1f4a",
+        "mainline_pr": 154
       },
       "beta1_itch": {
         "platform": "itch.io",
@@ -476,7 +478,8 @@
         "owner_publication_approval": false,
         "current_development_pr": 154,
         "accepted_spudacus_standalone_duration_ms": 2500,
-        "normal_startup_adoption": "draft_PR_154_exact_head_Android_QA_pass_physical_acceptance_before_merge"
+        "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
+        "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet"
       }
     },
     {
