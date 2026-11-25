@@ -28,6 +28,17 @@ The game title is primary. Where applicable, preserve GridMates as the recogniza
 - Preserve existing approved visual styles; match typography, contrast, safe areas and scaling. Check phone layouts and accessibility. Reuse approved original assets with documented provenance per ARTWORK_PIPELINE.md. No final logo assets are approved by this document; text attribution is a valid interim implementation.
 - Keep release-specific versions out of evergreen logos and publisher art. Do not copy game-specific assets into unrelated games.
 
+## Shared startup branding (owner-approved direction)
+- Standalone games: Spudacus logo and name, then product menu.
+- GridMates games: Spudacus logo and name, followed by a separate shared GridMates series logo/name, then product menu.
+- EPS utilities: EPS logo/name, then application. No Spudacus or GridMates branding.
+- No slogans, presenter text, corporate umbrella marks or legal wording on these intros. Legal disclosures belong elsewhere.
+- Final artwork and animation require owner visual acceptance before distribution. Use existing approved GridMates identity; do not invent replacement series artwork.
+- Target approximately one second per stage as a design starting point, not a mandatory minimum. Run alongside normal initialization where possible; skip on tap, respect reduced motion, avoid additional forced waiting, and do not replay on resume or rotation. Provide a static fallback and proceed safely if assets fail. Silent by default until audio is explicitly approved.
+- Bundle versioned assets locally; never fetch branding at runtime. Support portrait and landscape, preserve aspect ratio and safe areas. Keep native OS startup separate from in-app intros; avoid redundant screens.
+- Pilot on one GridMates title and one EPS utility, then adopt on normal milestones. Verify cold/warm launches, skip, reduced motion, offline startup, orientation, navigation, startup performance and existing regression gates. Record asset hashes, approval and version in each handoff.
+- Until approved assets exist, projects may prepare startup integration hooks or continue using existing credits. Do not ship placeholder artwork as final.
+
 ## Publishing
 Itch.io: Spudacus, personal voice and evergreen profile; keep individual project branding. Google Play: intended shared account for Spudacus and EPS for operational convenience; proposed public display name "Spudacus // EPS", pending owner confirmation and platform acceptance. Product descriptions and in-app identity distinguish the two. Redbubble: EPD is the intended storefront identity; actual rename is not yet verified. Do not create accounts or publish changes without appropriate owner authorization.
 
