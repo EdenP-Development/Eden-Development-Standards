@@ -28,3 +28,6 @@ Read [Privacy standards (BUS-03)](PRIVACY_STANDARDS.md) and use the [data handli
 
 ## Commercial release readiness
 Read [Commercial readiness (BUS-04)](COMMERCIAL_READINESS.md) and use the [commercial release acceptance receipt](templates/COMMERCIAL_RELEASE_RECEIPT.md) alongside the existing release checklist. Passing CI or completing branding does not establish paid-release acceptance; mandatory project gates and explicit owner authorization remain required.
+
+## Google Play readiness
+Read [Google Play readiness (BUS-05)](GOOGLE_PLAY_READINESS.md) and use the [Play release receipt](templates/GOOGLE_PLAY_RELEASE_RECEIPT.md). The policy snapshot is dated and must be rechecked before launch; no account creation, key transfer, pricing or publication is authorized.
