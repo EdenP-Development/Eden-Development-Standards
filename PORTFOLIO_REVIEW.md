@@ -26,3 +26,6 @@ When a conversation fills or environment is lost, start with the product's lates
 
 ## Next operational phase
 PORT-01–07 foundational documentation complete at scoped review level. Shift to actual remediation and product development: prioritize signer recovery and durable archives, support product-specific testing and release readiness, and extract toolkit candidates only when useful and rights verified. Remaining branding, legal, privacy and commercial work is not implicitly complete. No new mandatory PORT milestone series. No app code, signing, releases or accounts modified by this process.
+
+## Public/private boundary
+Check actual repository visibility before including project names, paths, internal implementation details or handoffs in public documentation. Keep private evidence in access-controlled project contexts. Public history cleanup requires explicit owner authorization.
