@@ -22,3 +22,6 @@ Read [Commercial strategy and monetization (BUS-01)](MONETIZATION_STRATEGY.md) f
 
 ## Intellectual property and commercial rights
 Read [Asset licensing and IP readiness (BUS-02)](ASSET_LICENSING.md) and use the [asset rights register](templates/ASSET_RIGHTS_REGISTER.md) for provenance, commercial-use review, dependency obligations and brand screening. Technical or visual approval does not constitute legal clearance; verify rights before public distribution, including free betas.
+
+## Privacy and data handling
+Read [Privacy standards (BUS-03)](PRIVACY_STANDARDS.md) and use the [data handling register](templates/DATA_HANDLING_REGISTER.md) to document release-specific data, permissions, dependencies, storage, network behavior and verification. Stricter project security charters remain binding; this is not a published privacy policy or compliance certification.
