@@ -476,7 +476,7 @@
         "two_phone_lan": "PENDING",
         "actual_itch_publication": "NOT_PUBLISHED",
         "owner_publication_approval": false,
-        "current_development_pr": 156,
+        "current_development_pr": 157,
         "accepted_spudacus_standalone_duration_ms": 2500,
         "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
         "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet",
@@ -519,6 +519,27 @@
           ],
           "gameplay_modified": false,
           "tdm_30_vs_40_decision": "pending",
+          "owner_approved": false,
+          "main_merged": false,
+          "public_beta_released": false
+        },
+        "visual_insignia_slice": {
+          "name": "B1-03-C actual equipped Dossier/Hangar original insignia",
+          "pr": "https://github.com/EdenP-Development/Ricochet-Rumble/pull/157",
+          "depends_on_parent_pr": 156,
+          "grandparent_pr": 155,
+          "state": "draft_exact_head_Android_and_Chromium_QA_PASS_owner_phone_review_pending",
+          "tested_source_sha": "c8da40ca84140064bdfb673a47db2f1395ab582f",
+          "qa_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45566184725",
+          "qa_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45566184725/artifacts/15000555918",
+          "original_git_blobs": [
+            "5443b63d2c3acd4a81f165d607a96845df8d47e8",
+            "6de10eccc3d34bcbb5aa6dc470868ea625f1637e",
+            "708f7a07753d6025b2027b6d1a76bf87cb119514",
+            "a68965cd619f25514978b305e0d36feaa0cb3267"
+          ],
+          "actual_equipped_id_bound": true,
+          "gameplay_modified": false,
           "owner_approved": false,
           "main_merged": false,
           "public_beta_released": false
