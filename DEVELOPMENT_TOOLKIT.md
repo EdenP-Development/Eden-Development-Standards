@@ -64,3 +64,6 @@ Visibility correction (2026-11-25): current public document excludes identified 
 
 ## Toolkit checkpoint — 2026-11-25
 See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOINT_2026-11-25.md) for implemented versions, recorded local tests, real historical Sudoku QA artwork byte verification and remaining consumer gates. No release promotion implied.
+
+## EDT-09 v0.5 — executed drawable pilot
+[Version 0.5](toolkit/edt-09/v0.5/README.md) adds explicit byte-preserved PNG drawable mapping, separate from v0.4. Actual local Python normal and optimized runs passed 8/8 tests; exact committed blobs matched. Executed on real historical Sudoku Visual 4 APK from artifact 14993249624: both master logo hashes matched; status mapped_drawable_bytes_match. No Android resource resolution, signature, current-head, CI adoption or runtime verification. No product changes. Next prioritize targeted consumer adoption and EDT-05 only when a consumer need is established.
