@@ -7,6 +7,7 @@
 - [ ] Verify release APK package, signer, increasing version, hash and permissions.
 - [ ] Verify actual install-over and save preservation using backed-up noncritical data.
 - [ ] Verify export/restore when supported.
+- [ ] Review product, series and creator attribution against BRAND_IDENTITY.md; record visual approval or deferral.
 - [ ] Review player-facing copy, screenshots, privacy and applicable disclosures.
 - [ ] Obtain explicit owner approval for publication.
 - [ ] Archive exact APK and receipt; verify downloadable bytes.
