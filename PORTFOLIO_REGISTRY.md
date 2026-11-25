@@ -18,7 +18,7 @@ Updated 2026-11-25. Management snapshot, not a release authority. APP_REGISTRY.j
 | Text Adventure RPG | Spudacus proposed | [repo](https://github.com/PlayerEden/text-adv-rpg) | Unknown | Unknown | Inspect source and establish status |
 | Space Buddies | Spudacus proposed | Repository unverified | Unknown | Unknown | Locate project before classification |
 | EPD storefronts | EPD | Not audited in GitHub inventory | Unknown | Not applicable | Storefront inventory and brand work |
-| Shared infrastructure | EdenP Development | [standards](README.md) | BUS-01–07 documented, PORT-01 complete at inventory level | [Master startup guide](branding/game-startup/v1.0/README.md) | PORT-04 standards adoption; timing acceptance pending |
+| Shared infrastructure | EdenP Development | [standards](README.md) | BUS-01–07 documented, PORT-01 complete at inventory level | [Master startup guide](branding/game-startup/v1.0/README.md) | PORT-06 reuse audit; timing acceptance pending |
 
 ## Update rules
 Use dated evidence from exact source/ref, CI and owner feedback. Distinguish implemented, CI-tested, physically accepted and publicly verified. Record pending or unknown rather than guesses. Link signing evidence instead of copying credentials or mutable release fields. Product chats own product implementation; central chat owns cross-portfolio tracking and approved shared standards. Refresh only affected rows; preserve concurrent changes. Do not change pricing, publish, merge product code, transfer repos or alter signing identities merely by updating this registry.
@@ -27,4 +27,4 @@ Use dated evidence from exact source/ref, CI and owner feedback. Distinguish imp
 Startup v1.0 remains historical approved baseline; v1.1 candidate is 300 ms fade-in, 1500 ms hold, 300 ms fade-out per logo. Grid Hunt source inspected; Sudoku Beta 3 and Crossroads identity-17 now implement 300/1500/300; fresh CI and physical acceptance pending. Owner feedback reopens timing review. PORT-03 additionally found owner-approved Sector Rebound 2.5s standalone timing; preserve it. Proposed split: standalone 2.5s, GridMates 4.2s; EPS independent 3.0s trial implemented. Grid Hunt and Sector Rebound adoption confirmed by owner; no mandatory timing rollout pending physical acceptance. See [branding adoption audit](PORTFOLIO_BRANDING_ADOPTION.md).
 
 ## Next
-PORT-03 scoped adoption audit documented; PORT-04 standards application; PORT-05 prioritize; PORT-06 reuse audit; PORT-07 review cadence. Portfolio inventory scope and limitations: [PORT-01 audit](PORTFOLIO_AUDIT_2026-11-25.md).
+PORT-03 scoped adoption audit documented; PORT-04 scoped standards audit documented; [PORT-05 proposed priorities](PORTFOLIO_PRIORITIES.md) documented; PORT-06 reuse audit; PORT-07 review cadence. Portfolio inventory scope and limitations: [PORT-01 audit](PORTFOLIO_AUDIT_2026-11-25.md).
