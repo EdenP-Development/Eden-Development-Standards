@@ -4,7 +4,7 @@ Status: owner-approved visual direction; reconstructed production candidate pend
 ## Artwork
 Standalone vector: emblem-full-color.svg, pinned commit a28951a5c143c93d15a5d035af110513ceb918d3.
 Expected SHA-256: fafcf7d6eec7a9a313a51c2b00255468483ed973b63a8aeb97f272b9f228140a.
-The complete local EPS Branding Kit v1.0 contains the stacked runtime artwork, horizontal variants and favicon exports. The stacked PNG is not yet published here; do not substitute the standalone emblem for the approved full startup lockup.
+The complete local EPS Branding Kit v1.0 contains the stacked runtime artwork, horizontal variants and favicon exports. The stacked PNG is published on main via PR #1. Use the [exact pinned runtime asset](https://github.com/EdenP-Development/Eden-Development-Standards/blob/ba9f28feac64d851b3b1df9d7dfd3a1e50416492/branding/eps/v1.0/runtime-transparent.png). Git blob 34ea8cebc26331bea90dabb803e0b6640e072030. Main readback matched the archived Drive bytes; verify the SHA-256 before bundling. Do not substitute the standalone emblem for the approved full startup lockup.
 Expected runtime-transparent.png SHA-256: d144934346d77a6e04c1475dae361fc57cb28a95d7033a799bf6e2f256548516.
 Expected runtime-transparent.svg SHA-256: f4d79750da2a78e9a5b371a9175aea451d9c3baecc04b10c86ed88cc581023ff.
 
