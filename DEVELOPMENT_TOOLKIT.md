@@ -79,3 +79,6 @@ Node.js 22.16.0: 14/14 tests passed; exact source and test blobs 0d79ae47c1d3db7
 
 ## EDT-06 v0.1 — Arcade objective selection
 [Original decision engine](toolkit/edt-06/v0.1/README.md) implemented and locally executed: Node 22.16.0 14/14 tests passed, including 108 scenarios; exact committed blobs match. Deterministic eligibility/scoring, critical health override and trace. Provisional weights; active actor lifecycle, perception, movement and balancing external. No consumer integration. Cumulative recorded toolkit cases 149 (135 previously recorded plus 14 newly executed). Next objective persistence and perception adapter; no product changes.
+
+## EDT-06 v0.2 — Objective persistence and perception memory
+[Controller](toolkit/edt-06/v0.2/README.md) implemented and tested. Actual Node 22.16.0 combined suite 28/28 passed (14 prior rerun plus 14 new); exact committed source/test blobs match. Score-margin hysteresis, emergency override, eligibility recheck, tick-bounded last observed position independent of engagement permission. No consumer integration, target identity tracking or actual perception/balance verification. Cumulative recorded toolkit cases 163 (149 prior plus 14 new). No product changes.
