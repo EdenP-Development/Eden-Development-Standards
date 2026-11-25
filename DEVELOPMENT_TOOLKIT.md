@@ -41,3 +41,6 @@ Python 3.13.5: `python -m unittest -v` and `python -O -m unittest -q` each passe
 
 ## EDT-01 v0.2 candidate
 [Android adapter and expanded snapshot API](toolkit/edt-01/v0.2/README.md) authored; 26 JVM test cases pending execution, Android compilation/instrumentation pending. No consumer changes.
+
+## Verified local regression — 2026-11-25
+Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob hashes matched committed SafePreferences.kt d3dd262f98e0976bd4b56abd382b676360acf8d2 and SafePreferencesTest.kt e6b1854c98987aa1c0980f79d829d2048648e4ec. Android SDK/adapter instrumentation and consumer integration not verified.
