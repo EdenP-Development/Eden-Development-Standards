@@ -55,3 +55,6 @@ See [PORT-05 development and release priorities](PORTFOLIO_PRIORITIES.md) for pr
 See [PORT-06 Eden Development Toolkit source catalog](DEVELOPMENT_TOOLKIT.md) for inspected reusable candidates, provenance, limitations and proposed extraction order. This is not a released SDK.
 
 See [PORT-07 portfolio review process](PORTFOLIO_REVIEW.md) and [checkpoint template](templates/PORTFOLIO_REVIEW.md). PORT-01–07 foundational management documentation is complete at scoped review level; ongoing remediation and product acceptance remain separate. Start here when recovering a central management chat.
+
+## Toolkit checkpoint — 2026-11-25
+See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOINT_2026-11-25.md) for implemented versions, recorded local tests, real historical Sudoku QA artwork byte verification and remaining consumer gates. No release promotion implied.
