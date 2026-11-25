@@ -476,10 +476,20 @@
         "two_phone_lan": "PENDING",
         "actual_itch_publication": "NOT_PUBLISHED",
         "owner_publication_approval": false,
-        "current_development_pr": 154,
+        "current_development_pr": 155,
         "accepted_spudacus_standalone_duration_ms": 2500,
         "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
-        "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet"
+        "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet",
+        "visual_m13_slice": {
+          "name": "B1-03-A Warm Industrial Hangar",
+          "pr": "https://github.com/EdenP-Development/Ricochet-Rumble/pull/155",
+          "state": "draft_CI_in_progress_owner_phone_review_pending",
+          "original_art_git_blob": "7efe4b676141798c2a5ae77a827c79b64012bc47",
+          "source": "feature/m13-c-unified-art-and-battle-preview-2026-11-05",
+          "gameplay_modified": false,
+          "install_identity_modified": false,
+          "qa_run": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45562154508"
+        }
       }
     },
     {
