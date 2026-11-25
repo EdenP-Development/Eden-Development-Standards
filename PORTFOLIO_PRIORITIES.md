@@ -9,8 +9,8 @@
 | B — First public beta candidates | Word Search, Sector Rebound | Consolidate existing development, not expand feature scope; each releases only after its own gates |
 | C — Alpha maturation | Crossroads, Grid Hunt | Finish coherent playable loops, visual/accessibility and save QA; promote only when stable |
 | D — Security-gated development | Eden Comms | Continue usability/reliability work and independent security preparation; no public functional beta until charter gates pass |
-| E — Preserve and selectively resume | The Last Taters, Operation Phosphor, The Town Was Fine, Potato Simulator | Preserve exact known baselines and existing releases; reconcile current refs before resuming |
-| F — Research / unclassified | Ant Lab, Text Adventure RPG, Space Buddies | No release commitment; locate and classify unknown projects; prototype only when deliberately selected |
+| E — Preserve and selectively resume | Private project tracking | Preserve exact baselines; reconcile current refs privately |
+| F — Research / unclassified | Unclassified projects | No release commitment; classify in appropriate access-controlled contexts |
 
 EPD is a separate business workstream; storefront inventory and visual identity remain open. Do not assume older games are abandoned or unpublished.
 
@@ -39,3 +39,5 @@ Proposed operating rhythm: one coherent next milestone per active product, limit
 Release order can change as gates clear, owner feedback arrives, or critical defects emerge. Rank by existing customer impact, blocker severity, product completeness, evidence quality and remaining work, not counts of tests or cosmetic features. No numerical score can override mandatory gate. All publishing, paid pricing, signer changes, account setup and retirement require explicit owner decisions. No app code or release actions in PORT-05.
 
 References: PORTFOLIO_REGISTRY.md, PORTFOLIO_STANDARDS_ADOPTION.md, PORTFOLIO_BRANDING_ADOPTION.md, APP_REGISTRY.json, MONETIZATION_STRATEGY.md, COMMERCIAL_READINESS.md, GOOGLE_PLAY_READINESS.md, RELEASE_CHECKLIST.md. Next PORT-06: verify actual reusable source/tests and licensing boundaries before proposing shared components.
+
+Visibility correction (2026-11-25): current public document excludes identified private-project details. Earlier Git revisions may retain them; no history rewrite or repository visibility change performed.
