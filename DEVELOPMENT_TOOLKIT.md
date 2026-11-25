@@ -56,3 +56,6 @@ Actual kotlinc compilation and JVM execution passed all 26 tests. Local Git blob
 
 ## EDT-09 v0.3 — controlled staging candidate
 [Controlled staging](toolkit/edt-09/v0.3/README.md) integrates exact sibling v0.1/v0.2 modules, explicit image selections, exclusive new output directory and staged manifest. 12/12 local synthetic integration tests passed normal and optimized Python; exact committed blobs matched. No real artwork, CI, project import or packaged APK verified. Next consumer-specific packaged resource verification.
+
+## EDT-09 v0.4 — packaged asset verifier
+[Packaged asset byte verification](toolkit/edt-09/v0.4/README.md) implemented. Actual local Python normal and optimized runs each passed 10/10 synthetic APK-shaped ZIP tests; committed source/test blob hashes matched. Checks required byte-preserved assets/ members and optional exclusive prefixes against independently recorded receipts. Actual signed APK, compiled res/ resources, runtime and consumer acceptance unverified. No application changes.
