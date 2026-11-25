@@ -13,25 +13,11 @@ Snapshot 2026-11-25. GitHub connector enumerated 7 EdenP-Development and 6 Playe
 | Eden Comms | [Eden-Comms](https://github.com/EdenP-Development/Eden-Comms) | main CONTINUE_HERE.md VIS-07, VIS-06 merged, appearance QA pending; EPS visual/startup approval not established; physical 54 cases and independent security gates open | Finish pilot within project; no production security claims |
 | Infrastructure | [Eden-Development-Standards](https://github.com/EdenP-Development/Eden-Development-Standards) | central standards, APP_REGISTRY.json, BUS-01–07 | Build PORT-02 management view, not duplicate signing registry |
 
-## PlayerEden projects
-| Product | Repository | Documented baseline / next review |
-| --- | --- | --- |
-| The Town Was Fine | [repo](https://github.com/PlayerEden/The-Town-Was-Fine) | main README and Oct 10 PROJECT_STATE preserve v3.81 historical HTML; runtime acceptance open in docs. Check dev/active work before resuming; registry repository field currently null |
-| The Last Taters | [repo](https://github.com/PlayerEden/the-last-taters) | README reports public Alpha 0.10.1, schema v16, 0.11 Settlement Maturity next. Verify actual release and current branch |
-| Ant Lab (working title) | [repo](https://github.com/PlayerEden/ant-sim-sandbox) | README pre-production/research, engine not locked; prototype benchmark next |
-| Operation Phosphor | [repo](https://github.com/PlayerEden/Operation-Phosphor) | README RC8 HTML and offline Android WebView Preview, emulator update check reported, physical acceptance pending |
-| Potato Simulator | [repo](https://github.com/PlayerEden/potato-simulator) | README and PROJECT_STATUS v0.8.8 scene/UX closeout; mobile real-device validation next. README describes repository as private; current visibility not independently established |
-| Text Adventure RPG | [repo](https://github.com/PlayerEden/text-adv-rpg) | README title only; stage unknown; inspect tree/handoff before classification |
+## Legacy inventory
+Private projects are tracked only in access-controlled project contexts. Public legacy project review remains incomplete.
 
-Space Buddies has been mentioned in portfolio discussions but no matching repository was found in these two listings; do not assume it is missing, deleted or implemented. EPD storefronts are not covered by this GitHub-only inventory.
-
-## Reuse leads (not certified components)
-- The Last Taters docs/design/TATER_BRAIN_LAB.md describes rule/state/priority-driven autonomous agents, explainability and seeded comparison experiments. Adaptive weights and bandit-style methods are proposed experiments, not confirmed implementation. Inspect actual source and tests before borrowing; Sudoku coach requires constraint solving and explanation, not transplanting colony behavior.
-- Sector Rebound: documented local play, profile copy/restore and deterministic visual/QA fixtures; two-phone verification remains open.
-- Eden Comms handoff already references Sudoku theme roles, accessibility/visual test fixtures. Adapt presentation techniques without weakening security or using fake trust.
-- Operation Phosphor: HTML-to-Android WebView packaging and emulator update rehearsal; verify source and current tooling.
-- Potato Simulator: contextual UI, save slots and autonomous behavior described in project status; inspect implementations.
-- Town: baseline preservation and byte-identical extraction design; verify actual dev branch before reuse.
+## Reuse leads
+Public project implementations may be inspected for reuse under the rights policy. Private source references and implementation details are excluded from this public document.
 
 ## Immediate portfolio risks
 1. Default-branch status documents can lag current development branches and central registry; do not overwrite concurrent work or confuse source merge with publication.
@@ -40,3 +26,5 @@ Space Buddies has been mentioned in portfolio discussions but no matching reposi
 4. PORT-02 should record evidence date/ref, current stage, next milestone and unknowns, referencing APP_REGISTRY.json for signing/distribution. PORT-03 branding and PORT-04 standards require project-specific evidence.
 
 No project code, branches, signing registry, repository visibility, storefront or release changed during PORT-01. No repository transfer authorized.
+
+Visibility correction (2026-11-25): current public document excludes identified private-project details. Earlier Git revisions may retain them; no history rewrite or repository visibility change performed.
