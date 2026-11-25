@@ -19,3 +19,6 @@ Use [Original artwork pipeline](ARTWORK_PIPELINE.md) for asset provenance, origi
 
 ## Commercial strategy
 Read [Commercial strategy and monetization (BUS-01)](MONETIZATION_STRATEGY.md) for owner-approved phased commercialization, paid-product preferences, customer safeguards and follow-on compliance milestones. This does not authorize storefront changes or paid releases.
+
+## Intellectual property and commercial rights
+Read [Asset licensing and IP readiness (BUS-02)](ASSET_LICENSING.md) and use the [asset rights register](templates/ASSET_RIGHTS_REGISTER.md) for provenance, commercial-use review, dependency obligations and brand screening. Technical or visual approval does not constitute legal clearance; verify rights before public distribution, including free betas.
