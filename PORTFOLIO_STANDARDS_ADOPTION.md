@@ -51,3 +51,43 @@ Extend existing identity/gridmates, communication/gridmates, audio/gridmates, SA
 
 ### Scope and next steps
 Documentary review of exact project records only; default-branch code search for achievement returned no matches, so no exhaustive runtime/catalog audit, new tests or independent verification of Word Search logs in this checkpoint. No changes to product source, rewards, thresholds, save schemas, assets or signing. Proposed conventions await owner/pilot acceptance; do not implement cross-game automatically. Next PORT-11.03 bounded consumer adoption checklist and handoff gate using existing standards; defer new shared code until actual consumer need.
+
+## PORT-11.03 — Bounded consumer adoption framework (2026-11-26)
+
+Use the existing project handoff template and release checklist, not a second mandatory reporting system. Sudoku is the initial identity/communication/audio pilot, not the authority on every product mechanic. Other games may contribute independently verified patterns back to the hub. Approved shared features are adopted at suitable product milestones only; no automatic dependency updates, universal runtime, shared account or entitlement synchronization.
+
+### Adoption sequence
+1. Identify one feature and consumer need; inspect active project handoff, branch, existing implementation, current accepted artifact and relevant canonical hub standard. Check whether it is approved, provisional, implemented, automated, physically accepted or release-ready; record exact evidence. Stop if pilot acceptance required but unavailable. Existing approved branding adoptions may continue independently.
+2. Pin the approved source/standard revision, asset IDs/hashes, license/rights status and behavioral contract. Define what is reusable versus game-specific. Do not copy private receipts, unapproved art/audio, secrets or entire unrelated modules.
+3. Map local IDs, existing achievements, reward ownership, preferences, backups, active sessions and network compatibility. Preserve package/signing identity and earned progression. Specify migration, rollback limits, first-run/default behavior and old-peer rejection or capability negotiation. No forced reset or automatic cross-game ownership.
+4. Implement one focused slice on the consumer's active development lane; preserve other concurrent work. Test contract behavior, negative inputs, persistence, actual old/new signed upgrade where distribution requires it, accessibility, offline behavior and real multi-device interaction when applicable. Record compiled versus executed tests and exact artifact/source.
+5. Obtain consumer-specific owner acceptance and resolve mandatory rights/privacy/security and release gates. Update project handoff and central adoption evidence with pinned refs, limitations and next task. Publication still needs explicit authorization.
+
+### Family mapping
+| Feature | Shared contract | Consumer-specific adaptation |
+| --- | --- | --- |
+| Identity / Name Collection | Approved semantic vocabulary/IDs, canonical builder and validation | Achievement mapping, migration and local protocol version |
+| Communication / emotes | Approved semantic messages, rights-cleared art, bounded validation, optional visibility | Mode-specific phrases and layout |
+| Partner Ping | Explicit action, transient marker, bounds/session/role checks, no answer leak | Sudoku cell; Word Search letter/region; Grid Hunt map location; Crossroads board destination, subject to rules |
+| Audio | Music Corner, independent persistent settings and lifecycle/feedback semantics | Selected rights-cleared music family, local IDs, engine adapter |
+| Cosmetics / progression | Stable identities, durable earned ownership, accessibility, no competitive power from cosmetics | Content, pacing, local ledger and earning requirements |
+| Startup / launcher | Pinned approved art and presentation, exact packaging and visual review | Game motif, platform integration, accepted timing variant |
+
+### Pilot exit and consumer entry
+For identity/communication, require the accepted Sudoku handoff with canonical catalog, linguistic review, schema/migration and network contracts, compatibility and regression evidence, original emote assets/rights where required, and physical/upgrade acceptance. Audio requires the separate acceptance gates in audio/gridmates/README.md, including rights and archive checks. Do not treat pilot unsigned CI as signed or physical acceptance. Do not make unrelated already-approved artwork dependent on unfinished Name Collection. No current consumer rollout authorization implied.
+
+### Compact receipt (append to existing handoff)
+Feature / consumer / milestone:
+Pinned standard and reference implementation:
+Prior accepted baseline and local inventory:
+Reusable behavior and local deviations:
+Stable-ID mapping and migration/rollback impact:
+Asset rights / exact checksums / package and signer continuity:
+Exact candidate source, artifact and verification links:
+Automated / emulator / physical evidence, failures and limitations:
+Owner acceptance scope/date and mandatory remaining gates:
+Hub feedback and next task:
+
+Status labels: not reviewed, planned, implemented, automated verified, physically accepted, release accepted; track independently where applicable. No invented completion from missing records. Private projects and private evidence remain access-controlled.
+
+PORT-11.03 is documentation only; no new code, tests, assets, migrations or consumer changes. Next PORT-11.04 reconcile accepted pilot evidence when available; otherwise proceed with PORT-12 commercial readiness without waiting or manufacturing extra implementation.
