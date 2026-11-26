@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {simulate} from './population.mjs';
+const kinds=['eat','rest','gather','work','explore','idle'];
+test('determinism and ordering',()=>assert.deepEqual(simulate(),simulate({reverseRequests:true})));
+test('conservation and accounting',()=>{const s=simulate();assert.equal(s.food,s.initialFood+2*s.totals.gather-s.totals.eat);assert.equal(kinds.reduce((n,k)=>n+s.totals[k],0),s.population*s.ticks);assert.ok(s.timeline.every(t=>t.food>=0&&t.claims<=s.population));});
+test('zero meal capacity',()=>assert.equal(simulate({mealCapacity:0}).totals.eat,0));
+test('zero initial stock',()=>assert.ok(simulate({initialFood:0}).timeline.every(t=>t.food>=0)));
+test('fallback and productive tasks',()=>{const s=simulate();assert.ok(s.totals.fallback>0&&s.totals.work>0);assert.equal(s.totals.idle,0);});
+test('large settlement remains constrained',()=>{const s=simulate({population:100,ticks:200});assert.equal(s.food,2);assert.equal(s.totals.eat,410);assert.equal(s.timeline.at(-1).criticalHunger,78);assert.equal(s.totals.criticalHungerAgentTicks,14376);});
+test('invalid config',()=>{for(const opts of [{mealCapacity:-1},{mealCapacity:101},{population:0},{ticks:0},{initialFood:-1},{seed:-1},{reverseRequests:1}])assert.throws(()=>simulate(opts),RangeError);});
