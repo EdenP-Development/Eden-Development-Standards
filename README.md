@@ -20,6 +20,9 @@ Use [Original artwork pipeline](ARTWORK_PIPELINE.md) for asset provenance, origi
 ## Shared audio direction
 See [proposed GridMates Master Audio Standard v1.0](audio/gridmates/README.md) and [versioned audio library v0.1](audio/gridmates/library/v0.1/README.md) for Sudoku pilot evidence, Music Corner, playback, feedback, private archive recovery and rights/physical/signed-upgrade gates. Metadata only; no final approval or distribution.
 
+## Shared GridMates communication
+See [GridMates Master Communication Standard v1.0](communication/gridmates/README.md) for owner-approved Quick Chat, Emotes and Partner Ping direction, original emote asset roadmap, safety and accessibility gates. Sudoku is the pilot; implementation and storefront acceptance remain provisional. Adopt incrementally after pilot verification.
+
 ## Commercial strategy
 Read [Commercial strategy and monetization (BUS-01)](MONETIZATION_STRATEGY.md) for owner-approved phased commercialization, paid-product preferences, customer safeguards and follow-on compliance milestones. This does not authorize storefront changes or paid releases.
 
