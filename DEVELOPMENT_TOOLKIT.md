@@ -100,3 +100,23 @@ Node.js 22.16.0: 14/14 tests passed; exact source and test blobs 0d79ae47c1d3db7
 
 ## EDT-07 v0.6 — Capacity-aware allocator (partial)
 [Single-tick allocator](toolkit/edt-07/v0.6/README.md) implemented; actual Node 22.16.0 9/9 passed and exact committed blobs matched. Controlled 100-agent fixture: 12 meals, 30 fallback work assignments, 58 unassigned. Capacity constraints, eligibility filtering contract, priority/wait/score ordering and deterministic fallback; no persistent reservation replacement. Cumulative recorded cases 245 (236 prior plus 9 new); prior suites not rerun. Multi-cycle integration, explicit wait accounting, fairness and identical seeded baseline comparison pending. No product changes.
+
+## EDT-07 v0.6 — Population integration checkpoint
+Separate capacity-aware population fixture now implemented and executed. Node 22.16.0 combined allocator/population suite 16/16 passed (9 reruns, 7 new). Exact local dependency hashes matched v0.1 decision f4d8cedca9da2c5ef083a7cbe6b40a7eb55fb015, v0.3 learning 0b428996bdea100d02e5f5c0e3c868b66b14d270, v0.4 memory a67b35c75773ee9c7b25967cdb7a1afbf3c84c6f and v0.6 allocator 7fa341fa11636f16b5364154b30ca5f1a391b209. New population.mjs 7cb3de2f59124fe7d85e8327d298f33340981123 and population.test.mjs 804a295906cbb19fcfdb909975a21ae21534c1eb matched exact committed readback. Cumulative recorded cases 252 (245 prior plus 7 new). Earlier baseline not rerun; comparison uses recorded v0.5 values and fresh v0.6 execution.
+
+Seed 42, initial food 12, meal capacity 12 bounded by start-of-tick stock, one field/workshop/trail slot, private bed per agent. Identical initial agent RNG and needs progression to v0.5; new allocation replaces one-tick reservation fixture only. Wait increments on denied first choice (even successful fallback), resets otherwise; no per-task waiting or fairness guarantee. Eligible alternatives must beat idle under original tie rules. One action per agent; gathering adds two food, eating consumes one. No borrowing against same-tick production.
+
+| Metric | 12 agents / 100 ticks | 100 agents / 200 ticks |
+|---|---:|---:|
+| Eat | 210 | 410 |
+| Rest | 690 | 18990 |
+| Gather | 100 | 200 |
+| Work | 100 | 200 |
+| Explore | 100 | 200 |
+| Idle | 0 | 0 |
+| First-choice denials / fallback assignments | 962 | 19562 |
+| Final food | 2 | 2 |
+| Critical hunger agent-ticks | 0 | 14376 |
+| Final critically hungry agents | 0 | 78 |
+
+Behavioral blockers: food production capped at two units/tick; large settlement remains severely hungry despite improved access. Excessive rest (even at zero fatigue) masks idleness, first-choice denial is not eliminated, and no fairness guarantee. Next experiment: parameterize gathering capacity and gate unnecessary rest, measure meaningful activity and unmet need, separate changes through ablations. No actual game economy, performance certification, consumer integration or product changes. Preserve frozen prior versions.
