@@ -38,3 +38,6 @@ Start with this README, library manifest and active project branch/handoff; insp
 
 ## Historical direction
 Earlier free-tier prototype inventory and eleven concepts remain excluded from approved library. Original v0.1 direction retained in Git history. Tabletop Strategy prompt example: instrumental cozy tabletop strategy, warm marimba and pizzicato strings, soft wooden percussion, gentle acoustic guitar, light rhythmic movement, friendly competition, restrained arrangement, 92 BPM, no vocals or battle music, loop-friendly dynamics.
+
+## PORT-12 — Sudoku audio candidate continuity (2026-11-26)
+Latest integrated Sudoku runtime 1088451 passed Android gate 45894433045 and unsigned audio candidate 45894433028. Six-track candidate remains integrated with exact soundtrack hash checks and release dependency/permission screening. Owner-reported general physical audio acceptance is not final release acceptance; targeted erase/Final Piece/completion/focus checks, commercial rights and master archive retention remain open. Current [Sudoku handoff](https://github.com/EdenP-Development/SudokuTogether/blob/feat/beta3-foundation/CONTINUE_HERE.md) synchronized at 0cde4e0. No distribution or signing change authorized.
