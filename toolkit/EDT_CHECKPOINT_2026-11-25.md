@@ -54,3 +54,6 @@ Node.js 22.16.0: 14/14 tests passed; exact source and test blobs 0d79ae47c1d3db7
 
 ## EDT-07 v0.3 — Bounded learning
 [Learning module](edt-07/v0.3/README.md) implemented; actual Node 22.16.0 13/13 tests passed, exact committed source/test blobs matched. Independent mastery/familiarity, success/failure gains, diminishing returns, 128 skills and 10,000-event progression tested. Integer rounding can plateau below cap; no preference coupling, fractional credit, consumer or balance verification. Cumulative recorded cases 209 (196 prior plus 13 new); prior suites not rerun. Next bounded outcome memory and skill-to-utility adapter. No product changes.
+
+## EDT-07 v0.4 — Individual outcome memory and experience-informed decisions
+[Memory and scoring adapter](edt-07/v0.4/README.md) implemented. Actual Node 22.16.0 combined suite 29/29 passed (13 prior learning rerun plus 16 new); exact committed source/test blobs matched. Bounded 64-event history, tick expiry, task/kind matching, explicit skill mapping, bounded ordinary-task utility adjustment; survival scores/priority and eligibility unchanged. No spatial memory, confidence weighting, population or consumer integration. Cumulative recorded toolkit cases 225 (209 prior plus 16 new). Next v0.5 integrated synthetic population harness. No product changes.
