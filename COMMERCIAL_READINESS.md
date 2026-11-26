@@ -31,3 +31,28 @@ Use templates/COMMERCIAL_RELEASE_RECEIPT.md alongside the existing release check
 
 ## References
 MONETIZATION_STRATEGY.md, ASSET_LICENSING.md, PRIVACY_STANDARDS.md, BRAND_IDENTITY.md, RELEASE_POLICY.md, RELEASE_CHECKLIST.md, ITCH_PUBLISHING_GUIDE.md. BUS-05 will cover live Google Play requirements; BUS-06 will expand support and maintenance.
+
+## PORT-12.01 — Practical storefront readiness lanes (2026-11-26)
+Existing BUS-01–07 standards remain binding. Use the existing commercial receipt and PORT-10 release checklist; no duplicate policy or mandatory monetization infrastructure. Owner direction: itch development/betas; Sudoku Beta 3 Amazon Fire tablet publishing rehearsal; later Google Play commercial evaluation. Amazon is not a commitment to long-term synchronized releases; other games need not follow this route.
+
+### Current pilot evidence
+[Sudoku B3-AMZ readiness record](https://github.com/EdenP-Development/SudokuTogether/blob/feat/beta3-foundation/docs/BETA3_AMAZON_READINESS.md), inspected blob 23b78e55224d46f2439c61ff316dccf7fd44b7f6, and active handoff blob 58fa0cc2915226b0cdbabbc473a895289fc62304. Owner reports approved Amazon account and configured listing metadata/pricing; actual Console state not independently inspected. All ten AMZ gates remain open in the source record: Fire compatibility, signing/channel identity, save upgrade, packaged data audit, LAN/communication, hosted privacy policy, audience review, icon exports, real tablet screenshots, Live App Testing. Earlier packaged dependency/permission screening and unsigned CI are partial evidence, not release acceptance. Newer Name Collection/protocol 11, emote art, physical QA and audio rights remain outstanding. Historical policy research in project dated November 25; no new live policy verification in this checkpoint. Recheck actual platform requirements before submission.
+Owner permits Amazon-specific re-signing in principle; document delivered certificate/package, within-channel upgrade and incompatible cross-store updates; preserve existing itch signer/package, never force uninstall, offer only tested portable migration. Google Play long-term identity decision separate. No automatic upload, LAT, pricing changes or publication.
+
+### Portfolio lanes
+| Product | Commercial preparation focus |
+| --- | --- |
+| Sudoku | Finish Beta 3 pilot and protect public Beta 2; collect reusable store submission lessons |
+| Word Search | Signed beta and handset acceptance; potential later commercial evaluation |
+| Sector Rebound | Consolidated gameplay and physical LAN review; signed beta before commercial evaluation |
+| Grid Hunt / Crossroads | Alpha content, coherent gameplay, progress preservation and owner review; no premature store expansion |
+| Eden Comms | Internal-only security lane; independent review and physical gates remain mandatory |
+
+### Practical work queue
+1. Exact candidate rights inventory: use existing asset register, include soundtrack generation entitlement, artwork/fonts/dependencies and puzzle sources. Resolve missing rights before distribution; no blanket AI-output clearance.
+2. Support and privacy: confirm real owner-controlled support contact and private security-report route, review exact build data inventory, select approved durable public HTTPS privacy hosting, verify actual public access. Do not invent address, publish draft or choose host without authorization.
+3. Store presentation: prepare accurate actual-build screenshots and icon exports, truthful feature copy, tested device scope and known limitations. Reuse accepted masters rather than generating substitutes.
+4. Release: collect exact signed build and upgrade receipts, actual device evidence, owner recovery and durable archive; review current storefront forms and applicable policies. Capture owner decisions privately as needed; no credentials, personal data or private receipts in public hub.
+5. After the Amazon rehearsal, record actual submission issues, delivered artifact identity, device results, metadata requirements, support workload and lessons for Google Play; do not infer Google compliance from Amazon acceptance. Separate paid release decision and existing customer commitments.
+
+Documentation checkpoint only. No new runtime code/tests, rights clearance, console access, store changes or publication. Next PORT-12.02: audit existing support/privacy/rights templates and prepare bounded evidence checklist for the first release candidate; avoid speculative business infrastructure.
