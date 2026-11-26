@@ -47,3 +47,6 @@ Shared standards now include [audio](audio/gridmates/README.md), [identity](iden
 
 ## PORT-09 — Recovery readiness (2026-11-26)
 See [owner recovery drill and channel triage](DISASTER_RECOVERY.md#port-09--owner-recovery-readiness-checkpoint-2026-11-26). Six active products reviewed against existing registry. Independent private signer recovery remains unconfirmed; no proof of loss or actual recovery. Prioritize accepted Sudoku Beta 2 archive, Word Search signed v126 and Eden Comms internal v10036, then other current QA/proof artifacts. No channel identities changed. Next PORT-10 release verification; owner recovery remains open.
+
+## PORT-10 — Master release verification (2026-11-26)
+[Master procedure and technical receipt](RELEASE_CHECKLIST.md#port-10--master-release-verification-procedure-2026-11-26) extend existing release/save/recovery policy. EDT-02 real SDK/emulator execution remains unverified; no dispatch, signing or product changes. Proposed Sudoku signed Beta 3 receipt pilot after actual candidate/baseline availability; next PORT-11 verified GridMates handoffs. No publication authorization.
