@@ -51,3 +51,6 @@ Node.js 22.16.0: 14/14 tests passed; exact source and test blobs 0d79ae47c1d3db7
 
 ## EDT-07 v0.2 — Task reservations
 [Reservation module](edt-07/v0.2/README.md) implemented; actual Node 22.16.0 18/18 tests passed, exact committed blobs matched. 500 requests for 50 tasks produced 50 unique owners and order-independent results. Single authoritative caller, one active claim per agent, tick expiry, owner release, renewal and deterministic priority. No fairness, distributed synchronization, world execution or consumer acceptance. Cumulative recorded cases 196 (178 prior plus 18 new); earlier suites not rerun. Next separate experience/learning module. No product changes.
+
+## EDT-07 v0.3 — Bounded learning
+[Learning module](edt-07/v0.3/README.md) implemented; actual Node 22.16.0 13/13 tests passed, exact committed source/test blobs matched. Independent mastery/familiarity, success/failure gains, diminishing returns, 128 skills and 10,000-event progression tested. Integer rounding can plateau below cap; no preference coupling, fractional credit, consumer or balance verification. Cumulative recorded cases 209 (196 prior plus 13 new); prior suites not rerun. Next bounded outcome memory and skill-to-utility adapter. No product changes.
