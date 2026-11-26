@@ -670,16 +670,16 @@
           "baseline_version_name": "0.2.12-approval-review-only",
           "last_accepted_version_code": null,
           "status": "automatic_private_signing_verified_physical_upgrade_pending",
-          "last_verified_version_code": 10047,
-          "last_verified_version_name": "0.2.12-internal-10047",
-          "last_verified_source": "edf3814ca0576472f5032371a09a9a1af84f7ee2",
-          "last_verified_apk_sha256": "c283f00cf2fa44a58ca54a2062707f3df6ddd7a746de748f9ea521646f3f0329",
-          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45767568128",
-          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45767568128/artifacts/15093145795",
-          "artifact_zip_sha256": "6b65cdce1ed312e7a09eb0247e8d63800d7f5e90847cf2d210c23983f0d24855",
+          "last_verified_version_code": 10048,
+          "last_verified_version_name": "0.2.12-internal-10048",
+          "last_verified_source": "5fb119d11dec4eccd0ce33646cf5beb1d185cf39",
+          "last_verified_apk_sha256": "733ef69fff28cf9b2877e50abe22d830cd5b575a873fe943d9801cfe9be1b6dc",
+          "evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45779827314",
+          "artifact": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45779827314/artifacts/15098365262",
+          "artifact_zip_sha256": "c9a3e1977a6c1dd1f696a550b87c37233544970658cb699a79479867ce35791d",
           "static_upgrade_evidence": {
-            "previous_version_code": 10036,
-            "previous_run": 45591364667,
+            "previous_version_code": 10047,
+            "previous_run": 45767568128,
             "matching_package_and_signer": true,
             "physical_install_over": "not_formally_verified"
           }
@@ -713,7 +713,7 @@
       "development": {
         "design_bible": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDEN_COMMS_DESIGN_BIBLE.md",
         "pre_transfer_handoff": "https://github.com/PlayerEden/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
-        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45767568097",
+        "last_android_ci": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45779827326",
         "visual_qa": "Post-icon Preview 200037 passed 28 disconnected emulator captures. Splash and concept approved; physical derivative acceptance pending. Consolidated reliability Preview pending.",
         "open_visual_issue": "https://github.com/EdenP-Development/Eden-Comms/issues/167",
         "two_phone_acceptance": "not_run",
@@ -721,14 +721,14 @@
         "public_beta": "not_published",
         "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45590660687/artifacts/15011781644",
-        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/219",
+        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/220",
         "beta_release_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_PLAN.md",
         "current_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/CURRENT_HANDOFF.md",
         "distribution_preference": "professional software channel; selection deferred; no public release approved",
         "beta_readiness_checklist": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_READINESS_CHECKLIST.md",
         "visual_refinement_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EPS_VISUAL_REFINEMENT_PLAN.md",
         "cross_project_reference": "SudokuTogether native theme tokens, contrast matrices, compact/200% font and deterministic visual fixtures; recorded in PR #188 handoff.",
-        "reliability_checkpoint": "EC-R6–R9 merged through #219 CI #612, main 5fb119d11dec4eccd0ce33646cf5beb1d185cf39. Internal 10047 verified at #218 runtime source. EC-R10 consolidated QA pending; 54 physical cases and independent security review not run."
+        "reliability_checkpoint": "EC-R6–R9 merged; EC-R10 preparation #220 CI #614 passed and merged 50b506a71548be32d3c82a513f7f3bef1e7b8b45. Internal 10048 verified. Consolidated emulator workflow expected on merge, not yet verified. Physical 54 cases and independent security review remain NOT RUN."
       }
     },
     {
