@@ -23,6 +23,9 @@ See [proposed GridMates Master Audio Standard v1.0](audio/gridmates/README.md) a
 ## Shared GridMates communication
 See [GridMates Master Communication Standard v1.0](communication/gridmates/README.md) for owner-approved Quick Chat, Emotes and Partner Ping direction, original emote asset roadmap, safety and accessibility gates. Sudoku is the pilot; implementation and storefront acceptance remain provisional. Adopt incrementally after pilot verification.
 
+## Shared GridMates player identity
+See [GridMates Master Player Identity Standard v1.0](identity/gridmates/README.md) for one unified profile, approved mix-and-match names, approximately ten free words per slot and earnable Name Collection progression. Sudoku pilot; implementation, balance, migration and release verification pending.
+
 ## Commercial strategy
 Read [Commercial strategy and monetization (BUS-01)](MONETIZATION_STRATEGY.md) for owner-approved phased commercialization, paid-product preferences, customer safeguards and follow-on compliance milestones. This does not authorize storefront changes or paid releases.
 
