@@ -3,7 +3,7 @@
 2026-11-25. Scope: Sudoku (pilot), Word Search, Grid Hunt and Crossroads. Owner approved direction: retire unrestricted text chat in favor of Quick Chat, Emotes and Partner Ping. This is the canonical design and acceptance contract, not evidence of implementation, store compliance or authorization to publish.
 
 ## Principles
-Local-first, friendly, accessible, optional communication without accounts, cloud moderation or typing. Essential communication is free and available immediately; cosmetic variations may be earned. No personal information prompts, arbitrary text, image uploads or user-created emotes through multiplayer. Nicknames remain a separate privacy/UGC review. Preserve Spudacus attribution, established package/signing identities and saves. Follow PRIVACY_STANDARDS.md, ASSET_LICENSING.md, ARTWORK_PIPELINE.md and RELEASE_POLICY.md.
+Local-first, friendly, accessible, optional communication without accounts, cloud moderation or typing. Essential communication is free and available immediately; cosmetic variations may be earned. No personal information prompts, arbitrary text, image uploads or user-created emotes through multiplayer. Player identity follows the [GridMates Master Player Identity Standard](../../identity/gridmates/README.md): one unified profile using approved name combinations and earnable words; implementation pending. Preserve Spudacus attribution, established package/signing identities and saves. Follow PRIVACY_STANDARDS.md, ASSET_LICENSING.md, ARTWORK_PIPELINE.md and RELEASE_POLICY.md.
 
 ## Shared communication catalog
 Use stable semantic IDs independent of display strings, localized labels and artwork. Proposed starter IDs:
