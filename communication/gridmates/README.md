@@ -1,0 +1,35 @@
+# GridMates Master Communication Standard v1.0 — approved direction, provisional implementation
+
+2026-11-25. Scope: Sudoku (pilot), Word Search, Grid Hunt and Crossroads. Owner approved direction: retire unrestricted text chat in favor of Quick Chat, Emotes and Partner Ping. This is the canonical design and acceptance contract, not evidence of implementation, store compliance or authorization to publish.
+
+## Principles
+Local-first, friendly, accessible, optional communication without accounts, cloud moderation or typing. Essential communication is free and available immediately; cosmetic variations may be earned. No personal information prompts, arbitrary text, image uploads or user-created emotes through multiplayer. Nicknames remain a separate privacy/UGC review. Preserve Spudacus attribution, established package/signing identities and saves. Follow PRIVACY_STANDARDS.md, ASSET_LICENSING.md, ARTWORK_PIPELINE.md and RELEASE_POLICY.md.
+
+## Shared communication catalog
+Use stable semantic IDs independent of display strings, localized labels and artwork. Proposed starter IDs:
+- Responses: yes, no, unsure, okay.
+- Teamwork: look_here (requires contextual target), need_help, what_do_you_think, try_cell, check_again, got_it.
+- Friendly: nice_move, good_game, thanks, rematch, take_your_time, be_right_back, ready, sorry.
+- Reactions: happy, approve, disapprove, appreciation, thinking, celebration, oops, greeting, confused, applause, break, ready.
+Do not expose a hint-request phrase without a useful response mechanism. Existing Sudoku English eight-phrase catalog is transitional, not the final ID protocol. Game-specific extensions must use bounded approved catalogs and explicit mode rules. No arbitrary text fallback.
+
+## Partner Ping
+Explicit action on a selected target, distinct from ordinary selection. Sudoku Co-op: single cell marker, transient outline/pulse with non-motion equivalent and accessible text, sender identity, dismiss/expiry (proposed 3–5 seconds), rate limiting, no changes to board, notes, scores, rewards or Coach accounting. No coordinate or answer sharing in Versus; friendly general reactions only. Validate target bounds, active session/round, sender role and mode at both ends; reject stale markers and clear on round change, disconnect, replacement or closure. Never expose opponent board information. Word Search: letter/region; Grid Hunt: location/discovery; Crossroads: destination/path/point of interest, subject to each game's rules. Suggested numbers, row/column/box and advanced markers deferred beyond Sudoku Beta 3; never silently apply suggestions.
+
+## Transport and safety
+Use bounded typed events with stable IDs or strict exact allowlists at both sender and receiver; validate host admission, inbound messages, reconnect history and UI rendering. Reject unknown IDs, malformed data and unsupported capabilities; do not merely hide the text input. Explicitly version or negotiate compatibility; legacy clients must not bypass restrictions, and incompatible peers receive actionable upgrade guidance. No destructive migration. Preserve room-code preference and default protected new rooms; room codes are not encryption. Maintain Wi-Fi-scoped hosting where appropriate, rate limits, bounded ephemeral history, clear history on partner replacement/room closure, no chat in portable backups. Same-partner reconnect may restore bounded approved events only. Test abuse, repeat spam, forged IDs, stale targets and cross-version behavior. No claim that LAN is encrypted or inherently trusted.
+
+## UI and accessibility
+Quick Chat and emotes accessible from gameplay without keyboard. Large targets (48dp Android baseline), readable labels, TalkBack descriptions, non-color-only cues, reduced-motion behavior, compact and tablet layouts, no interruption of board focus or input. Respect local sound/haptic settings; no mandatory effects. Keep controls easy to find and avoid excessive overlays. Offer mute/hide communication as a proposed safety control; review implementation before release.
+
+## ART-EMOTE-01 — original master collection (planned)
+Common illustrated GridMates style: warm storybook woodland palette consistent with approved series artwork. Starter reactions above; 512x512 transparent source masters, optimized size-tested runtime exports, semantic IDs and versioned manifest with hashes, provenance, rights and visual acceptance. Temporary generic symbols permitted for internal functional pilot; do not claim original assets exist yet. Future companion-specific Woodland/Ocean/Garden/Farm variants, seasonal and achievement cosmetics, optional animation; same semantics and freely available base set. Keep private masters/rights records in appropriate access-controlled storage. No new asset binaries in this document.
+
+## Adoption sequence
+COM-01 catalog/validation; COM-02 retire arbitrary text on send/receive including legacy boundary; COM-03 emotes; COM-04 single-cell Partner Ping; COM-05 JVM, UI, accessibility, two-device, Fire and signed upgrade regressions; COM-06 hub acceptance/handoff; ART-EMOTE-01 original assets. Sudoku Beta 3 targets COM-01–05, with advanced markers and collectible emotes deferred. Other GridMates games inspect existing communication code and adapt after pilot evidence; no blind copy, no automatic rollout. Keep project checkpoints and hub links current.
+
+## Storefront gate
+Preset-only communication reduces risk but does not establish Amazon/Google Play acceptance, child-directed exemption or a no-data declaration. Review nickname handling, peer IP/session identifiers, platform processing, actual retention, user-to-user communication questionnaire, audience and regional requirements; obtain clarification where needed. Update product privacy policy against exact delivered build; no fabricated age selection or unnecessary DOB collection. Amazon rehearsal separate from long-term Google Play release. No publication authorized.
+
+## Evidence and current status
+SudokuTogether branch feat/beta3-foundation: c2c264e passed Android gate 45744682356 and unsigned candidate 45744682377; partner-replacement chat isolation passed 45744251473. Core QuickChat English eight-phrase catalog committed at 9f555a896b7d07ff338c39041f720c07631fcd60; CI not yet confirmed at this checkpoint. Existing free-text UI and transport remain until COM-02. Emotes and Partner Ping are design only. See project docs/BETA3_AMAZON_READINESS.md and CONTINUE_HERE.md for current evidence. Physical LAN, tablet, signed upgrade, rights and final policy gates remain open.
