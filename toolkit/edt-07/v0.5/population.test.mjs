@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {simulate} from './population.mjs';
+test('deterministic replay',()=>assert.deepEqual(simulate(),simulate()));
+test('request order independent',()=>assert.deepEqual(simulate(),simulate({reverseRequests:true})));
+test('food conservation',()=>{const s=simulate();assert.equal(s.food,s.initialFood+2*s.totals.gather-s.totals.eat);assert.ok(s.timeline.every(t=>t.food>=0));});
+test('one activity per agent tick',()=>{const s=simulate();assert.equal(['eat','rest','gather','work','explore','idle'].reduce((n,k)=>n+s.totals[k],0),s.population*s.ticks);assert.ok(s.timeline.every(t=>t.claims<=s.population));});
+test('memory and learning bounds',()=>{const s=simulate();for(const a of s.agents){assert.ok(a.hunger>=0&&a.hunger<=100&&a.fatigue>=0&&a.fatigue<=100);if(a.memory)assert.ok(a.memory.events.length<=64);if(a.learning)assert.ok(a.learning.skills.every(k=>k.mastery<=1000&&k.familiarity<=1000));}});
+test('empty food initial stock',()=>assert.ok(simulate({initialFood:0}).timeline.every(t=>t.food>=0)));
+test('contention observed',()=>assert.ok(simulate({population:30,ticks:20}).totals.denied>0));
+test('single agent',()=>assert.equal(simulate({population:1,ticks:10}).agents.length,1));
+test('different seeds',()=>assert.notDeepEqual(simulate({seed:1}),simulate({seed:2})));
+test('invalid configuration',()=>{for(const opts of [{population:0},{ticks:1001},{seed:-1},{initialFood:-1},{reverseRequests:1}])assert.throws(()=>simulate(opts),RangeError);});
+test('stress scenario',()=>{const s=simulate({population:100,ticks:200});assert.equal(s.agents.length,100);assert.ok(s.totals.criticalHungerAgentTicks<=20000);});
