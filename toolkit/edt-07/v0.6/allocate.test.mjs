@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {allocate} from './allocate.mjs';
+const c=(id,priority=0,score=50)=>({id,priority,score});
+const a=(id,choices=[c('meal')],wait=0)=>({id,choices,wait});
+const cap=(id,capacity)=>({id,capacity});
+const run=(agents,capacities=[cap('meal',1)])=>allocate(agents,capacities);
+test('capacity',()=>assert.equal(run([a('a'),a('b')],[cap('meal',2)]).assignments.filter(x=>x.task).length,2));
+test('zero stock',()=>assert.equal(run([a('a')],[cap('meal',0)]).assignments[0].task,null));
+test('fallback',()=>assert.equal(run([a('a'),a('b',[c('meal'),c('work',0,10)])],[cap('meal',1),cap('work',1)]).assignments[1].task,'work'));
+test('priority dominates waiting',()=>assert.equal(run([a('a',[c('meal')],100),a('b',[c('meal',2)])]).assignments[1].task,'meal'));
+test('waiting breaks equal priority',()=>assert.equal(run([a('a'),a('b',[c('meal')],1)]).assignments[1].task,'meal'));
+test('deterministic input ordering',()=>{const agents=[a('b',[c('meal'),c('work')]),a('a')],caps=[cap('meal',1),cap('work',1)];assert.deepEqual(run(agents,caps),run(agents.reverse().map(x=>({...x,choices:[...x.choices].reverse()})),caps.reverse()));});
+test('no mutation',()=>{const agents=[a('a')],caps=[cap('meal',1)],before=JSON.stringify([agents,caps]);run(agents,caps);assert.equal(JSON.stringify([agents,caps]),before);});
+test('reject malformed inputs',()=>{for(const agents of [[a('a'),a('a')],[a('a',[c('unknown')])],[a('a',[c('meal',4)])],[a('a',[c('meal',0,NaN)])],[a('a',[c('meal'),c('meal')])]])assert.throws(()=>run(agents),RangeError);assert.throws(()=>run([], [cap('meal',-1)]),RangeError);});
+test('100 competing agents',()=>{const agents=Array.from({length:100},(_,i)=>a('a'+i,[c('meal',2),c('work',0,20)]));const r=run(agents,[cap('meal',12),cap('work',30)]);assert.equal(r.assignments.filter(x=>x.task==='meal').length,12);assert.equal(r.assignments.filter(x=>x.task==='work').length,30);assert.equal(r.assignments.filter(x=>!x.task).length,58);assert.equal(new Set(r.assignments.map(x=>x.agent)).size,100);});
