@@ -53,3 +53,6 @@ See [owner recovery drill and channel triage](DISASTER_RECOVERY.md#port-09--owne
 
 ## PORT-11 — GridMates adoption (in progress, 2026-11-26)
 Communication pilot evidence reconciled in communication/gridmates/README.md. [Progression and collections conventions](PORTFOLIO_STANDARDS_ADOPTION.md#port-1102--gridmates-progression-and-collection-conventions-proposed-2026-11-26) proposed from four inspected product records; no universal ledger or automatic rollout. Sudoku pilot acceptance remains prerequisite. Next bounded adoption checklist and implementation handoff gate; no product or publication changes.
+
+## PORT-12 — Commercial readiness (in progress, 2026-11-26)
+Storefront lanes documented in COMMERCIAL_READINESS.md (12.01), privacy hosting proposal and rights triage in PRIVACY_STANDARDS.md (12.02), lightweight support operations in CUSTOMER_SUPPORT.md (12.03). No live service or rights clearance established. Next PORT-12.04 public site and storefront asset framework; owner approval required for deployment/contact, Sudoku pilot acceptance remains open. PORT-11.03 consumer adoption framework documented in PORTFOLIO_STANDARDS_ADOPTION.md; no automatic rollout.
