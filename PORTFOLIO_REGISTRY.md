@@ -50,3 +50,6 @@ See [owner recovery drill and channel triage](DISASTER_RECOVERY.md#port-09--owne
 
 ## PORT-10 — Master release verification (2026-11-26)
 [Master procedure and technical receipt](RELEASE_CHECKLIST.md#port-10--master-release-verification-procedure-2026-11-26) extend existing release/save/recovery policy. EDT-02 real SDK/emulator execution remains unverified; no dispatch, signing or product changes. Proposed Sudoku signed Beta 3 receipt pilot after actual candidate/baseline availability; next PORT-11 verified GridMates handoffs. No publication authorization.
+
+## PORT-11 — GridMates adoption (in progress, 2026-11-26)
+Communication pilot evidence reconciled in communication/gridmates/README.md. [Progression and collections conventions](PORTFOLIO_STANDARDS_ADOPTION.md#port-1102--gridmates-progression-and-collection-conventions-proposed-2026-11-26) proposed from four inspected product records; no universal ledger or automatic rollout. Sudoku pilot acceptance remains prerequisite. Next bounded adoption checklist and implementation handoff gate; no product or publication changes.
