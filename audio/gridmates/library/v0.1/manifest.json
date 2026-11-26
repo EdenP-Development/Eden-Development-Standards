@@ -1,0 +1,306 @@
+{
+  "schema": 1,
+  "library_version": "0.1",
+  "standard": "proposed v1.0",
+  "distribution_authorized": false,
+  "source_receipts": {
+    "soundtrack_blob": "4c5634c726066399ddd3a7e78e66473436a08d71",
+    "master_library_blob": "1705eef136ab998f55cdbf9c7e98a61c123e6052",
+    "runtime_commit": "325c03e638d02b4e946550f9311e70c5ea81b7e8"
+  },
+  "families": [
+    {
+      "id": "cozy-puzzle",
+      "intended_games": [
+        "Sudoku",
+        "Word Search"
+      ],
+      "status": "technical_pilot_rights_pending"
+    },
+    {
+      "id": "tabletop-strategy",
+      "intended_games": [
+        "Grid Hunt",
+        "Crossroads"
+      ],
+      "status": "proposed_no_tracks"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "cozy-01",
+      "revision": "0.1",
+      "family": "cozy-puzzle",
+      "title": "The Final Piece",
+      "role": "rotation",
+      "duration_seconds": 149.96,
+      "master": {
+        "format": "Opus stereo 48 kHz M4A",
+        "bytes": 2723484,
+        "sha256": "ffb35c674cd6f2bd38603294cd20d77cef3161d33e266d35bf3c7522d8c23db2"
+      },
+      "runtime": {
+        "filename": "track_01.m4a",
+        "format": "AAC-LC 128 kbps",
+        "sha256": "cdcb72a7d7c8da92ed6b1133e98c18721a4a3172f604763ec4d87c9caf73976d"
+      },
+      "normalization_targets": {
+        "lufs": -20,
+        "dbtp": -2
+      },
+      "measured_loudness": null,
+      "provenance": {
+        "provider": "Suno",
+        "generation_date": null,
+        "download_date": null,
+        "track_specific_entitlement": "pending_private_evidence"
+      },
+      "rights": "pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "cozy-02",
+      "revision": "0.1",
+      "family": "cozy-puzzle",
+      "title": "Library Puzzle",
+      "role": "rotation",
+      "duration_seconds": 133.88,
+      "master": {
+        "format": "Opus stereo 48 kHz M4A",
+        "bytes": 2414243,
+        "sha256": "ebffd6016b5be0b40063b3ad31ae950927d4abb856d0fadefdda4cb2b38a02c7"
+      },
+      "runtime": {
+        "filename": "track_02.m4a",
+        "format": "AAC-LC 128 kbps",
+        "sha256": "214c6a8457b0feafac97ef13a1806207bd7e39ebe7899fd0097d55f06bf3e250"
+      },
+      "normalization_targets": {
+        "lufs": -20,
+        "dbtp": -2
+      },
+      "measured_loudness": null,
+      "provenance": {
+        "provider": "Suno",
+        "generation_date": null,
+        "download_date": null,
+        "track_specific_entitlement": "pending_private_evidence"
+      },
+      "rights": "pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "cozy-03",
+      "revision": "0.1",
+      "family": "cozy-puzzle",
+      "title": "Warm Puzzle Time",
+      "role": "main_theme",
+      "duration_seconds": 174,
+      "master": {
+        "format": "Opus stereo 48 kHz M4A",
+        "bytes": 3165121,
+        "sha256": "0336580f79d63fb7ca6d4494c4b19cc08787df3463652bbf54fd233f9a17f0d3"
+      },
+      "runtime": {
+        "filename": "track_03.m4a",
+        "format": "AAC-LC 128 kbps",
+        "sha256": "49a3e6d6ff2273c1d7d4cff4a158f377d52c18f59fc5bc9a1e5980f3652bed2f"
+      },
+      "normalization_targets": {
+        "lufs": -20,
+        "dbtp": -2
+      },
+      "measured_loudness": null,
+      "provenance": {
+        "provider": "Suno",
+        "generation_date": null,
+        "download_date": null,
+        "track_specific_entitlement": "pending_private_evidence"
+      },
+      "rights": "pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "cozy-04",
+      "revision": "0.1",
+      "family": "cozy-puzzle",
+      "title": "Sunny Sunday Puzzle",
+      "role": "rotation",
+      "duration_seconds": 147.6,
+      "master": {
+        "format": "Opus stereo 48 kHz M4A",
+        "bytes": 2770147,
+        "sha256": "3e0862426d73b13475bad40e82ea999f88436e680ecb127af93d10262194740d"
+      },
+      "runtime": {
+        "filename": "track_04.m4a",
+        "format": "AAC-LC 128 kbps",
+        "sha256": "84bfc70376be6bb22d6e26f07799ced8074eb9e6eb89ed8d575ef098fe06112a"
+      },
+      "normalization_targets": {
+        "lufs": -20,
+        "dbtp": -2
+      },
+      "measured_loudness": null,
+      "provenance": {
+        "provider": "Suno",
+        "generation_date": null,
+        "download_date": null,
+        "track_specific_entitlement": "pending_private_evidence"
+      },
+      "rights": "pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "cozy-05",
+      "revision": "0.1",
+      "family": "cozy-puzzle",
+      "title": "Thoughtful Discovery",
+      "role": "rotation",
+      "duration_seconds": 154.92,
+      "master": {
+        "format": "Opus stereo 48 kHz M4A",
+        "bytes": 2850390,
+        "sha256": "056b7cd8359822df46cd8843f7726ebc0ddf7e54849de1ec46926ced575ab350"
+      },
+      "runtime": {
+        "filename": "track_05.m4a",
+        "format": "AAC-LC 128 kbps",
+        "sha256": "5a0a7c3bb125b8472a5127b26d61c8506ce674ed8e9f5cb2e34c9d42dfaed6b6"
+      },
+      "normalization_targets": {
+        "lufs": -20,
+        "dbtp": -2
+      },
+      "measured_loudness": null,
+      "provenance": {
+        "provider": "Suno",
+        "generation_date": null,
+        "download_date": null,
+        "track_specific_entitlement": "pending_private_evidence"
+      },
+      "rights": "pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "cozy-06",
+      "revision": "0.1",
+      "family": "cozy-puzzle",
+      "title": "Evening Puzzle",
+      "role": "rotation",
+      "duration_seconds": 184.4,
+      "master": {
+        "format": "Opus stereo 48 kHz M4A",
+        "bytes": 3381371,
+        "sha256": "3d48152be6be86426174eb8a19ff9198653a5a8e81cf813dcbc3a6e0d1e14c97"
+      },
+      "runtime": {
+        "filename": "track_06.m4a",
+        "format": "AAC-LC 128 kbps",
+        "sha256": "1e439245b42cc0796c594e87491623c5be2e3e186dd809fa5a0f27aee68010d6"
+      },
+      "normalization_targets": {
+        "lufs": -20,
+        "dbtp": -2
+      },
+      "measured_loudness": null,
+      "provenance": {
+        "provider": "Suno",
+        "generation_date": null,
+        "download_date": null,
+        "track_specific_entitlement": "pending_private_evidence"
+      },
+      "rights": "pending",
+      "distribution_authorized": false
+    }
+  ],
+  "effects": [
+    {
+      "id": "puzzle-select",
+      "revision": "0.1",
+      "nominal_ms": 35,
+      "format": "WAV PCM16 mono 22050 Hz",
+      "sha256": "75c72016d3466a2c01469110acfa6f1756bbdb5dbdbe8bf1c2ecb670b4ab9da1",
+      "source": "PuzzleFeedback.kt",
+      "desktop_reproducibility": "reported_verified",
+      "android_byte_equivalence": "pending",
+      "rights": "review_pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "puzzle-number",
+      "revision": "0.1",
+      "nominal_ms": 85,
+      "format": "WAV PCM16 mono 22050 Hz",
+      "sha256": "e04a3f972bfbb31f2368fc8fc3cdbf39df60cae13ef3c92c503db6cf910a42a4",
+      "source": "PuzzleFeedback.kt",
+      "desktop_reproducibility": "reported_verified",
+      "android_byte_equivalence": "pending",
+      "rights": "review_pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "puzzle-note",
+      "revision": "0.1",
+      "nominal_ms": 28,
+      "format": "WAV PCM16 mono 22050 Hz",
+      "sha256": "f5fb7baecf48c7763c7740046e539fbe7a9a3bb8277c8a33129e88e0b7c8ec56",
+      "source": "PuzzleFeedback.kt",
+      "desktop_reproducibility": "reported_verified",
+      "android_byte_equivalence": "pending",
+      "rights": "review_pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "puzzle-erase",
+      "revision": "0.1",
+      "nominal_ms": 240,
+      "format": "WAV PCM16 mono 22050 Hz",
+      "sha256": "05c4a22e44f10c62fe9ed71f058e804e598668d222a02f3d0769cc0213d6bc2d",
+      "source": "PuzzleFeedback.kt",
+      "desktop_reproducibility": "reported_verified",
+      "android_byte_equivalence": "pending",
+      "rights": "review_pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "puzzle-undo",
+      "revision": "0.1",
+      "nominal_ms": 65,
+      "format": "WAV PCM16 mono 22050 Hz",
+      "sha256": "3db0d7c944c5e9dc7d4843ea38378fd247f35029a7916326d73a08369868a7e7",
+      "source": "PuzzleFeedback.kt",
+      "desktop_reproducibility": "reported_verified",
+      "android_byte_equivalence": "pending",
+      "rights": "review_pending",
+      "distribution_authorized": false
+    },
+    {
+      "id": "puzzle-complete",
+      "revision": "0.1",
+      "nominal_ms": 720,
+      "format": "WAV PCM16 mono 22050 Hz",
+      "sha256": "86c9b6ee9dd735e3269b4dfd44714c86da2d894a0010334f98eedcb5806b3e4c",
+      "source": "PuzzleFeedback.kt",
+      "desktop_reproducibility": "reported_verified",
+      "android_byte_equivalence": "pending",
+      "rights": "review_pending",
+      "distribution_authorized": false
+    }
+  ],
+  "archive_receipts": {
+    "optimized": {
+      "bytes": 15369442,
+      "sha256": "273f9d88e0a795cad51af8b58a82ee9181a3acf792e9c0dbe42e7f2648080aa2",
+      "status": "existing_private_backup_metadata_reported_verified_no_fresh_rehash"
+    },
+    "masters": {
+      "bytes": 17308766,
+      "sha256": "2fd6f802e74adadbff69b06182f8d8d79503dc62690b7df138c8ff578cdf76c0",
+      "status": "verified_recovery_zip_durable_private_upload_pending"
+    },
+    "effects": {
+      "status": "desktop_export_zip_durable_private_archive_pending"
+    }
+  }
+}
