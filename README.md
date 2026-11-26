@@ -64,3 +64,6 @@ See [PORT-07 portfolio review process](PORTFOLIO_REVIEW.md) and [checkpoint temp
 
 ## Toolkit checkpoint — 2026-11-25
 See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOINT_2026-11-25.md) for implemented versions, recorded local tests, real historical Sudoku QA artwork byte verification and remaining consumer gates. No release promotion implied.
+
+## Current portfolio operations — 2026-11-26
+See [living registry](PORTFOLIO_REGISTRY.md) for PORT-08–12 checkpoints, [recovery drill](DISASTER_RECOVERY.md), [master release verification](RELEASE_CHECKLIST.md), [GridMates adoption framework](PORTFOLIO_STANDARDS_ADOPTION.md), and [undeployed Eden Practical website prototype](website/prototype/README.md). Practical product adoption takes priority over speculative toolkit expansion. No live website or support service established; actual owner recovery, pilot acceptance and commercial gates remain open.
