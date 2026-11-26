@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {learn} from './learning.mjs';
+const e={skill:'farm',kind:'work',effort:100,success:true};
+const run=(event=e,previous=null,tick=0)=>learn({event,previous,tick});
+test('initial gain',()=>assert.deepEqual(run().skills,[{id:'farm',kind:'work',mastery:20,familiarity:30}]));
+test('failure smaller gain',()=>assert.equal(run({...e,success:false}).skills[0].mastery,4));
+test('zero effort',()=>assert.equal(run({...e,effort:0}).skills[0].familiarity,0));
+test('diminishing returns',()=>{const p=run();const q=run(e,p,1);assert.ok(q.skills[0].mastery-p.skills[0].mastery<20);});
+test('bounded long progression',()=>{let p=null;for(let i=0;i<10000;i++)p=run(e,p,i);assert.ok(p.skills[0].mastery<=1000&&p.skills[0].mastery>=900);assert.ok(p.skills[0].familiarity<=1000);});
+test('different skills independent',()=>{const p=run();const q=run({...e,skill:'wood',kind:'gather'},p,1);assert.deepEqual(q.skills[0],p.skills[0]);assert.equal(q.skills.length,2);});
+test('immutable input',()=>{const p=run();Object.freeze(p.skills[0]);Object.freeze(p.skills);Object.freeze(p);run(e,p,1);assert.equal(p.skills[0].mastery,20);});
+test('deterministic',()=>assert.deepEqual(run(),run()));
+test('reject duplicate tick',()=>assert.throws(()=>run(e,run(),0),RangeError));
+test('reject invalid events',()=>{for(const x of [{effort:-1},{effort:101},{effort:NaN},{skill:'../x'},{kind:'idle'},{success:1}])assert.throws(()=>run({...e,...x}),RangeError);});
+test('reject mismatched skill kind',()=>assert.throws(()=>run({...e,kind:'gather'},run(),1),RangeError));
+test('reject malformed previous',()=>{const p=run();p.skills.push({...p.skills[0]});assert.throws(()=>run(e,p,1),RangeError);});
+test('capacity',()=>{let p=null;for(let i=0;i<128;i++)p=run({...e,skill:'s'+i},p,i);assert.throws(()=>run(e,p,128),RangeError);});
