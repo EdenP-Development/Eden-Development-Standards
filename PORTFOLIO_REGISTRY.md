@@ -56,3 +56,6 @@ Communication pilot evidence reconciled in communication/gridmates/README.md. [P
 
 ## PORT-12 — Commercial readiness (in progress, 2026-11-26)
 Storefront lanes documented in COMMERCIAL_READINESS.md (12.01), privacy hosting proposal and rights triage in PRIVACY_STANDARDS.md (12.02), lightweight support operations in CUSTOMER_SUPPORT.md (12.03). No live service or rights clearance established. Next PORT-12.04 public site and storefront asset framework; owner approval required for deployment/contact, Sudoku pilot acceptance remains open. PORT-11.03 consumer adoption framework documented in PORTFOLIO_STANDARDS_ADOPTION.md; no automatic rollout.
+
+## PORT-12.04 — Website prototype (2026-11-26)
+[Undeployed static prototype and receipt](website/prototype/README.md) committed; exact source readback and ten limited static checks passed. No browser/device rendering, live link testing, host selection, deployment, policy/contact publication or product changes. PORT-12.05 remains dependent on Sudoku rehearsal; PORT-13 can proceed independently. PORT-11.03 adoption framework complete at documentation level; pilot acceptance remains open. No application registry channel changes.
