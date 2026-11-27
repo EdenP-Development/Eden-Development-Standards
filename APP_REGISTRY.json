@@ -1035,6 +1035,15 @@
         "read_write_verified": true,
         "game_blob_unchanged": "c978024bba790c013d712d0a58fa3c307eb7ab31",
         "remaining": "Tags, Actions settings/allowance, secret scopes and independent backup restore unverified"
+      },
+      "development_checkpoint": {
+        "date": "2026-11-27",
+        "milestone": "TAT-INF-01 passed; P8n resumed",
+        "hosted_diagnostic": "https://github.com/EdenP-Development/the-last-taters/actions/runs/45965365371",
+        "recovery_audit": "https://github.com/EdenP-Development/the-last-taters/actions/runs/45966725321",
+        "recovery_status": "queued at initial inspection; result pending",
+        "handoff": "https://github.com/EdenP-Development/the-last-taters/blob/dev/0.12-visual-prototype/CONTINUE_HERE.md",
+        "limitations": "Independent restore, Actions allowance/settings and native release gates open"
       }
     }
   ]
