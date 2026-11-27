@@ -67,3 +67,6 @@ See [current toolkit verification and recovery checkpoint](toolkit/EDT_CHECKPOIN
 
 ## Current portfolio operations — 2026-11-26
 See [living registry](PORTFOLIO_REGISTRY.md) for PORT-08–12 checkpoints, [recovery drill](DISASTER_RECOVERY.md), [master release verification](RELEASE_CHECKLIST.md), [GridMates adoption framework](PORTFOLIO_STANDARDS_ADOPTION.md), and [undeployed Eden Practical website prototype](website/prototype/README.md). Practical product adoption takes priority over speculative toolkit expansion. No live website or support service established; actual owner recovery, pilot acceptance and commercial gates remain open.
+
+## Practical design and growth (owner direction, 2026-11-27)
+Build for scale, not perfection. Simplicity is not permission for low quality: prioritize useful, coherent, reliable and accessible experiences. Keep architecture modular, favor replaceable components and stable interfaces, and introduce shared abstractions when actual reuse warrants them. Avoid speculative infrastructure, decorative complexity, duplicated maintenance and perfection-driven rework. Apply at normal milestones; existing security, privacy, save, signing and release gates remain mandatory. See [brand and design direction](BRAND_IDENTITY.md#practical-quality-and-modular-growth-owner-direction-2026-11-27).

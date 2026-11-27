@@ -195,3 +195,6 @@ Exact V8 ZIP and two test receipts preserved in unshared Google Drive; three raw
 
 ## BIP-07 — Private ownership evidence (2026-11-27)
 [Private evidence checklist](templates/PRIVATE_OWNERSHIP_EVIDENCE.md) added and linked from SHARED_ASSET_PROTECTION.md. Existing recovery and business templates reused. Bounded archive-name metadata searches returned no matches; not proof of loss. Owner-controlled independent recovery, track entitlement and actual rights evidence remain open. No private data added, file transfer, key handling, legal registration or spending. Next BIP-08: verify Kentucky military filing relief and decision requirements using official sources; January 2027 remains tentative.
+
+## WEB-08.07A — Practical quality and scalable structure (2026-11-27)
+Owner-directed practical, simple, polished and modular development philosophy recorded in root standards and brand guide; website review priorities and proposed static build-time reuse documented. Existing V8 private baseline unchanged; implementation and owner visual acceptance pending. No app or deployment changes.
