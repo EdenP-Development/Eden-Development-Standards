@@ -25,3 +25,6 @@ Suno help https://help.suno.com/en/articles/2410177 and https://help.suno.com/en
 
 ## Next gate
 Obtain track evidence, resolved dependency graph and notices, release-specific asset manifest and contributor/AI provenance; reconcile exact packaged inventory before public beta or paid distribution. Existing release concerns triaged separately. Reuse this lightweight process per product; no automatic notices or code changes.
+
+## BIP-04.02 — Dependency license evidence (2026-11-27)
+Re-read active handoff and Gradle declarations; blobs unchanged from pilot. Upstream license references: AndroidX Apache-2.0 https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt ; coroutines Apache-2.0 https://github.com/Kotlin/kotlinx.coroutines/blob/master/LICENSE.txt ; serialization Apache-2.0 https://github.com/Kotlin/kotlinx.serialization/blob/master/LICENSE.txt ; JUnit 4 EPL-1.0 https://github.com/junit-team/junit4/blob/main/LICENSE-junit.txt . These are upstream family references, not exact artifact verification. Default-branch license keyword search returned no results; not proof of absence. Resolved graph, packaged notices, exact release inventory and track entitlement remain open. Use templates/RELEASE_RIGHTS_RECEIPT.md at candidate review. No Gradle execution or APK inspection performed in this pass.
