@@ -37,3 +37,18 @@ No fixed percentages, debt commitments or revenue targets. Allocate only after a
 - FinCEN: https://www.fincen.gov/boi/small-entity-compliance-guide
 
 Use templates/BUSINESS_READINESS.md. BUS-01 through BUS-07 are foundational documentation, not evidence of business compliance or commercial approval.
+
+## BUS-07.01 — Hobby-first protection decision (2026-11-27)
+
+Owner direction: keep development a hobby, with proportionate personal-liability and intellectual-property safeguards. No major business expansion, staffing, borrowing, recurring overhead or formal registration is required by this direction. Do not form an entity in 2026. January 2027 is a tentative decision window, not a commitment or authorization. Continue recording any 2026 activity and applicable obligations.
+
+One Kentucky LLC for the umbrella identity is an option; compare against remaining a sole proprietor. Keep public brands distinct and do not claim LLC status or registered trademarks before they exist. Verify Kentucky formation/annual-report fee relief for eligible military/veteran-owned businesses under KRS 14A.2-165 and associated definitions, including current Guard eligibility, ownership threshold, documentation and duration. Recheck with SOS before filing. Fee relief does not establish an LLET or business-income tax exemption; confirm the generally applicable $175 minimum and local obligations with DOR/qualified adviser. Use free SBA VBOC or SBDC guidance if helpful. No personal service records or tax identifiers in this public hub.
+
+### Lightweight tracking (all products)
+- Now: preserve provenance, human contributions, dependency notices, rights records, backups and signing continuity using existing BUS-02 and release standards. Record unknown rights rather than claiming blanket ownership.
+- Now: use accurate publisher attribution and privacy disclosures, retain existing licenses, and screen names before major promotion. No license changes, IP assignment, trademark filings or account migrations without owner approval.
+- Before release: confirm exact distributed assets, privacy/network behavior, support contact and platform requirements. Escalate higher-risk software claims separately.
+- January decision: compare actual costs, liability exposure, administrative effort and ownership; verify military benefits and tax obligations; decide whether to form one entity or defer. If formed, separately approve account setup, finances and IP transfers.
+- Ongoing: keep private receipts and ownership evidence; maintain a minimal continuity plan. No mandated monetization or expansion.
+
+Source starting points (reverify at decision): https://apps.legislature.ky.gov/law/statutes/ ; https://www.sos.ky.gov/bus/Pages/default.aspx ; https://revenue.ky.gov/ ; https://www.sba.gov/vboc ; https://www.copyright.gov/ai/ ; https://www.uspto.gov/trademarks .
