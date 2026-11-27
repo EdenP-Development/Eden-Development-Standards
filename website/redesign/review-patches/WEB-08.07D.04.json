@@ -1,0 +1,44 @@
+{
+  "input_sha256": "f2ae960332aa9e87ed77bb2958cc5513a14625605f014ebbb3459a03015879f3",
+  "common": {
+    "Private offline artwork pilot · not a live storefront or support service.": "Private preview · no storefront or support service.",
+    "Private offline artwork pilot · not a live storefront.": "Private preview · not a storefront.",
+    "This preview does not offer a download or establish release availability. Features may change before release. Approved product-specific support and privacy information will be added after review.": "In development. No download is offered here. Features may change. Support and privacy information is pending review.",
+    "No download or release availability is established by this preview. Features may change. Approved support and privacy information will be added after review.": "In development. No download is offered here. Features may change. Support and privacy information is pending review."
+  },
+  "edits": {
+    "index.html": {
+      "Games and game development.": "Puzzles, adventures and arcade games.",
+      "Software and practical tools.": "Practical applications and utilities.",
+      "Eden Practical brings together the projects I work on. Each has its own identity, and I try to keep things useful, enjoyable and straightforward.": "I build games, software and designs with a focus on making things useful, enjoyable and straightforward.",
+      "Product-specific support and privacy information awaits approval. This preview does not accept reports or personal information.": "Support and privacy information is pending review. Do not send reports or personal information through this preview."
+    },
+    "grid-hunt.html": {
+      "Our longer-term goal is to create larger puzzles you can revisit over several days, like a jigsaw puzzle left on the family table. This is a development goal, not a released feature.": "My goal is to build larger puzzles you can revisit over several days, like a jigsaw puzzle on the family table. This is planned, not released.",
+      "A map-grid puzzle adventure in development, built around fictional illustrated maps and coordinate challenges.": "A puzzle adventure in development, built around fictional maps and coordinate challenges."
+    },
+    "word-search.html": {
+      "A word-search game in development for Android, with themed puzzles and a puzzle-book approach.": "An Android word-search game in development, with themed puzzle books."
+    },
+    "crossroads.html": {
+      "A tabletop-inspired game in development, with route choices, encounters and competing travelers.": "A tabletop-inspired adventure in development, with route choices, encounters and competing travelers."
+    },
+    "eden-comms.html": {
+      "Practical communications, under development.": "Practical communications.",
+      "An experimental Android communications utility. Not a production secure messenger.": "An experimental Android communications utility, not a production secure messenger.",
+      "Explore development direction": "Explore features in development",
+      "Local device connection and approval workflows, experimental text and voice capabilities are under development. These disconnected interface captures do not demonstrate successful communications or security validation.": "Local device connections, approval workflows, text and voice are in development. These disconnected screenshots do not verify successful communications or security.",
+      "Do not use for sensitive or emergency communications. Production readiness is not established. This preview does not offer a download or support service. Approved product-specific support and privacy information will be added after review.": "Do not use for sensitive or emergency communications. Production readiness is not established. No download or support service is offered here. Support and privacy information is pending review."
+    },
+    "sudoku.html": {
+      "Take a little time for a good puzzle. Solve at your own pace, practice logical techniques, or share a puzzle with a friend nearby.": "Solve at your own pace, practice logical techniques or share a puzzle with a friend nearby.",
+      "Promotional illustration, not an actual gameplay screenshot.": "Promotional artwork, not gameplay.",
+      "Visit the itch.io project": "View on itch.io"
+    },
+    "designs.html": {
+      "Collection previews and verified storefront links will be added after review.": "Collection previews and storefront links are pending review."
+    }
+  },
+  "expected_replacements": 29,
+  "publication_authorized": false
+}
