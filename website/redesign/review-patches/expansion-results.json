@@ -1,0 +1,23 @@
+{
+  "baseline_payloads": 36,
+  "expanded_pages": 12,
+  "expanded_products": 7,
+  "expanded_payloads": 38,
+  "local_references": 141,
+  "changed_existing_pages": [
+    "gridmates.html",
+    "spudacus.html"
+  ],
+  "unchanged_original_payloads": 34,
+  "negative_cases": {
+    "duplicate_route": "rejected",
+    "unknown_group": "rejected",
+    "unsafe_route": "rejected",
+    "missing_asset": "rejected",
+    "missing_anchor": "rejected",
+    "publication_flag": "rejected",
+    "existing_output": "rejected"
+  },
+  "restoration_parity": true,
+  "publication_authorized": false
+}
