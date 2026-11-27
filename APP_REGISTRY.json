@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify corrected actual UI save/export runtime probe; native network evidence remains pending",
+          "next": "Verify instrumented runtime diagnostics; retain unresolved backup and native networking gates",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -731,7 +731,7 @@
           },
           "privacy_audit": {
             "source": "a520350d5af1dc0656d2ebafefb7e3212fdab3b3",
-            "status": "manifest_PASS_first_runtime_FAILED_backup_assertion_corrected_probe_pending",
+            "status": "manifest_PASS_runtime_two_failed_attempts_diagnostics_pending",
             "manifest_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45960033832",
             "permissions": [
               "android.permission.INTERNET",
@@ -742,20 +742,24 @@
             "usesCleartextTraffic": false,
             "activity_count": 1,
             "other_component_count": 0,
-            "runtime_source": "5a346ec8e218c2c9c8e70a908ca72ac7b1c458d9",
+            "runtime_source": "a70152d45b6445ef71e144471f2ab24e8f58e6ad",
             "runtime_runs": [
               {
-                "id": 45961700657,
+                "id": 45962268839,
                 "status": "in_progress",
                 "conclusion": null
               },
               {
-                "id": 45961700743,
+                "id": 45962268829,
                 "status": "in_progress",
                 "conclusion": null
               }
             ],
-            "runtime_failed_run": 45961090965
+            "runtime_failed_run": 45961090965,
+            "runtime_failed_runs": [
+              45961090965,
+              45961700743
+            ]
           }
         }
       }
