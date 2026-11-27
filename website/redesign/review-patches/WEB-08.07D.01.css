@@ -1,0 +1,23 @@
+/* WEB-08.07D.01: shared visual rhythm and responsive brand showcases */
+header{gap:.5rem 1.25rem;padding-block:.65rem}
+header .brand,nav a{text-decoration:none}
+header .brand{letter-spacing:.055em}
+nav{gap:.25rem .8rem}
+nav a{padding-inline:.35rem;font-weight:550}
+nav a:hover,.brand:hover{text-decoration:underline}
+.hero{padding-block:.65rem 1rem}
+.landing .hero{margin-bottom:1.25rem}
+.landing h1{font-size:clamp(2rem,4.5vw,3.35rem)}
+.brand-doors{gap:1.1rem}
+.brand-panel{height:190px}
+.games-door .brand-panel img{object-fit:contain;background:#e6e9df}
+.software-door .brand-panel img{max-height:none;height:240px;align-self:flex-start;width:auto}
+.designs-door .brand-panel{font:650 clamp(1.5rem,3vw,2.2rem)/1.15 system-ui,sans-serif;letter-spacing:.045em}
+.brand-copy{gap:.35rem}
+.brand-copy h2{font-size:1.3rem;line-height:1.25}
+.brand-copy p:not(.category){margin:.25rem 0 1rem}
+.cards>.card{display:flex;flex-direction:column;align-items:flex-start;gap:.25rem}
+.cards>.card>.action{margin-top:auto}
+.cards>.card p{margin:.5rem 0 1rem}
+@media(min-width:601px) and (max-width:800px){.brand-doors{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){header{gap:.25rem}nav{gap:.15rem .5rem}.brand-panel{height:170px}}
