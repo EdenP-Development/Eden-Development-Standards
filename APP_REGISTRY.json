@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify screenshot recovery, visually review actual candidate screenshots; preserve unresolved technical release gates",
+          "next": "Capture authentic active combat and final Android screenshots; prepare promotional composition with approved assets; retain technical gates",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -806,7 +806,7 @@
             "archive_contract_run": 45967880564
           },
           "storefront_assets": {
-            "status": "draft_plan_original_browser_screenshot_recovery_pending",
+            "status": "163_original_hashes_verified_17_visually_reviewed_final_capture_pending",
             "source": "1c3384d098b015bea87255b748ecf329455debf6",
             "pr": 181,
             "runs": [
@@ -815,7 +815,12 @@
                 "status": "completed",
                 "conclusion": "success"
               }
-            ]
+            ],
+            "review_source": "d0b3a6094482f995814f0fd9f1401cb58d2357fd",
+            "artifact": 15184167338,
+            "artifact_sha256": "6a1442110ac4fd40e9fd2a5adaa1fa34fdb38bc4eef7fc7f6d1af49075c7ef72",
+            "original_count": 163,
+            "visual_review_count": 17
           }
         }
       }
