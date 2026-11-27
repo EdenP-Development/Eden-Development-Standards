@@ -183,3 +183,6 @@ Reusable [rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) added and linked 
 
 ## BIP-05 — Portfolio rights adoption (2026-11-27)
 [Portfolio rights adoption](PORTFOLIO_RIGHTS_ADOPTION.md) maps inspected public project handoffs to BUS-02 and the release rights receipt. Sector Rebound already reports six bundled JS packages/five notices captured and ten artwork assets checked; exact Colord notice and launcher master unresolved. Eden Comms EC-B04 register exists for 10049; reconcile newer candidate. Word Search historical main evidence only; Grid Hunt/Crossroads asset provenance leads recorded. No duplicate product audit or license change. Next BIP-06: shared artwork/license scope and minimal private evidence checklist; exact candidate execution remains with product chats. No release or legal clearance.
+
+## WEB-08.05C — V8 final responsive regression (2026-11-27)
+Exact V8 package and 36 payload digests verified; 66/66 isolated Chromium layout configurations and 11/11 fresh-page keyboard skip activations passed. Direct file navigation blocked again; full navigation, owner approval and durable private package preservation remain open. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
