@@ -34,3 +34,6 @@ Report rights inventory status, material unknowns, evidence references, required
 
 ## Release-specific rights receipt (BIP-04.02, 2026-11-27)
 Use [release rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) with the existing asset register and release checklist. Reuse exact-version evidence where terms and use match; inspect resolved runtime dependencies and actual packaging, not just declared libraries. Preserve required notices and private entitlement evidence. No automatic license change or distribution authorization.
+
+## Portfolio adoption (BIP-05, 2026-11-27)
+See [portfolio rights adoption](PORTFOLIO_RIGHTS_ADOPTION.md) for project-specific existing evidence and remaining gates. Reuse existing product registers and receipts; product chats own exact-release execution. Keep private evidence out of public repositories. No automatic license or visibility changes.
