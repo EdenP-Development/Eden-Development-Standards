@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify independent offline probe; investigate Hangar CDP closure with bounded diagnostics; native network evidence pending",
+          "next": "Verify bounded core emulator retry; retain unresolved Hangar and native network gates; independently prepare release receipt",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -731,7 +731,7 @@
           },
           "privacy_audit": {
             "source": "a520350d5af1dc0656d2ebafefb7e3212fdab3b3",
-            "status": "manifest_PASS_runtime_hangar_CDP_disconnect_core_probe_pending",
+            "status": "manifest_PASS_core_runtime_blocked_Maven_429_retry_pending",
             "manifest_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45960033832",
             "permissions": [
               "android.permission.INTERNET",
@@ -742,15 +742,10 @@
             "usesCleartextTraffic": false,
             "activity_count": 1,
             "other_component_count": 0,
-            "runtime_source": "66fcc447c83093fe08556f397e253535eb2e8d8d",
+            "runtime_source": "57190d3d04ec2b313c64bf6f5303c322b2b4eced",
             "runtime_runs": [
               {
-                "id": 45962857576,
-                "status": "in_progress",
-                "conclusion": null
-              },
-              {
-                "id": 45962857367,
+                "id": 45963585419,
                 "status": "in_progress",
                 "conclusion": null
               }
@@ -759,7 +754,8 @@
             "runtime_failed_runs": [
               45961090965,
               45961700743,
-              45962268829
+              45962268829,
+              45962857576
             ],
             "cosmetic_ui_status": "unresolved_CDP_disconnect_at_equip_paint"
           }
