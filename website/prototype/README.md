@@ -78,3 +78,6 @@ All eleven pinned website files reconstructed locally from exact GitHub text rea
 
 ## WEB-07.01 — Consolidated isolated browser verification (2026-11-27)
 Exact review archive integrity rechecked; all 70 local href/src references resolved including fragments. Actual Chromium embedded rendering across seven pages and six viewport/root-text configurations passed 42/42 scoped checks (no overflow, decoded images, tested target heights, first keyboard focus, no errors or non-data requests). Direct file navigation blocked by environment; full cross-page navigation, stylesheet delivery and skip activation not verified. See website/publication/WEB-07.01-acceptance.md. No hosting or deployment.
+
+## WEB-08.01 — Brand separation redesign (2026-11-27)
+Five new candidate pages and separate stylesheet committed under website/redesign, original prototype and packaging pins preserved. Static local reference checks: 57, errors 0. See website/redesign/README.md. Transitional links to original product pages; browser/visual acceptance, redesigned return navigation and artwork approval pending. No deployment or app changes.
