@@ -1,0 +1,33 @@
+{
+  "checkpoint": "WEB-08.08",
+  "publication_authorized": false,
+  "storage": "Owner private Google Drive, search exact filenames",
+  "files": [
+    {
+      "name": "eden-practical-artwork-pilot-v12.zip",
+      "bytes": 2306500,
+      "sha256": "f1c2f7d0ab453119a2cc6565cf4ee1247dbe1bc811ec1aeac0be36aaeab95539"
+    },
+    {
+      "name": "eden-v12-regression.json",
+      "bytes": 23946,
+      "sha256": "148abc2506429a4695d92bde2d1ca8c8c098cb76c60705bea93108c4252bea74"
+    }
+  ],
+  "verification": {
+    "shared": false,
+    "raw_downloads": 2,
+    "archive_matches_prior_pin": true,
+    "payload_hashes_passed": 36,
+    "exact_archive_entries": true
+  },
+  "remaining": [
+    "owner visual acceptance",
+    "fresh contrast and screen reader testing",
+    "actual browser navigation",
+    "external link verification",
+    "artwork clearance",
+    "hosting and privacy/support readiness"
+  ],
+  "restore": "Download both named private files, verify listed hashes, verify all receipt payload hashes and exact entry set before extraction. Keep private review status. V8 remains earlier rollback."
+}
