@@ -1,0 +1,264 @@
+{
+  "checkpoint": "WEB-09.02C",
+  "candidate_sha256": "f1c2f7d0ab453119a2cc6565cf4ee1247dbe1bc811ec1aeac0be36aaeab95539",
+  "publication_authorized": false,
+  "asset_inventory": [
+    {
+      "path": "assets/cover.webp",
+      "product": "Sudoku",
+      "evidence": "website/redesign/README.md WEB-08.04B/C",
+      "source_artifact": "14989654462",
+      "kind": "Promotional cover, resized lossless launcher and wordmark",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/launcher.webp",
+      "product": "Sudoku",
+      "evidence": "website/redesign/README.md WEB-08.04B/C",
+      "source_artifact": "14989654462",
+      "kind": "Promotional cover, resized lossless launcher and wordmark",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/logo.webp",
+      "product": "Sudoku",
+      "evidence": "website/redesign/README.md WEB-08.04B/C",
+      "source_artifact": "14989654462",
+      "kind": "Promotional cover, resized lossless launcher and wordmark",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ws-illustrated-home.webp",
+      "product": "Word Search",
+      "evidence": "website/redesign/README.md WEB-08.04D",
+      "source_artifact": "15005144036",
+      "kind": "Historical QA screenshots, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ws-illustrated-library.webp",
+      "product": "Word Search",
+      "evidence": "website/redesign/README.md WEB-08.04D",
+      "source_artifact": "15005144036",
+      "kind": "Historical QA screenshots, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ws-restored-woodland-page.webp",
+      "product": "Word Search",
+      "evidence": "website/redesign/README.md WEB-08.04D",
+      "source_artifact": "15005144036",
+      "kind": "Historical QA screenshots, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/gh-beacon-point.png",
+      "product": "Grid Hunt",
+      "evidence": "website/redesign/README.md WEB-08.04E",
+      "source_artifact": "15083595019",
+      "kind": "Original landmark PNG exports",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/gh-driftwood-cove.png",
+      "product": "Grid Hunt",
+      "evidence": "website/redesign/README.md WEB-08.04E",
+      "source_artifact": "15083595019",
+      "kind": "Original landmark PNG exports",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/gh-gull-rock.png",
+      "product": "Grid Hunt",
+      "evidence": "website/redesign/README.md WEB-08.04E",
+      "source_artifact": "15083595019",
+      "kind": "Original landmark PNG exports",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/gh-old-jetty.png",
+      "product": "Grid Hunt",
+      "evidence": "website/redesign/README.md WEB-08.04E",
+      "source_artifact": "15083595019",
+      "kind": "Original landmark PNG exports",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/gh-shell-beach.png",
+      "product": "Grid Hunt",
+      "evidence": "website/redesign/README.md WEB-08.04E",
+      "source_artifact": "15083595019",
+      "kind": "Original landmark PNG exports",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/gh-tidepool-bend.png",
+      "product": "Grid Hunt",
+      "evidence": "website/redesign/README.md WEB-08.04E",
+      "source_artifact": "15083595019",
+      "kind": "Original landmark PNG exports",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/cr-board_brookside.webp",
+      "product": "Crossroads",
+      "evidence": "website/redesign/README.md WEB-08.04F",
+      "source_artifact": "15152852006",
+      "kind": "Historical APK runtime backgrounds, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/cr-board_cedarwood.webp",
+      "product": "Crossroads",
+      "evidence": "website/redesign/README.md WEB-08.04F",
+      "source_artifact": "15152852006",
+      "kind": "Historical APK runtime backgrounds, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/cr-board_woven.webp",
+      "product": "Crossroads",
+      "evidence": "website/redesign/README.md WEB-08.04F",
+      "source_artifact": "15152852006",
+      "kind": "Historical APK runtime backgrounds, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/cr-home_hero.webp",
+      "product": "Crossroads",
+      "evidence": "website/redesign/README.md WEB-08.04F",
+      "source_artifact": "15152852006",
+      "kind": "Historical APK runtime backgrounds, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/sr-arena.webp",
+      "product": "Sector Rebound",
+      "evidence": "website/redesign/README.md WEB-08.04G",
+      "source_artifact": "15010503734",
+      "kind": "Historical QA screenshots, converted WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/sr-hangar.webp",
+      "product": "Sector Rebound",
+      "evidence": "website/redesign/README.md WEB-08.04G",
+      "source_artifact": "15010503734",
+      "kind": "Historical QA screenshots, converted WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/sr-menu.webp",
+      "product": "Sector Rebound",
+      "evidence": "website/redesign/README.md WEB-08.04G",
+      "source_artifact": "15010503734",
+      "kind": "Historical QA screenshots, converted WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/sr-modes.webp",
+      "product": "Sector Rebound",
+      "evidence": "website/redesign/README.md WEB-08.04G",
+      "source_artifact": "15010503734",
+      "kind": "Historical QA screenshots, converted WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ec-connection.webp",
+      "product": "Eden Comms",
+      "evidence": "website/redesign/README.md WEB-08.04H",
+      "source_artifact": "15007657884",
+      "kind": "Disconnected emulator captures, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ec-home.webp",
+      "product": "Eden Comms",
+      "evidence": "website/redesign/README.md WEB-08.04H",
+      "source_artifact": "15007657884",
+      "kind": "Disconnected emulator captures, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ec-light.webp",
+      "product": "Eden Comms",
+      "evidence": "website/redesign/README.md WEB-08.04H",
+      "source_artifact": "15007657884",
+      "kind": "Disconnected emulator captures, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    },
+    {
+      "path": "assets/ec-settings.webp",
+      "product": "Eden Comms",
+      "evidence": "website/redesign/README.md WEB-08.04H",
+      "source_artifact": "15007657884",
+      "kind": "Disconnected emulator captures, resized WebP",
+      "rights_status": "Review pending",
+      "visual_approval": "Pending",
+      "distribution_authorized": false
+    }
+  ],
+  "external_links": [
+    {
+      "page": "sudoku.html",
+      "url": "https://sir-spudacus.itch.io/gridmates-sudoku",
+      "checked": "2026-11-27",
+      "destination_status": "Verified public page",
+      "observed": "Spudacus; Android; Beta 2 APK listed; optional donations; AI-assisted code and graphics disclosed",
+      "download_tested": false
+    }
+  ],
+  "requirements": [
+    "Reconcile creator, tool, terms, dates, input provenance and third-party content per asset or identical rights group",
+    "Review screenshot sensitive data, version labels and embedded asset rights",
+    "Owner approve exact candidate visuals and distribution scope",
+    "Recheck storefront on release day"
+  ],
+  "limitations": "Origin based on existing recovery records, not fresh retrieval of source artifacts. Exact V12 archive and all 36 payload hashes verified locally; no new legal clearance. External check covers HTML outbound anchor inventory, not hosted click traversal or APK bytes."
+}
