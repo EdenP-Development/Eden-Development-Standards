@@ -1,0 +1,20 @@
+/* Product presentation: shared rhythm, authentic images, no fixed screenshot crops. */
+.gridmates-hub .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:600px){.gridmates-hub .cards{grid-template-columns:1fr}}
+main>section:not(.hero):not(.ws-hero):not(.gh-hero){margin-block:2rem}
+main section>h2{margin:0 0 .8rem}
+main section>h2+p{max-width:75ch}
+main :is(.hero,.ws-hero,.gh-hero)>p:first-child,main :is(.ws-hero,.gh-hero,.ec-hero)>div>p:first-child{font-size:.875rem;font-weight:650;letter-spacing:.035em;margin:0 0 .5rem}
+main :is(.ws-hero,.gh-hero,.ec-hero){gap:clamp(1rem,3vw,2rem);margin-bottom:2rem}
+main :is(.ws-hero,.ec-hero) figure img{max-width:220px}
+main .cover{max-width:820px;margin:1.25rem 0}
+main .cover figcaption{margin-top:.4rem}
+main :is(.ws-gallery,.ec-gallery,.cr-gallery,.sr-gallery,.gh-gallery) figure{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:.4rem}
+main :is(.ws-gallery,.ec-gallery,.cr-gallery,.sr-gallery,.gh-gallery) figcaption{margin-top:auto;padding:.4rem 0;text-align:center}
+.ws-gallery figure{background:#fff;border:1px solid #dedfd8;border-radius:14px;padding:1rem}
+.ws-gallery figure img,.ec-gallery figure img{max-width:220px}
+main .wordmark{width:min(100%,260px)}
+main #help{max-width:75ch}
+main #help p{margin:.7rem 0}
+@media(min-width:601px){.gh-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}.sr-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){main .cover{margin:1rem 0}.gh-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}main :is(.ws-hero,.ec-hero) figure img{max-width:180px}.ws-gallery figure img,.ec-gallery figure img{max-width:200px}}
