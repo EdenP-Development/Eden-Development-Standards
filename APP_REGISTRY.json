@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify receipt fixture and offline emulator; independently authenticate evidence and retain all final blockers",
+          "next": "Verify historical evidence checker and offline emulator; prepare controlled beta version increments and durable archive",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -760,14 +760,28 @@
             "cosmetic_ui_status": "unresolved_CDP_disconnect_at_equip_paint"
           },
           "release_receipt": {
-            "status": "structural_validator_committed_CI_unverified",
+            "status": "structural_contract_PASS_historical_evidence_check_pending",
             "source": "d0ca3949740c14ed357eb745fbf0f54a97e92b92",
             "pr": 178,
             "mandatory_gates": 15,
-            "fixture_cases": 88,
+            "fixture_cases": 89,
             "runs": [
               {
                 "id": 45964187218,
+                "status": "in_progress",
+                "conclusion": null
+              }
+            ],
+            "contract_run": 45964187218,
+            "evidence_source": "455744c4964d3ac11fff3dd84b6bf5e24034678d",
+            "evidence_runs": [
+              {
+                "id": 45964789937,
+                "status": "queued",
+                "conclusion": null
+              },
+              {
+                "id": 45964789755,
                 "status": "in_progress",
                 "conclusion": null
               }
