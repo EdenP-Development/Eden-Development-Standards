@@ -101,3 +101,6 @@ Reusable offline receipt template, validator, synthetic tests and usage guide co
 
 ## WEB-06.03 — Publication quality gate hardening (2026-11-27)
 Publication validator v0.2 production/fixture separation and exact content metadata checks committed; exact local Git blobs matched, 16/16 tests passed. New read-only publication CI workflow committed, execution unverified. Documentation synchronized. No real publication approval or deployment. Next allowlisted packaging with leakage regressions; artwork and browser acceptance still open.
+
+## WEB-06.04B — Review packaging verification (2026-11-27)
+Pinned review-only packager with explicit eleven-file allowlist and integrity receipt; eight new tests and sixteen prior tests actually passed (24/24). Three canonical local art hashes matched. CI review ZIP build/retention configured, exact source readback verified; actual full ZIP and CI execution pending. No publication or deployment; website and toolkit handoffs synchronized.
