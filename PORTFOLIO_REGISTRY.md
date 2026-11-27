@@ -149,3 +149,6 @@ Spudacus publishing: Sudoku Beta 2 owner-reported live on itch.io; Amazon develo
 
 ## WEB-08.04G — Sector Rebound artwork pilot (2026-11-27)
 Verified historical visual archive; four QA captures selected for private seven-page Spudacus pilot. 28 payload hashes and 78 local references passed. Browser acceptance and publication clearance pending. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
+
+## TAT-PORT-02B — Chat recovery continuity (2026-11-27)
+[Short handoff](https://github.com/EdenP-Development/the-last-taters/blob/dev/0.12-visual-prototype/CONTINUE_HERE.md), active README, detailed project state and integration roadmap aligned. Remaining recovery and hosted Actions checks and P8n are open. Documentation only; no native build or release.
