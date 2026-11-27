@@ -59,3 +59,6 @@ Storefront lanes documented in COMMERCIAL_READINESS.md (12.01), privacy hosting 
 
 ## PORT-12.04 — Website prototype (2026-11-26)
 [Undeployed static prototype and receipt](website/prototype/README.md) committed; exact source readback and ten limited static checks passed. No browser/device rendering, live link testing, host selection, deployment, policy/contact publication or product changes. PORT-12.05 remains dependent on Sudoku rehearsal; PORT-13 can proceed independently. PORT-11.03 adoption framework complete at documentation level; pilot acceptance remains open. No application registry channel changes.
+
+## WEB-03B / WEB-04 preparation (2026-11-26)
+Website prototype README now records prior four-viewport Chromium evidence, 48px profile-link correction and pending browser retest. Pinned branding guides inspected; binary retrieval failed, no artwork integrated. No deployment or app changes. PORT-13 may proceed independently.
