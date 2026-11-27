@@ -119,3 +119,6 @@ Five redesign pages simplified and existing brand standard updated to reflect pr
 
 ## WEB-08.03 / WEB-08.04A — Redesigned product routes and visual hierarchy (2026-11-27)
 Six product routes integrated in c5c2d81337d7ae9c988951bf14c892ff231f9359; 111 local references across 11 pages passed static checks. Product accent treatments and listing hierarchy implemented; see [redesign handoff](website/redesign/README.md). Candidate artwork still awaits individual clearance and byte verification. Browser acceptance, owner visual review, packaging and deployment pending. Original prototype and apps unchanged.
+
+## WEB-08.04B — Sudoku artwork recovery (2026-11-27)
+Original branding archive retrieved and exact recorded SHA-256 matched. Six individual image checks passed (hash, dimensions, mode); visual contact sheet inspected. Proposed hero/wordmark/card selection documented in [redesign handoff](website/redesign/README.md). Website approval and integration pending; no publication or app changes.
