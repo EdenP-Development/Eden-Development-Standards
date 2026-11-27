@@ -107,3 +107,6 @@ Pinned review-only packager with explicit eleven-file allowlist and integrity re
 
 ## WEB-06.04C — Complete offline review ZIP (2026-11-27)
 Eleven pinned source fingerprints matched, actual 24/24 regression rerun passed. Complete review ZIP built and independently verified (12 entries, 852575 bytes, SHA256 e9b3b780e5cb772150be6104b499c775793ab52969e65bb73e4af60f844d5503); delivered in chat, publication_authorized=false. Full browser/CI acceptance and hosting decision remain open. No deployment or app changes.
+
+## WEB-07.01 — Consolidated isolated website verification (2026-11-27)
+Exact review ZIP rechecked; 70 local references resolved and 42/42 actual isolated Chromium layout configurations passed. Direct file navigation blocked, so full navigation suite and CI remain unverified. Acceptance note and handoff synchronized. No deployment or app changes. Next hosting evaluation and remaining release gates.
