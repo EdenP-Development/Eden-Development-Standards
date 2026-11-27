@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>GridMates: Sudoku — website preview</title><style>
+:root{color-scheme:light;--ink:#202b25;--muted:#526259;--paper:#faf7ef;--green:#214f3f;--line:#d8ded4}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}a{color:var(--green);text-underline-offset:.2em}a:focus-visible{outline:3px solid #8b42bf;outline-offset:4px}header,main,footer{max-width:1100px;margin:auto;padding:1.4rem clamp(1rem,4vw,3rem)}header{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;border-bottom:1px solid var(--line)}nav{display:flex;flex-wrap:wrap;gap:1rem}nav a{display:inline-block;padding:.65rem 0}.brand{font-weight:800;letter-spacing:.04em}.notice{font-size:.9rem;color:var(--muted);border-left:3px solid var(--green);padding-left:.8rem}.hero{padding:clamp(2rem,6vw,4rem) 0}h1{font-size:clamp(2.4rem,6vw,4.5rem);line-height:1.05;max-width:15ch;margin:.5rem 0 1rem;letter-spacing:-.045em}h2{font-size:1.9rem;line-height:1.2}h3{line-height:1.3;margin:.2rem 0}.eyebrow{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;color:var(--green)}.intro{max-width:65ch;color:var(--muted);font-size:1.1rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:1rem}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:1.3rem;min-width:0}.card p{color:var(--muted)}.tag{font-size:.8rem;font-weight:700;color:var(--green)}.eps{border-top:4px solid #d6a044}.epd{border-top:4px solid #8b42bf}section{margin-bottom:2.5rem;scroll-margin-top:1rem}footer{border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:white;padding:1rem;z-index:2}.action{display:inline-block;background:var(--green);color:white;padding:.7rem 1rem;border-radius:8px;font-weight:600}p{overflow-wrap:anywhere}
+
+/* PORT-12.04B: neutral umbrella, separate product accents, accessible navigation */
+:root{--paper:#f7f6f2;--green:#214f3f;--ink:#222925;--muted:#4b5951}
+header{background:#fff;border-radius:0 0 18px 18px}nav a{min-height:48px;display:inline-flex;align-items:center;padding:.5rem .35rem}.hero{border-bottom:1px solid var(--line)}.hero .action{min-height:48px;display:inline-flex;align-items:center}.card{display:flex;flex-direction:column;gap:.35rem}.card p{margin:.35rem 0 .8rem}.card a{margin-top:auto;min-height:48px;display:inline-flex;align-items:center;align-self:flex-start}.tag{letter-spacing:.025em}.series{border-top:4px solid #214f3f}.eps{border-top-color:#d6a044}.epd{border-top-color:#8b42bf}.skip:focus{position:fixed}.help-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1rem}main:focus{outline:none}@media(max-width:480px){header{gap:.25rem}nav{gap:.65rem}h1{font-size:2.5rem}.hero{padding:2rem 0}.grid{gap:.75rem}}
+
+/* WEB-03 follow-up: make standalone storefront navigation touch-friendly. */
+.profile-link{display:inline-flex;align-items:center;min-height:48px;max-width:100%;padding:.5rem .25rem;overflow-wrap:anywhere}
+
+/* WEB-04: reuse canonical repository PNGs; no external image requests. */
+.brand-lockup{display:flex;align-items:center;justify-content:center;background:#FAE7CD;border-radius:14px;padding:1rem;margin:1rem 0;min-height:120px}
+.brand-lockup img{display:block;max-width:100%;width:auto;height:auto;max-height:148px;object-fit:contain}
+.brand-lockup.eps-lockup{background:#111214}.brand-lockup.eps-lockup img{max-height:136px}
+.brand-lockup.series-lockup img{max-height:126px}
+
+/* WEB-04C: permit intrinsic text and flex items to shrink at enlarged text sizes.
+   Do not hide horizontal overflow; preserve visible content and focus outlines. */
+header,main,footer,section,nav,.brand,.card,.brand-lockup{min-width:0}
+header>*,nav>a,.card>a,.hero .action,.profile-link{max-width:100%;min-width:0}
+body{overflow-wrap:anywhere}
+h1,h2,h3,.brand,.eyebrow,.tag,a{overflow-wrap:anywhere}
+nav{max-width:100%}
+.brand-lockup img{min-width:0;flex:0 1 auto}
+@media(max-width:480px){
+ header,main,footer{padding-inline:min(1rem,5vw)}
+ .card,.brand-lockup{padding:min(1.3rem,5vw)}
+ .grid,.help-grid{grid-template-columns:minmax(0,1fr)}
+ .hero .action,.profile-link{white-space:normal}
+ h1{font-size:clamp(2rem,10vw,2.5rem)}
+}
+
+.product-nav a,.product-actions a{display:inline-flex;align-items:center;min-height:48px;max-width:100%;min-width:0;padding:.5rem .3rem}
+.product-actions{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center}.product-actions .action{padding:.7rem 1rem}.hero h1{max-width:20ch}.features{margin-top:1rem}.features .card{border-top:4px solid #214f3f}.help-note{border-left:4px solid #214f3f;padding:1rem;background:#fff;border-radius:8px}.product-nav{margin-bottom:1rem}.product-nav a{margin-right:.6rem}
+</style></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand profile-link" href="../index.html">EDEN PRACTICAL</a><nav aria-label="Main navigation"><a href="../index.html#games">Games</a><a href="../index.html#tools">Tools</a><a href="#help">Help</a></nav></header>
+<main id="main" tabindex="-1">
+<p class="notice">Design preview — not a live storefront or support service. Product copy awaits final release review.</p>
+<section class="hero" aria-labelledby="hero"><p class="eyebrow">A game by Spudacus</p><div class="brand-lockup series-lockup"><img src="../../../branding/gridmates/v1.0/runtime-transparent.png" alt="GridMates series logo"></div><h1 id="hero">GridMates: Sudoku</h1><p class="intro">Good puzzles. Good company.</p><p>Take a little time for a good puzzle. Solve at your own pace, practice logical techniques, or share a puzzle with a friend nearby.</p><div class="product-actions"><a class="action" href="https://sir-spudacus.itch.io/gridmates-sudoku">Visit the itch.io project</a><a href="#features">Explore gameplay</a></div></section>
+<section id="features"><h2>Find your way to play</h2><div class="grid features">
+<article class="card"><h3>Classic Sudoku</h3><p>Traditional 9×9 puzzles, pencil notes and Undo.</p></article>
+<article class="card"><h3>Daily puzzles</h3><p>A daily challenge to enjoy at your own pace.</p></article>
+<article class="card"><h3>Sudoku Coach</h3><p>Logical help and practice when you need a hand.</p></article>
+<article class="card"><h3>Nearby Co-op</h3><p>Share a board with another Android device on reachable local Wi-Fi.</p></article>
+<article class="card"><h3>Nearby Versus</h3><p>Race a friend on matching puzzles with separate boards.</p></article>
+<article class="card"><h3>Your Collection</h3><p>Earn cosmetic customization and follow your local progress.</p></article></div></section>
+<section id="play"><h2>Play locally</h2><p>Solo and Daily are designed for offline play without a gameplay account. Nearby multiplayer requires two compatible devices on the same reachable Wi-Fi network. Use a trusted network: the local game protocol is not encrypted. Internet matchmaking and account-based cloud recovery are not advertised features.</p></section>
+<section id="help"><h2>Installation and updates</h2><p>Check the itch.io project for the current Android download, requirements and release-specific instructions. Before updating or changing devices, export a progress backup if your installed version offers that feature, and keep the original installation until your progress is verified.</p><p class="help-note"><strong>If Android refuses an update:</strong> stop and check the release instructions. Do not uninstall or clear app data to bypass a signature mismatch. Different public and preview packages may not update one another, and portable backups have limitations.</p><p>Product-specific support contacts and approved privacy policies are not yet published through this website preview. Do not send personal information here.</p></section>
+<p><a class="profile-link" href="../index.html#games">Return to the game portfolio</a></p>
+</main><footer>GridMates: Sudoku · A game by Spudacus · Website concept</footer></body></html>
