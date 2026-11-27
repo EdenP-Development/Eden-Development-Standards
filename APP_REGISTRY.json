@@ -909,6 +909,46 @@
       "repository": null,
       "channels": [],
       "status": "inventory_pending"
+    },
+    {
+      "name": "The Last Taters",
+      "repository": "PlayerEden/the-last-taters",
+      "status": "browser_alpha_012_staging_organization_transfer_pending",
+      "channels": [
+        {
+          "name": "itch.io browser",
+          "public_url": "https://sir-spudacus.itch.io/the-last-taters",
+          "last_accepted_version_name": "Alpha 0.11",
+          "last_accepted_source": "3a9500f1f97e26a94d08de076c4c77ce07e67267",
+          "publication": "historical project record; exact public package bytes not independently verified in this checkpoint",
+          "save_schema": 16
+        },
+        {
+          "name": "future PC downloadable",
+          "status": "planned_not_configured",
+          "last_accepted_source": null
+        },
+        {
+          "name": "future Google Play",
+          "status": "planned_not_configured",
+          "package_id": null,
+          "certificate_sha256": null,
+          "last_accepted_version_code": null,
+          "last_accepted_apk_sha256": null,
+          "key_custody": "not established"
+        }
+      ],
+      "candidate": {
+        "branch": "dev/0.12-visual-prototype",
+        "version_name": "0.12-visual-p8l",
+        "status": "browser staging; P8m passed; P8n pending",
+        "source": "95ba2074b80b2bae0e00c59300cb214f74d2d6d6"
+      },
+      "future_google_play": {
+        "status": "long_term_not_configured",
+        "proposed_package_id": null,
+        "cross_platform_save_migration": "planned for evaluation; not promised"
+      }
     }
   ]
 }
