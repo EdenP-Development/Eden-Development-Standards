@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Resolve dependencies and rights evidence; owner physical review and custody; exact signed beta release gates remain blocked",
+          "next": "Recover exact lockfile and inspect shipped package membership; Android dependency and rights gates pending",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -690,7 +690,22 @@
             "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45952312100/artifacts/15177213496"
           },
           "storefront_draft": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/cacca6b299bd6890a1bc381fec515b031f147ca0/docs/SR_HUB_07_ITCH_STOREFRONT_DRAFT_2026-11-27.md",
-          "acceptance_matrix": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/f4f912e23956a39fec4357dec3cff603030033ca/docs/SR_HUB_08_ACCEPTANCE_MATRIX_2026-11-27.md"
+          "acceptance_matrix": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/f4f912e23956a39fec4357dec3cff603030033ca/docs/SR_HUB_08_ACCEPTANCE_MATRIX_2026-11-27.md",
+          "dependencies": {
+            "source": "a7755b141823b0d85f74c6e8e6c7b44e13a4fbee",
+            "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45954232904",
+            "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45954232904/artifacts/15177004760",
+            "locked": 39,
+            "installed": 14,
+            "missing_license_metadata": 0,
+            "missing_notice_files": [
+              "@esbuild/linux-x64",
+              "@pixi/colord"
+            ],
+            "bundle_sha256": "c090b88d142627695b1c450db0df6945a2744d9e6a7f2455ea785204f7867740",
+            "status": "two_clean_bundle_builds_PASS_lock_recovery_and_membership_pending",
+            "recovery_source": "0a538e5ee77e6eeba132dfcf8872d6d6a0a53776"
+          }
         }
       }
     },
