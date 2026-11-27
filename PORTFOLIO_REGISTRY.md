@@ -98,3 +98,6 @@ Two explicitly unpublished Markdown candidates committed under website/drafts, e
 
 ## WEB-06.02 — Publication receipt preflight (2026-11-27)
 Reusable offline receipt template, validator, synthetic tests and usage guide committed. Exact source blobs matched locally; 11/11 tests passed. Structural validation only; no real product approval, hosting or deployment. Next harden fixture separation and prepare explicit allowlisted packaging gate.
+
+## WEB-06.03 — Publication quality gate hardening (2026-11-27)
+Publication validator v0.2 production/fixture separation and exact content metadata checks committed; exact local Git blobs matched, 16/16 tests passed. New read-only publication CI workflow committed, execution unverified. Documentation synchronized. No real publication approval or deployment. Next allowlisted packaging with leakage regressions; artwork and browser acceptance still open.
