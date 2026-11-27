@@ -192,3 +192,6 @@ Exact V8 package and 36 payload digests verified; 66/66 isolated Chromium layout
 
 ## WEB-08.06 — Durable private website recovery (2026-11-27)
 Exact V8 ZIP and two test receipts preserved in unshared Google Drive; three raw readbacks matched pre-upload SHA-256, all 36 ZIP payload digests passed. Public-safe [recovery receipt](website/redesign/review-recovery-v8.json) and handoff updated. Next owner visual review; no app or deployment changes.
+
+## BIP-07 — Private ownership evidence (2026-11-27)
+[Private evidence checklist](templates/PRIVATE_OWNERSHIP_EVIDENCE.md) added and linked from SHARED_ASSET_PROTECTION.md. Existing recovery and business templates reused. Bounded archive-name metadata searches returned no matches; not proof of loss. Owner-controlled independent recovery, track entitlement and actual rights evidence remain open. No private data added, file transfer, key handling, legal registration or spending. Next BIP-08: verify Kentucky military filing relief and decision requirements using official sources; January 2027 remains tentative.
