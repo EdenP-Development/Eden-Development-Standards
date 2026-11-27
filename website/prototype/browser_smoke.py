@@ -12,7 +12,10 @@ ASSETS = {
     "branding/gridmates/v1.0/runtime-transparent.png": "eef6d631cac0b9523f7e0dbebac229f9a2458d36fe2e73e111d251704d9ff292",
     "branding/eps/v1.0/runtime-transparent.png": "d144934346d77a6e04c1475dae361fc57cb28a95d7033a799bf6e2f256548516",
 }
-PAGES = ["website/prototype/index.html", "website/prototype/products/sudoku.html"]
+PAGES = ["website/prototype/index.html"] + [
+    f"website/prototype/products/{slug}.html" for slug in
+    ("sudoku", "word-search", "grid-hunt", "crossroads", "sector-rebound", "eden-comms")
+]
 FILES = {**{p: "image/png" for p in ASSETS}, **{p: "text/html; charset=utf-8" for p in PAGES}, "website/prototype/site.css": "text/css; charset=utf-8"}
 ORIGIN = "https://eden-preview.invalid/"
 CASES = [(320,640,16),(390,844,16),(768,1024,16),(1440,900,16),(320,640,32),(390,844,32)]
@@ -65,15 +68,20 @@ def main():
             for target in ["games","tools","designs","help"]:
                 page.locator(f'nav a[href="#{target}"]').click()
                 require(page.evaluate("""id=>{const r=document.getElementById(id).getBoundingClientRect();return r.top<innerHeight && r.bottom>0}""",target), "Invisible section: "+target)
-            page.get_by_role("link",name="Explore Sudoku").click()
-            require(page.url==ORIGIN+PAGES[1], "Product route mismatch")
-            product=verify(PAGES[1])
-            page.get_by_role("link",name="Explore gameplay").click()
-            require(page.evaluate("location.hash==='#features'"), "Gameplay anchor mismatch")
-            page.get_by_role("link",name="Return to the game portfolio").click()
-            require(page.url==ORIGIN+PAGES[0]+"#games", "Return route mismatch")
+            products = {}
+            for path in PAGES[1:]:
+                relative = path.removeprefix("website/prototype/")
+                page.locator(f'a[href="{relative}"]').click()
+                require(page.url==ORIGIN+path, "Product route mismatch: "+path)
+                products[path]=verify(path)
+                page.locator('a[href="#features"]').click()
+                require(page.evaluate("location.hash==='#features'"), "Feature anchor mismatch")
+                destination="tools" if path.endswith("eden-comms.html") else "games"
+                page.locator(f'main a[href="../index.html#{destination}"]').click()
+                require(page.url==ORIGIN+PAGES[0]+"#"+destination, "Return route mismatch")
+                page.evaluate("(n)=>document.documentElement.style.fontSize=n+'px'", root_font)
             require(not unexpected and not errors, f"Unexpected requests/errors: {unexpected} {errors}")
-            results.append({"viewport":[w,h],"root_font":root_font,"home":home,"product":product,"round_trip":"passed"})
+            results.append({"viewport":[w,h],"root_font":root_font,"home":home,"products":products,"round_trips":"passed"})
             ctx.close()
         browser.close()
     print(json.dumps(results,indent=2))
