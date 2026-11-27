@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify bounded core emulator retry; retain unresolved Hangar and native network gates; independently prepare release receipt",
+          "next": "Verify receipt fixture and offline emulator; independently authenticate evidence and retain all final blockers",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -758,6 +758,20 @@
               45962857576
             ],
             "cosmetic_ui_status": "unresolved_CDP_disconnect_at_equip_paint"
+          },
+          "release_receipt": {
+            "status": "structural_validator_committed_CI_unverified",
+            "source": "d0ca3949740c14ed357eb745fbf0f54a97e92b92",
+            "pr": 178,
+            "mandatory_gates": 15,
+            "fixture_cases": 88,
+            "runs": [
+              {
+                "id": 45964187218,
+                "status": "in_progress",
+                "conclusion": null
+              }
+            ]
           }
         }
       }
