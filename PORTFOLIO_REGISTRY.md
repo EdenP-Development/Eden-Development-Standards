@@ -104,3 +104,6 @@ Publication validator v0.2 production/fixture separation and exact content metad
 
 ## WEB-06.04B — Review packaging verification (2026-11-27)
 Pinned review-only packager with explicit eleven-file allowlist and integrity receipt; eight new tests and sixteen prior tests actually passed (24/24). Three canonical local art hashes matched. CI review ZIP build/retention configured, exact source readback verified; actual full ZIP and CI execution pending. No publication or deployment; website and toolkit handoffs synchronized.
+
+## WEB-06.04C — Complete offline review ZIP (2026-11-27)
+Eleven pinned source fingerprints matched, actual 24/24 regression rerun passed. Complete review ZIP built and independently verified (12 entries, 852575 bytes, SHA256 e9b3b780e5cb772150be6104b499c775793ab52969e65bb73e4af60f844d5503); delivered in chat, publication_authorized=false. Full browser/CI acceptance and hosting decision remain open. No deployment or app changes.
