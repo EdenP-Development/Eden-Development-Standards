@@ -125,3 +125,6 @@ Original branding archive retrieved and exact recorded SHA-256 matched. Six indi
 
 ## WEB-08.04C — Offline Sudoku artwork pilot (2026-11-27)
 Two-page private review ZIP built and integrity checked; eight isolated Chromium layout checks passed. Direct file navigation blocked; full redesign integration and owner approval pending. See [website handoff](website/redesign/README.md). No public binaries or deployment.
+
+## WEB-08.04D — Word Search artwork recovery (2026-11-27)
+Verified historical screenshot archive, selected three images for private expanded GridMates pilot, 10 payloads checked after ZIP readback. Browser acceptance and public artwork clearance pending. See [redesign handoff](website/redesign/README.md). No deployment or app changes.
