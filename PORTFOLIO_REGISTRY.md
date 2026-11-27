@@ -95,3 +95,6 @@ Sudoku original branding and three Crossroads QA archives locally hash verified 
 
 ## WEB-06.01 — Sudoku privacy/support candidates (2026-11-27)
 Two explicitly unpublished Markdown candidates committed under website/drafts, exact readbacks verified. Beta 3 privacy source scoped separately from public Beta 2; installation/save-safe support draft. Publisher/contact, release verification, current policy/audience review, support drills, stable approved URLs and deployment open. No live policy or support service established.
+
+## WEB-06.02 — Publication receipt preflight (2026-11-27)
+Reusable offline receipt template, validator, synthetic tests and usage guide committed. Exact source blobs matched locally; 11/11 tests passed. Structural validation only; no real product approval, hosting or deployment. Next harden fixture separation and prepare explicit allowlisted packaging gate.
