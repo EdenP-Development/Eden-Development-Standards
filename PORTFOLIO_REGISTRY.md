@@ -180,3 +180,6 @@ Reusable [rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) added and linked 
 
 ## WEB-08.05B — Accessibility pilot V8 (2026-11-27)
 11-page isolated mobile Chromium audit: eight undersized non-skip link targets corrected, 90/90 keyboard focus observations and zero detected solid-background text contrast failures on retest. V8 verified ZIP delivered in chat; recovery CSS patch and limitations in [redesign handoff](website/redesign/README.md). Full responsive retest and navigation/publication gates pending. No app or deployment changes.
+
+## BIP-05 — Portfolio rights adoption (2026-11-27)
+[Portfolio rights adoption](PORTFOLIO_RIGHTS_ADOPTION.md) maps inspected public project handoffs to BUS-02 and the release rights receipt. Sector Rebound already reports six bundled JS packages/five notices captured and ten artwork assets checked; exact Colord notice and launcher master unresolved. Eden Comms EC-B04 register exists for 10049; reconcile newer candidate. Word Search historical main evidence only; Grid Hunt/Crossroads asset provenance leads recorded. No duplicate product audit or license change. Next BIP-06: shared artwork/license scope and minimal private evidence checklist; exact candidate execution remains with product chats. No release or legal clearance.
