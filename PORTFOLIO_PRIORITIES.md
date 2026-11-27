@@ -41,3 +41,6 @@ Release order can change as gates clear, owner feedback arrives, or critical def
 References: PORTFOLIO_REGISTRY.md, PORTFOLIO_STANDARDS_ADOPTION.md, PORTFOLIO_BRANDING_ADOPTION.md, APP_REGISTRY.json, MONETIZATION_STRATEGY.md, COMMERCIAL_READINESS.md, GOOGLE_PLAY_READINESS.md, RELEASE_CHECKLIST.md. Next PORT-06: verify actual reusable source/tests and licensing boundaries before proposing shared components.
 
 Visibility correction (2026-11-25): current public document excludes identified private-project details. Earlier Git revisions may retain them; no history rewrite or repository visibility change performed.
+
+## The Last Taters — revived development lane (2026-11-27)
+[Start here](https://github.com/EdenP-Development/the-last-taters/blob/dev/0.12-visual-prototype/CONTINUE_HERE.md). Resume TAT-PORT-02B recovery/Actions checks, then P8n baseline and performance/rights/data audit; portable saves and standalone startup pilot; separate desktop and Android wrapper prototypes. Browser itch.io remains primary testing channel. No release date, engine rewrite, native identity or publication authorized.
