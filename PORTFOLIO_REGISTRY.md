@@ -177,3 +177,6 @@ Exact V7 archive and 36 payloads verified. 66/66 isolated Chromium layout config
 
 ## BIP-04.02 — Release rights receipt (2026-11-27)
 Reusable [rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) added and linked from BUS-02; [Sudoku pilot](SUDOKU_RIGHTS_PILOT.md) updated with upstream license references. Source declarations rechecked; exact resolved graph, bundled notices, track entitlement and APK inventory not verified. Next: product-side execution at exact candidate, then apply lightweight receipt to other products. No app changes, license changes, spending or publication.
+
+## WEB-08.05B — Accessibility pilot V8 (2026-11-27)
+11-page isolated mobile Chromium audit: eight undersized non-skip link targets corrected, 90/90 keyboard focus observations and zero detected solid-background text contrast failures on retest. V8 verified ZIP delivered in chat; recovery CSS patch and limitations in [redesign handoff](website/redesign/README.md). Full responsive retest and navigation/publication gates pending. No app or deployment changes.

@@ -1,0 +1,3 @@
+/* WEB-08.05B: generous link targets and keyboard skip access */
+nav a,footer a,.actions a,.brand,.action{display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:48px}
+.skip:focus{min-width:48px;min-height:48px;max-width:calc(100vw - 2rem)}
