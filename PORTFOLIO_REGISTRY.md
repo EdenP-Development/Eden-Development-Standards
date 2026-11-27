@@ -89,3 +89,6 @@ Website asset manifest committed and readback verified. Four QA archive metadata
 
 ## WEB-05.05C — Candidate archive preservation (2026-11-26)
 Four candidate archives now locally checksum verified and uploaded to unshared Drive; metadata sizes verified, remote rehash pending. 248 image files decoded and inventoried; representative private contact sheets prepared. Manifest and website handoff updated. No approved product imagery integrated, no deployment or app changes.
+
+## WEB-05.05F — Website artwork candidate exports (2026-11-26)
+Sudoku original branding and three Crossroads QA archives locally hash verified and privately preserved with metadata readback. Three optimized Sudoku website derivatives prepared, candidate manifest updated; no publication approval. Crossroads icon blob confirmed but byte retrieval empty. No website binary integration or deployment.
