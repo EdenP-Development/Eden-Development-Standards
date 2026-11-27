@@ -92,3 +92,6 @@ Four candidate archives now locally checksum verified and uploaded to unshared D
 
 ## WEB-05.05F — Website artwork candidate exports (2026-11-26)
 Sudoku original branding and three Crossroads QA archives locally hash verified and privately preserved with metadata readback. Three optimized Sudoku website derivatives prepared, candidate manifest updated; no publication approval. Crossroads icon blob confirmed but byte retrieval empty. No website binary integration or deployment.
+
+## WEB-06.01 — Sudoku privacy/support candidates (2026-11-27)
+Two explicitly unpublished Markdown candidates committed under website/drafts, exact readbacks verified. Beta 3 privacy source scoped separately from public Beta 2; installation/save-safe support draft. Publisher/contact, release verification, current policy/audience review, support drills, stable approved URLs and deployment open. No live policy or support service established.
