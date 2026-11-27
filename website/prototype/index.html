@@ -15,6 +15,22 @@ header{background:#fff;border-radius:0 0 18px 18px}nav a{min-height:48px;display
 .brand-lockup img{display:block;max-width:100%;width:auto;height:auto;max-height:148px;object-fit:contain}
 .brand-lockup.eps-lockup{background:#111214}.brand-lockup.eps-lockup img{max-height:136px}
 .brand-lockup.series-lockup img{max-height:126px}
+
+/* WEB-04C: permit intrinsic text and flex items to shrink at enlarged text sizes.
+   Do not hide horizontal overflow; preserve visible content and focus outlines. */
+header,main,footer,section,nav,.brand,.card,.brand-lockup{min-width:0}
+header>*,nav>a,.card>a,.hero .action,.profile-link{max-width:100%;min-width:0}
+body{overflow-wrap:anywhere}
+h1,h2,h3,.brand,.eyebrow,.tag,a{overflow-wrap:anywhere}
+nav{max-width:100%}
+.brand-lockup img{min-width:0;flex:0 1 auto}
+@media(max-width:480px){
+ header,main,footer{padding-inline:min(1rem,5vw)}
+ .card,.brand-lockup{padding:min(1.3rem,5vw)}
+ .grid,.help-grid{grid-template-columns:minmax(0,1fr)}
+ .hero .action,.profile-link{white-space:normal}
+ h1{font-size:clamp(2rem,10vw,2.5rem)}
+}
 </style></head><body><a class="skip" href="#main">Skip to content</a><header><span class="brand">EDEN PRACTICAL</span><nav aria-label="Main navigation"><a href="#games">Games</a><a href="#tools">Tools</a><a href="#designs">Designs</a><a href="#help">Help</a></nav></header>
 <main id="main" tabindex="-1"><p class="notice">Design preview — not a live storefront or support service.</p><section class="hero" aria-labelledby="hero"><p class="eyebrow">Independent creative work</p><h1 id="hero">Play, discover, and make things easier.</h1><p class="intro">A home for independent games by Spudacus, practical software from Eden Practical Solutions, and creative designs from Eden Practical Designs.</p><a class="action" href="#games">Explore the games</a></section>
 <section id="games"><p class="eyebrow">Spudacus · independent games</p><div class="brand-lockup"><img src="../../branding/spudacus/v1.0/full-transparent.png" alt="Spudacus"></div><h2>GridMates</h2><div class="brand-lockup series-lockup"><img src="../../branding/gridmates/v1.0/runtime-transparent.png" alt=""></div><p class="intro">Good puzzles. Good company.</p><div class="grid">
