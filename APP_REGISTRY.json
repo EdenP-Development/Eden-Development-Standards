@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Recover exact lockfile and inspect shipped package membership; Android dependency and rights gates pending",
+          "next": "Verify exact colord fork provenance, durable notices and artwork evidence; no release clearance",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -703,8 +703,22 @@
               "@pixi/colord"
             ],
             "bundle_sha256": "c090b88d142627695b1c450db0df6945a2744d9e6a7f2455ea785204f7867740",
-            "status": "two_clean_bundle_builds_PASS_lock_recovery_and_membership_pending",
-            "recovery_source": "0a538e5ee77e6eeba132dfcf8872d6d6a0a53776"
+            "status": "locked_JS_and_unsigned_Android_packaging_PASS_notice_provenance_pending",
+            "recovery_source": "0a538e5ee77e6eeba132dfcf8872d6d6a0a53776",
+            "lock_sha256": "2d4c751a4784de7241b3502c73b07b9ff62fa29319b87046ea9a11838286a2a8",
+            "locked_android_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45957235951",
+            "notice_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45957236015",
+            "notice_artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45957236015/artifacts/15178738652",
+            "android_app_compile_runtime_classpaths": "No dependencies in both resolved betaStaging classpaths; build tooling separate",
+            "bundled_packages": [
+              "@pixi/colord@2.9.6",
+              "earcut@3.2.4",
+              "eventemitter3@5.0.4",
+              "ismobilejs@1.1.1",
+              "parse-svg-path@0.1.2",
+              "pixi.js@8.18.0"
+            ],
+            "upstream_notice_source": "0d2190d0f0c02e21ff7de06c284daa3fd16f6894"
           }
         }
       }
