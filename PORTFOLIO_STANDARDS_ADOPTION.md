@@ -91,3 +91,7 @@ Hub feedback and next task:
 Status labels: not reviewed, planned, implemented, automated verified, physically accepted, release accepted; track independently where applicable. No invented completion from missing records. Private projects and private evidence remain access-controlled.
 
 PORT-11.03 is documentation only; no new code, tests, assets, migrations or consumer changes. Next PORT-11.04 reconcile accepted pilot evidence when available; otherwise proceed with PORT-12 commercial readiness without waiting or manufacturing extra implementation.
+
+## Eden Comms — EC-R10 and PORT-10/BUS-03 adoption (2026-11-27)
+
+Supersedes the earlier Comms row: internal 10049 and isolated Preview 200038 verified at source 50b506a71548be32d3c82a513f7f3bef1e7b8b45; 442 Python checks and 28 disconnected emulator screenshots. See APP_REGISTRY.json and [PR #221](https://github.com/EdenP-Development/Eden-Comms/pull/221) for the technical receipt, source-scoped data inventory and updated unpublished privacy draft (PR pending). Next rights inventory, support route and bounded toolkit adoption. Independent key recovery and durable exact archive unverified; physical upgrade and 54-case acceptance NOT RUN; independent security review mandatory. No public distribution authorized. Game-specific progression/audio/AI toolkit conventions are not required for this EPS utility.
