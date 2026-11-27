@@ -10,3 +10,6 @@ Reference working Sudoku signing preflight: https://github.com/EdenP-Development
 
 ## Shared publishing and privacy documentation
 Maintain shared privacy policy templates, app-specific disclosures based on verified data practices, third-party attribution, publishing guidance, design standards and QA guidance here as needed. Public policy hosting via GitHub Pages is a future option, not yet configured. Do not publish generic policies as accurate app disclosures without auditing actual behavior. Never store private signing credentials here.
+
+## The Last Taters transfer — 2026-11-27
+Owner completed transfer to https://github.com/EdenP-Development/the-last-taters. Same repository ID 1403738770, private visibility, seven pre-transfer branch heads and read/write permissions verified; historical runs visible and runtime unchanged. Actions settings, tags, secret scopes and independent restore pending. Browser-first itch.io, eventual PC and Play channels; no new signing identity or public release.
