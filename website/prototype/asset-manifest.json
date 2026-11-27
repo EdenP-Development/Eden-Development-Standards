@@ -49,6 +49,50 @@
       "notes": "Includes isolated QA APK and development evidence; not public release.",
       "drive_metadata_verified": true,
       "drive_byte_readback_verified": false
+    },
+    {
+      "product": "sudoku",
+      "run": 45543787474,
+      "artifact": 14989654462,
+      "sha256": "c19bcca0ab029f5e18854187ff9479336b0715300fcbf1401355330f841b4399",
+      "notes": "six original branding images",
+      "status": "download_hash_verified_private_archive_uploaded",
+      "release_eligible": false,
+      "drive_metadata_verified": true,
+      "drive_byte_readback_verified": false
+    },
+    {
+      "product": "crossroads",
+      "run": 45893696070,
+      "artifact": 15152852006,
+      "sha256": "83c6e5eb1f5577cfa65bb20f906ad3b3f33b9258fe2e6e6e46ed24c3a6c7c30b",
+      "notes": "QA APK and receipts, not screenshots",
+      "status": "download_hash_verified_private_archive_uploaded",
+      "release_eligible": false,
+      "drive_metadata_verified": true,
+      "drive_byte_readback_verified": false
+    },
+    {
+      "product": "crossroads",
+      "run": 45893696070,
+      "artifact": 15153295672,
+      "sha256": "5dfcbb137dc5adcad992b434ffd2f23c69cd2e7d02ffc4b5fd78e1aaccc9ba8f",
+      "notes": "gameplay test data",
+      "status": "download_hash_verified_private_archive_uploaded",
+      "release_eligible": false,
+      "drive_metadata_verified": true,
+      "drive_byte_readback_verified": false
+    },
+    {
+      "product": "crossroads",
+      "run": 45893696070,
+      "artifact": 15152772089,
+      "sha256": "163ccef4c46e2be4ca45d8767ed2b47e05673bce3d5533e0b631a7433e68c91f",
+      "notes": "gameplay test data",
+      "status": "download_hash_verified_private_archive_uploaded",
+      "release_eligible": false,
+      "drive_metadata_verified": true,
+      "drive_byte_readback_verified": false
     }
   ],
   "pending_products": [
@@ -70,5 +114,51 @@
     "capture_device",
     "privacy_review"
   ],
-  "notes": "Candidate archives are not approved website assets. No private archive locations in public manifest. Verify individual bytes, provenance, screenshot scope and owner approval before inclusion."
+  "notes": "Candidate archives are not approved website assets. No private archive locations in public manifest. Verify individual bytes, provenance, screenshot scope and owner approval before inclusion.",
+  "candidate_derivatives": [
+    {
+      "product": "sudoku",
+      "kind": "promotional_artwork",
+      "source_revision": "61c27feb7eeae9d552c9abc59579a2bebaa9f0a7",
+      "source_archive": 14989654462,
+      "files": [
+        {
+          "file": "sudoku-launcher-master.webp",
+          "source": "launcher-master.png",
+          "width": 512,
+          "height": 512,
+          "sha256": "9129dbc39b3876f80e4232f7c37812fa62ea7748d66069c32563b620d38dbf5b",
+          "bytes": 331850
+        },
+        {
+          "file": "sudoku-wide-cover.webp",
+          "source": "wide-cover.webp",
+          "width": 1200,
+          "height": 514,
+          "sha256": "c4fa83e72b2a4591b34ca72a1d73988ffedb834d8b8e2c16369b712f474dc023",
+          "bytes": 187552
+        },
+        {
+          "file": "sudoku-transparent-logo.webp",
+          "source": "transparent-logo.png",
+          "width": 1086,
+          "height": 362,
+          "sha256": "75b73b7b6e97356e240a9a1f153710d460efe217f70146a1f6b676bd629401f2",
+          "bytes": 150634
+        }
+      ],
+      "approval": "pending",
+      "rights_review": "pending",
+      "website_path": null,
+      "private_archive_uploaded": true,
+      "drive_byte_readback_verified": false
+    }
+  ],
+  "crossroads_icon_candidate": {
+    "source_path": "design/art/imports/Crossroads-approved-icon-v1.png",
+    "source_ref": "feature/identity-17-art-import",
+    "blob": "a1beaa04a9f143a1c685ed176fedcd6828f1b893",
+    "expected_sha256": "711cde86e7d7da605206b3c531ee80ba0d768860ab5f528ec836388555208d4b",
+    "status": "blob_id_matched_binary_response_empty"
+  }
 }
