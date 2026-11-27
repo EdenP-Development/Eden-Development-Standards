@@ -915,8 +915,8 @@
     },
     {
       "name": "The Last Taters",
-      "repository": "PlayerEden/the-last-taters",
-      "status": "browser_alpha_012_staging_organization_transfer_pending",
+      "repository": "EdenP-Development/the-last-taters",
+      "status": "browser_alpha_012_staging_organization_transfer_verified",
       "channels": [
         {
           "name": "itch.io browser",
@@ -951,6 +951,15 @@
         "status": "long_term_not_configured",
         "proposed_package_id": null,
         "cross_platform_save_migration": "planned for evaluation; not promised"
+      },
+      "organization_transfer": {
+        "date": "2026-11-27",
+        "repository_id": "1403738770",
+        "private_visibility": true,
+        "all_seven_branch_heads_preserved": true,
+        "read_write_verified": true,
+        "game_blob_unchanged": "c978024bba790c013d712d0a58fa3c307eb7ab31",
+        "remaining": "Tags, Actions settings/allowance, secret scopes and independent backup restore unverified"
       }
     }
   ]
