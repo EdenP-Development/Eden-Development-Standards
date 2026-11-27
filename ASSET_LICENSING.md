@@ -37,3 +37,6 @@ Use [release rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) with the exist
 
 ## Portfolio adoption (BIP-05, 2026-11-27)
 See [portfolio rights adoption](PORTFOLIO_RIGHTS_ADOPTION.md) for project-specific existing evidence and remaining gates. Reuse existing product registers and receipts; product chats own exact-release execution. Keep private evidence out of public repositories. No automatic license or visibility changes.
+
+## Shared asset protection (BIP-06, 2026-11-27)
+See [shared asset licensing boundaries](SHARED_ASSET_PROTECTION.md) for the existing MIT grant, inspected branding/audio evidence and proposed prospective separation of tools and creative assets. Preserve existing grants, paths and notices. No license amendment, asset move or visibility change authorized. Private ownership evidence remains access-controlled.
