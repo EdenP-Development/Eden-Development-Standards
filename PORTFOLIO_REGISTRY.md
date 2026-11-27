@@ -122,3 +122,6 @@ Six product routes integrated in c5c2d81337d7ae9c988951bf14c892ff231f9359; 111 l
 
 ## WEB-08.04B — Sudoku artwork recovery (2026-11-27)
 Original branding archive retrieved and exact recorded SHA-256 matched. Six individual image checks passed (hash, dimensions, mode); visual contact sheet inspected. Proposed hero/wordmark/card selection documented in [redesign handoff](website/redesign/README.md). Website approval and integration pending; no publication or app changes.
+
+## WEB-08.04C — Offline Sudoku artwork pilot (2026-11-27)
+Two-page private review ZIP built and integrity checked; eight isolated Chromium layout checks passed. Direct file navigation blocked; full redesign integration and owner approval pending. See [website handoff](website/redesign/README.md). No public binaries or deployment.
