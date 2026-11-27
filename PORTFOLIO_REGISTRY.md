@@ -110,3 +110,6 @@ Eleven pinned source fingerprints matched, actual 24/24 regression rerun passed.
 
 ## WEB-07.01 — Consolidated isolated website verification (2026-11-27)
 Exact review ZIP rechecked; 70 local references resolved and 42/42 actual isolated Chromium layout configurations passed. Direct file navigation blocked, so full navigation suite and CI remain unverified. Acceptance note and handoff synchronized. No deployment or app changes. Next hosting evaluation and remaining release gates.
+
+## WEB-08.01 — Brand separation redesign (2026-11-27)
+Five new candidate pages and separate stylesheet committed under website/redesign, original prototype and packaging pins preserved. Static local reference checks: 57, errors 0. See website/redesign/README.md. Transitional links to original product pages; browser/visual acceptance, redesigned return navigation and artwork approval pending. No deployment or app changes.
