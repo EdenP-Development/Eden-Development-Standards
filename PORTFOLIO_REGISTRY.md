@@ -65,3 +65,6 @@ Website prototype README now records prior four-viewport Chromium evidence, 48px
 
 ## WEB-04 — Canonical branding integrated (2026-11-26)
 Binary retrieval resolved with base64; three pinned Git blobs match main. Website preview now references existing local Spudacus, GridMates and EPS PNGs, commit 8500a13ed1945cca81175d9393e29e270a0776c7. See website/prototype/README.md for exact evidence and limitations. Browser retest, decoded SHA-256 and owner visual approval pending. No deployment or product changes.
+
+## WEB-04C — Branded browser reflow (2026-11-26)
+All three local artwork SHA-256 checks passed. Corrected HTML b23b08ea6b1133a4d97d54d9ed0807cd2282628c passed no-overflow checks at four ordinary viewports and two enlarged-root-text cases. Ordinary navigation passed; enlarged navigation geometry assertion requires diagnosis. See website/prototype/README.md for scoped evidence. No deployment or product changes.
