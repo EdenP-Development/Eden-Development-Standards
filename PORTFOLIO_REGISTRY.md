@@ -249,3 +249,6 @@ Uploaded V12 ZIP and regression JSON to owner Google Drive root, metadata readba
 
 ## WEB-09.01 — Hosting evaluation (2026-11-27)
 Cloudflare Pages recommended provisionally for static commercial portfolio, Netlify fallback. See [hosting decision](website/redesign/HOSTING_DECISION.md). Provider terms, owner approval, private preview controls, output allowlist, visual/accessibility, artwork and privacy/support gates remain open. V12 private backup unchanged. No deployment, account or domain changes.
+
+## WEB-09.02A — Public package structural safeguards (2026-11-27)
+Executed read-only `review-patches/audit_release.py` against exact private V12 ZIP. Pinned archive SHA-256, receipt authorization false, exact ZIP entry set, allowed path types and all 36 payload fingerprints verified. Modified archive (appended byte) rejected. Audit emits BLOCKED, not deployable files; receipt excluded from future public output. This is a pinned V12 structural audit, not a general release packager, content scanner or proof of artwork clearance. No public package generated. Future candidate must have final approved copy, per-file approval manifest, explicit owner authorization and independent deployment verification; do not upload private archive or QA files. Next WEB-09.02B privacy/support readiness. No hosting or publication actions.
