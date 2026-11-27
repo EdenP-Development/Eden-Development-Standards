@@ -62,3 +62,6 @@ Storefront lanes documented in COMMERCIAL_READINESS.md (12.01), privacy hosting 
 
 ## WEB-03B / WEB-04 preparation (2026-11-26)
 Website prototype README now records prior four-viewport Chromium evidence, 48px profile-link correction and pending browser retest. Pinned branding guides inspected; binary retrieval failed, no artwork integrated. No deployment or app changes. PORT-13 may proceed independently.
+
+## WEB-04 — Canonical branding integrated (2026-11-26)
+Binary retrieval resolved with base64; three pinned Git blobs match main. Website preview now references existing local Spudacus, GridMates and EPS PNGs, commit 8500a13ed1945cca81175d9393e29e270a0776c7. See website/prototype/README.md for exact evidence and limitations. Browser retest, decoded SHA-256 and owner visual approval pending. No deployment or product changes.
