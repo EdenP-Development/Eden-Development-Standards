@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-25",
+  "updated": "2026-11-27",
   "notes": "Public identifiers only. Null means unverified. No passwords, key bytes or private backup paths.",
   "apps": [
     {
@@ -326,7 +326,7 @@
     {
       "name": "Sector Rebound",
       "repository": "EdenP-Development/Ricochet-Rumble",
-      "status": "m13f_qa_pass_private_beta_signer_verified_release_pending",
+      "status": "beta1_R10_automated_QA_pass_owner_and_release_gates_pending",
       "channels": [
         {
           "name": "owner internal preview",
@@ -506,10 +506,10 @@
         "two_phone_lan": "PENDING",
         "actual_itch_publication": "NOT_PUBLISHED",
         "owner_publication_approval": false,
-        "current_development_pr": 160,
+        "current_development_pr": 169,
         "accepted_spudacus_standalone_duration_ms": 2500,
         "normal_startup_adoption": "merged_PR_154_exact_head_Android_QA_pass_final_beta_phone_qa_pending",
-        "next_source_milestone": "B1-03_selective_M13_approved_art_and_mode_UX_no_TDM_pacing_choice_yet",
+        "next_source_milestone": "Owner consolidated review and hub release gates",
         "visual_m13_slice": {
           "name": "B1-03-A Warm Industrial Hangar",
           "pr": "https://github.com/EdenP-Development/Ricochet-Rumble/pull/155",
@@ -634,6 +634,22 @@
           "mainline_merged": false,
           "public_beta_released": false,
           "next": "Review current before/after Mode Select and start narrow Home/Hangar presentation audit"
+        },
+        "refinement_r10": {
+          "source_sha": "80cd22b35b9bb285751ef82e69e1d63f3551edfe",
+          "draft_pr": 169,
+          "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45592089117",
+          "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45592089117/artifacts/15010503734",
+          "artifact_zip_sha256": "cc69148dd87fcc8bbbff4dc86ff8dbb3c5ec2fd97910713d96ee39a8aa501f61",
+          "artifact_expiry": "2026-12-09T10:11:43Z",
+          "package_id": "com.playereden.ricochetrumble.spudacusqa",
+          "signer_scope": "disposable_debug",
+          "status": "R1_R10_automated_QA_pass_owner_review_pending",
+          "mock_transport_two_client_checks": 101,
+          "hud_safe_zone_cases": 168,
+          "owner_accepted": false,
+          "public_beta_released": false,
+          "hub_adoption_audit": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/6698200fb8a7e0b18705ccbb59c277113987772c/docs/HUB_ADOPTION_AUDIT_2026-11-27.md"
         }
       }
     },
