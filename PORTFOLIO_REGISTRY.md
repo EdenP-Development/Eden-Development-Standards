@@ -168,3 +168,6 @@ Federal search interface and official search instructions inspected: https://tms
 
 ## WEB-08.04I — Consolidated Eden Practical offline pilot (2026-11-27)
 Eleven-page private V7 website unifies all three brand hubs and six product pages. 24 artwork files unchanged, 36 payload hashes and 132 local references verified; every page reachable from and able to return to homepage in static graph. Browser regression and publication clearance pending. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
+
+## BIP-04 — Sudoku rights pilot (2026-11-27)
+See [Sudoku rights pilot](SUDOKU_RIGHTS_PILOT.md) for inspected active-branch source declarations, artwork/emote and soundtrack provenance, direct dependency inventory, candidate ownership notice and remaining release gates. Six tracks have recorded original/runtime fingerprints; paid-plan entitlement per track remains open. No resolved dependency graph or APK inventory inspected; no rights clearance or notice adoption. Next BIP-04.02: release dependency/notice reconciliation and private track entitlement evidence, then reuse across products. No application, license, ownership or storefront changes.
