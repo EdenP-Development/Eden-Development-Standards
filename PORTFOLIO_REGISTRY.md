@@ -246,3 +246,6 @@ Verified exact V12 ZIP SHA-256 f1c2f7d0ab453119a2cc6565cf4ee1247dbe1bc811ec1aeac
 
 ## WEB-08.08 — Private V12 candidate preservation (2026-11-27)
 Uploaded V12 ZIP and regression JSON to owner Google Drive root, metadata readback shared=false for both. Retrieved both raw files and computed SHA-256 locally; V12 ZIP matched prior pin, exact entry set and all 36 payload hashes passed, publication_authorized=false. Regression receipt hash recorded from recovered bytes; no independent pre-upload receipt hash available. See [V12 recovery manifest](review-recovery-v12.json) (private Drive IDs intentionally omitted). V8 remains rollback. Next hosting evaluation and outstanding visual/accessibility/publication gates; no deployment or app changes.
+
+## WEB-09.01 — Hosting evaluation (2026-11-27)
+Cloudflare Pages recommended provisionally for static commercial portfolio, Netlify fallback. See [hosting decision](website/redesign/HOSTING_DECISION.md). Provider terms, owner approval, private preview controls, output allowlist, visual/accessibility, artwork and privacy/support gates remain open. V12 private backup unchanged. No deployment, account or domain changes.
