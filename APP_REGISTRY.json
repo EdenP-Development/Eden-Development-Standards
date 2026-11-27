@@ -658,6 +658,12 @@
             "status": "EDT08_31_source_files_EDT09_16_packaged_assets_PASS",
             "scope": "historical debug APK bytes only; not physical or rights clearance"
           }
+        },
+        "hub_readiness": {
+          "status": "toolkit_verified_data_and_rights_source_registers_drafted",
+          "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
+          "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
+          "next": "SR-HUB-05 unsigned dedicated beta staging; privacy runtime and rights evidence pending; no publication"
         }
       }
     },
