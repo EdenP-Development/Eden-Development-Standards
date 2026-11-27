@@ -201,3 +201,6 @@ Owner-directed practical, simple, polished and modular development philosophy re
 
 ## BIP-08 — Military filing relief verification (2026-11-27)
 See [business establishment](BUSINESS_ESTABLISHMENT.md#bip-08--kentucky-military-filing-relief-and-january-decision-2026-11-27). Official Kentucky statutes confirm current Guard eligibility definition, 51% unconditional ownership threshold, qualifying LLC filing waiver and four-year annual-report fee window. Paper KLC and online proof instructions differ; agency confirmation and authorized service proof remain open. Budget applicable $175 LLET separately; no tax exemption inferred. January 2027 optional decision only; no personal service documents, filing, agency contact or spending. Next BIP-09 deferred decision and ordinary development safeguards.
+
+## WEB-08.07B — Website modular shell audit (2026-11-27)
+Exact private V8 source inspected; existing static CSS and assets retained. Initial local shell extraction/build pilot committed; execution/parity checks and catalog generation pending. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
