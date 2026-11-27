@@ -31,3 +31,6 @@ Before Google Play: recheck actual platform terms, listing rights, developer ide
 
 ## Handoff
 Report rights inventory status, material unknowns, evidence references, required notices and next actions. No filing, license selection, paid release or legal representation is authorized by this document. Existing security, signing and release gates remain unchanged.
+
+## Release-specific rights receipt (BIP-04.02, 2026-11-27)
+Use [release rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) with the existing asset register and release checklist. Reuse exact-version evidence where terms and use match; inspect resolved runtime dependencies and actual packaging, not just declared libraries. Preserve required notices and private entitlement evidence. No automatic license change or distribution authorization.
