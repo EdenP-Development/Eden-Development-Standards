@@ -74,3 +74,6 @@ WEB-04D navigation discrepancy resolved in previous browser checkpoint (24/24 ch
 
 ## WEB-05.02 — Shared stylesheet (2026-11-26)
 Both prototype pages now use site.css; exact readbacks and 18 static href checks passed. Existing body content preserved, product heading rule scoped. Browser regression of external stylesheet and product navigation pending; see website/prototype/README.md. No deployment or product changes.
+
+## WEB-05.03 — Browser regression harness (2026-11-26)
+Reusable browser_smoke.py committed and exact readback verified; full execution remains blocked in current container by administrator navigation restriction (minimal intercepted-origin probe failed). No multi-page browser pass claimed. See website/prototype/README.md for commands and scope. Next permitted execution and remaining product pages. No deployment or app changes.
