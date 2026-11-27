@@ -128,3 +128,6 @@ Two-page private review ZIP built and integrity checked; eight isolated Chromium
 
 ## WEB-08.04D — Word Search artwork recovery (2026-11-27)
 Verified historical screenshot archive, selected three images for private expanded GridMates pilot, 10 payloads checked after ZIP readback. Browser acceptance and public artwork clearance pending. See [redesign handoff](website/redesign/README.md). No deployment or app changes.
+
+## WEB-08.04E — Grid Hunt artwork pilot (2026-11-27)
+Recovered and verified 50 coastal sprite exports; six used in four-page private GridMates pilot. 17 payload hashes and 43 local references passed. Browser and publication approval pending. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
