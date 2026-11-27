@@ -80,3 +80,6 @@ Reusable browser_smoke.py committed and exact readback verified; full execution 
 
 ## WEB-05.03B — Website quality workflow (2026-11-26)
 Read-only website-preview.yml committed and exact-readback verified, commit e3b6c0a6afef44d4504dab2c15e6fc73e358681c. Actual workflow execution not established; browser acceptance remains pending. Next draft remaining product pages with shared CSS, extend browser coverage, verify actual run. No deployment.
+
+## WEB-05.04 — Full website product portfolio (2026-11-26)
+All six active public-facing product concepts have preview pages linked from homepage; five new source-backed development pages and expanded browser harness committed and exact-readback verified. Static 63 href checks passed, seven HTML pages. Actual expanded browser execution, product-specific artwork, copy acceptance, approved support/privacy information and hosting remain pending. See website/prototype/README.md. No app or storefront changes.
