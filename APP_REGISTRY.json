@@ -663,7 +663,23 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "SR-HUB-05 unsigned dedicated beta staging; privacy runtime and rights evidence pending; no publication"
+          "next": "Verify disposable SDK fixture, prepare upgrade rehearsal and support; no real signing before owner authorization and recovery",
+          "staging": {
+            "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
+            "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
+            "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516/artifacts/15176830805",
+            "artifact_zip_sha256": "b0195f3301a96be958a1c50b7c54fb21fcdfcb6b3bb79a7f0ce78d5e0b0e4dad",
+            "version_code": 1,
+            "version_name": "0.9.80-beta.1",
+            "status": "unsigned_non_debug_verified_not_installable"
+          },
+          "signing_preparation": {
+            "source": "c33587b152cd7969145c1b163b4c14a0eca1af3e",
+            "pr": 172,
+            "status": "manual_main_only_workflow_drafted_disposable_fixture_CI_pending",
+            "owner_recovery_confirmed": false,
+            "actual_private_signed_apk": false
+          }
         }
       }
     },
