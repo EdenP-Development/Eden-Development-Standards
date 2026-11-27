@@ -207,3 +207,6 @@ Exact private V8 source inspected; existing static CSS and assets retained. Init
 
 ## WEB-08.07C.01 — Exact shell parity (2026-11-27)
 Verified exact V8 ZIP SHA-256 a24db7e8e3f2bfe0531591b1a8c088d862e98a3d69b0251bb8bc6e5e30802fcc and 36 payloads. Local Python harness using corrected shell regex reproduced all 11 original HTML files byte-for-byte. Original committed tool had overescaped whitespace/file-extension regex and JSON newline; corrected those in modular-shell.py. Full CLI roundtrip and catalog registration remain separate next checks; no claim of generated navigation or new product support yet. V8 unchanged; no deployment.
+
+## TAT-INF-01 — Taters hosted testing resumption (2026-11-27)
+Private repository runner diagnostic passed [run 45965365371](https://github.com/EdenP-Development/the-last-taters/actions/runs/45965365371); exact protected gameplay source and v16 verified. P8n Day55 recovery [run 45966725321](https://github.com/EdenP-Development/the-last-taters/actions/runs/45966725321) queued at initial inspection, no gameplay results yet. Independent recovery and native platform gates open. No release or visibility change.
