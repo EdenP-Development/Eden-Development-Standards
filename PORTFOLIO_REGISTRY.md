@@ -174,3 +174,6 @@ See [Sudoku rights pilot](SUDOKU_RIGHTS_PILOT.md) for inspected active-branch so
 
 ## WEB-08.05A — Consolidated responsive browser regression (2026-11-27)
 Exact V7 archive and 36 payloads verified. 66/66 isolated Chromium layout configurations passed across all 11 pages including enlarged root text. Direct file navigation blocked; keyboard, contrast, complete accessibility and publication gates remain open. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
+
+## BIP-04.02 — Release rights receipt (2026-11-27)
+Reusable [rights receipt](templates/RELEASE_RIGHTS_RECEIPT.md) added and linked from BUS-02; [Sudoku pilot](SUDOKU_RIGHTS_PILOT.md) updated with upstream license references. Source declarations rechecked; exact resolved graph, bundled notices, track entitlement and APK inventory not verified. Next: product-side execution at exact candidate, then apply lightweight receipt to other products. No app changes, license changes, spending or publication.
