@@ -649,7 +649,15 @@
           "hud_safe_zone_cases": 168,
           "owner_accepted": false,
           "public_beta_released": false,
-          "hub_adoption_audit": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/6698200fb8a7e0b18705ccbb59c277113987772c/docs/HUB_ADOPTION_AUDIT_2026-11-27.md"
+          "hub_adoption_audit": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/6698200fb8a7e0b18705ccbb59c277113987772c/docs/HUB_ADOPTION_AUDIT_2026-11-27.md",
+          "apk_sha256": "702ec203f4ef3769108725adc937b9a2f23c9290bbeda8ac6e3427be2a0c1c05",
+          "toolkit_verification": {
+            "source": "6a3df7ee65ffa6cc3973d7bacb73d20e01bd5355",
+            "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45949255646",
+            "receipt": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45949255646/artifacts/15176401474",
+            "status": "EDT08_31_source_files_EDT09_16_packaged_assets_PASS",
+            "scope": "historical debug APK bytes only; not physical or rights clearance"
+          }
         }
       }
     },
