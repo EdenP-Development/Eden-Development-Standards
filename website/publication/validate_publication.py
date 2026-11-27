@@ -1,6 +1,7 @@
 """Offline, fail-closed publication receipt check. No publishing or network access."""
 import argparse
 import hashlib
+import ipaddress
 import json
 import re
 from datetime import date
@@ -12,7 +13,24 @@ CHECKS = ("exact_build", "data_inventory", "audience_and_store_review",
           "owner_content_approval", "host_approval")
 PLACEHOLDER = re.compile(r"\b(?:todo|tbd|placeholder|prepublication draft|publication hold|not approved|not effective)\b", re.I)
 
-def validate(record, root):
+PRODUCTS = frozenset(("sudoku", "word-search", "grid-hunt", "crossroads", "sector-rebound", "eden-comms"))
+def valid_host(host, *, fixture=False):
+    if not host or host.endswith(".") or not host.isascii():
+        return False
+    host = host.lower()
+    try:
+        ipaddress.ip_address(host)
+        return False
+    except ValueError:
+        pass
+    labels = host.split(".")
+    if len(host) > 253 or len(labels) < 2 or not all(re.fullmatch(r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?", x) for x in labels):
+        return False
+    if fixture:
+        return host == "fixture.example"
+    return not (labels[-1] in ("example", "invalid", "test", "localhost", "local", "internal", "onion") or not labels[-1].isalpha() or any(host == x or host.endswith("." + x) for x in ("example.com", "example.org", "example.net")))
+
+def validate(record, root, *, fixture=False):
     errors = []
     if not isinstance(record, dict):
         return ["receipt must be an object"]
@@ -27,6 +45,11 @@ def validate(record, root):
     product = value("product")
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", product):
         errors.append("invalid product slug")
+    if fixture:
+        if product != "fixture" or record.get("channel") != "synthetic":
+            errors.append("fixture mode requires synthetic fixture identity")
+    elif product not in PRODUCTS or record.get("channel") == "synthetic":
+        errors.append("unrecognized production product or synthetic channel")
     for key in ("channel", "version", "publisher"):
         value(key)
     for key, length in (("source_revision", 40), ("apk_sha256", 64)):
@@ -34,7 +57,7 @@ def validate(record, root):
             errors.append(key + ": invalid fingerprint")
     for key in ("contact", "private_reporting_contact"):
         v = value(key)
-        if not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", v) or v.lower().split("@")[-1] in ("example.com", "example.org", "example.net") or v.lower().endswith((".invalid", ".test", ".localhost")):
+        if not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", v) or not valid_host(v.rsplit("@", 1)[-1], fixture=fixture):
             errors.append(key + ": invalid or reserved email")
     try:
         d = value("effective_date")
@@ -47,7 +70,7 @@ def validate(record, root):
         url = value(kind + "_url")
         try:
             u = urlsplit(url)
-            if u.scheme != "https" or not u.hostname or u.username or u.password or u.query or u.fragment or u.hostname in ("example.com", "example.org", "example.net", "localhost") or u.hostname.endswith((".invalid", ".test", ".localhost")):
+            if u.scheme != "https" or not valid_host(u.hostname, fixture=fixture) or u.username is not None or u.password is not None or u.query or u.fragment or u.port not in (None, 443) or not u.path or any(c.isspace() or ord(c) < 32 for c in url):
                 raise ValueError()
             urls.append(url)
         except ValueError:
@@ -68,7 +91,18 @@ def validate(record, root):
             text = data.decode("utf-8")
             if not text.strip() or PLACEHOLDER.search(text):
                 errors.append(kind + ": empty or draft content")
-        except (OSError, ValueError):
+            # Require exact labeled metadata lines, not incidental substrings.
+            required = {"Publisher": record.get("publisher"),
+                        "Contact": record.get("contact"),
+                        "Effective date": record.get("effective_date"),
+                        "Canonical URL": record.get(kind + "_url")}
+            if kind == "support":
+                required["Private reporting contact"] = record.get("private_reporting_contact")
+            for label, expected_value in required.items():
+                matches = [line for line in text.splitlines() if line.startswith(label + ":")]
+                if not isinstance(expected_value, str) or matches != [label + ": " + expected_value]:
+                    errors.append(kind + ": inconsistent " + label)
+        except (OSError, ValueError, RuntimeError):
             errors.append(kind + ": unreadable or unsafe content path")
     if len(urls) == 2 and urls[0] == urls[1]:
         errors.append("privacy and support URLs must be distinct")
