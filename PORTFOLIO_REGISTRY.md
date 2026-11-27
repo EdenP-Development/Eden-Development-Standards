@@ -189,3 +189,6 @@ Exact V8 package and 36 payload digests verified; 66/66 isolated Chromium layout
 
 ## BIP-06 — Shared asset protection (2026-11-27)
 [Shared asset licensing boundaries](SHARED_ASSET_PROTECTION.md) documents exact MIT root license, three canonical branding guides and Cozy Puzzle audio metadata. Proposed prospective separation of reusable tools and creative assets; no retroactive restriction, license amendment, asset migration or visibility change. Existing pinned build imports preserved. Rights and independent private archive recovery remain open. Next BIP-07 minimal private evidence checklist and owner-controlled recovery verification. No app changes or spending.
+
+## WEB-08.06 — Durable private website recovery (2026-11-27)
+Exact V8 ZIP and two test receipts preserved in unshared Google Drive; three raw readbacks matched pre-upload SHA-256, all 36 ZIP payload digests passed. Public-safe [recovery receipt](website/redesign/review-recovery-v8.json) and handoff updated. Next owner visual review; no app or deployment changes.

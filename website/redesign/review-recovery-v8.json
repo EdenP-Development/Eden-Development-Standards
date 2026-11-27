@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "checkpoint": "WEB-08.06",
+  "date": "2026-11-27",
+  "publication_authorized": false,
+  "storage": "owner-controlled Google Drive; search by exact filename; private identifiers intentionally omitted",
+  "files": [
+    {
+      "name": "eden-practical-artwork-pilot-v8.zip",
+      "bytes": 2306294,
+      "sha256": "a24db7e8e3f2bfe0531591b1a8c088d862e98a3d69b0251bb8bc6e5e30802fcc"
+    },
+    {
+      "name": "eden-v8-accessibility-audit.json",
+      "bytes": 12465,
+      "sha256": "eccd1f5bf834cae8cbaf8fd1a0ddf112d47334295e53dd296e554b2d0ec92807"
+    },
+    {
+      "name": "eden-v8-regression.json",
+      "bytes": 14480,
+      "sha256": "a80019adee5003aca7a40f93a503052388b312f6385ec58bf2fbccbf75eac61c"
+    }
+  ],
+  "verification": {
+    "metadata_size_match": 3,
+    "not_shared": 3,
+    "remote_download_returned": 3,
+    "downloaded_sha256_match": 3,
+    "zip_payload_sha256_match": 36
+  },
+  "remaining": [
+    "owner visual acceptance",
+    "actual browser navigation",
+    "screen reader and focus-indicator contrast",
+    "artwork and publication clearance",
+    "hosting and approved privacy/support"
+  ],
+  "restore": "Retrieve named files from private Drive; compare SHA-256 before extraction; verify receipt.json exact file set and each payload SHA-256; retain publication_authorized=false."
+}
