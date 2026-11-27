@@ -71,3 +71,6 @@ All three local artwork SHA-256 checks passed. Corrected HTML b23b08ea6b1133a4d9
 
 ## WEB-05.01 — Sudoku product page pilot (2026-11-26)
 WEB-04D navigation discrepancy resolved in previous browser checkpoint (24/24 checks, computed scroll margin); see website/prototype/README.md. New Sudoku page and homepage link committed and exact-readback verified, 16 href references statically checked. No new browser acceptance, live storefront verification, publication or app changes. Next consolidate CSS and test both pages before expanding. PORT-12.05 and owner policy/contact decisions remain open.
+
+## WEB-05.02 — Shared stylesheet (2026-11-26)
+Both prototype pages now use site.css; exact readbacks and 18 static href checks passed. Existing body content preserved, product heading rule scoped. Browser regression of external stylesheet and product navigation pending; see website/prototype/README.md. No deployment or product changes.
