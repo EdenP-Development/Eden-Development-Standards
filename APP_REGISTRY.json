@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify emulator results and final readiness; owner decisions and release gates pending",
+          "next": "Resolve dependencies and rights evidence; owner physical review and custody; exact signed beta release gates remain blocked",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -685,10 +685,12 @@
             "source": "db6ea74a6d3c488717c599be0b3197a5c452d4d9",
             "pr": 173,
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45952312100",
-            "status": "instrumented_builds_pass_emulator_pending",
-            "scope": "same-runtime disposable debug .upgradeqa versions 1 and 2; eight synthetic records"
+            "status": "PASS_real_API35_emulator_eight_synthetic_records_same_runtime_disposable_signer",
+            "scope": "same-runtime disposable debug .upgradeqa versions 1 and 2; eight synthetic records",
+            "artifact": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45952312100/artifacts/15177213496"
           },
-          "storefront_draft": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/cacca6b299bd6890a1bc381fec515b031f147ca0/docs/SR_HUB_07_ITCH_STOREFRONT_DRAFT_2026-11-27.md"
+          "storefront_draft": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/cacca6b299bd6890a1bc381fec515b031f147ca0/docs/SR_HUB_07_ITCH_STOREFRONT_DRAFT_2026-11-27.md",
+          "acceptance_matrix": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/f4f912e23956a39fec4357dec3cff603030033ca/docs/SR_HUB_08_ACCEPTANCE_MATRIX_2026-11-27.md"
         }
       }
     },
