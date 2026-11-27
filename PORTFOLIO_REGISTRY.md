@@ -68,3 +68,6 @@ Binary retrieval resolved with base64; three pinned Git blobs match main. Websit
 
 ## WEB-04C — Branded browser reflow (2026-11-26)
 All three local artwork SHA-256 checks passed. Corrected HTML b23b08ea6b1133a4d97d54d9ed0807cd2282628c passed no-overflow checks at four ordinary viewports and two enlarged-root-text cases. Ordinary navigation passed; enlarged navigation geometry assertion requires diagnosis. See website/prototype/README.md for scoped evidence. No deployment or product changes.
+
+## WEB-05.01 — Sudoku product page pilot (2026-11-26)
+WEB-04D navigation discrepancy resolved in previous browser checkpoint (24/24 checks, computed scroll margin); see website/prototype/README.md. New Sudoku page and homepage link committed and exact-readback verified, 16 href references statically checked. No new browser acceptance, live storefront verification, publication or app changes. Next consolidate CSS and test both pages before expanding. PORT-12.05 and owner policy/contact decisions remain open.
