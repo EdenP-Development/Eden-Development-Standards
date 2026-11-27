@@ -116,3 +116,6 @@ Five new candidate pages and separate stylesheet committed under website/redesig
 
 ## WEB-08.02 — Direct brand voice (2026-11-27)
 Five redesign pages simplified and existing brand standard updated to reflect practical, personal, context-dependent communication without forced slogans or corporate language. Exact readbacks and unchanged resource/navigation references verified. See website/redesign/README.md. Original baseline preserved; visual review and redesigned product navigation pending. No app changes or deployment.
+
+## WEB-08.03 / WEB-08.04A — Redesigned product routes and visual hierarchy (2026-11-27)
+Six product routes integrated in c5c2d81337d7ae9c988951bf14c892ff231f9359; 111 local references across 11 pages passed static checks. Product accent treatments and listing hierarchy implemented; see [redesign handoff](website/redesign/README.md). Candidate artwork still awaits individual clearance and byte verification. Browser acceptance, owner visual review, packaging and deployment pending. Original prototype and apps unchanged.

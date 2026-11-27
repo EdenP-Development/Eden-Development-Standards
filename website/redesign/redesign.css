@@ -2,3 +2,12 @@
 
 /* Product detail layout */
 .product-page .hero{padding-top:clamp(1rem,3vw,2.5rem)}.product-page .hero>p:not(.eyebrow){max-width:68ch}.product-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1.25rem;margin-top:1.25rem}.product-actions a{display:inline-flex;align-items:center;min-height:48px}.product-actions .action{background:var(--accent);color:white;border-radius:8px;padding:.65rem 1rem;font-weight:700;text-decoration:none}.product-page section:not(.hero)>p{max-width:75ch}.help-note{border-inline-start:4px solid var(--accent);padding:1rem;background:white}.product-page footer{padding-block:1.5rem}
+
+/* WEB-08.04: product-specific color treatments; original artwork remains subject to intake review. */
+.product-sudoku{--product-accent:#426c4d}
+.product-word-search{--product-accent:#825b35}
+.product-grid-hunt{--product-accent:#426b73}
+.product-crossroads{--product-accent:#805e38}
+.product-sector-rebound{--product-accent:#3e526b}
+.product-eden-comms{--product-accent:#78550b}
+.product-tile{border-block-start:5px solid var(--product-accent,var(--accent));display:flex;flex-direction:column}.product-tile .status{margin-top:0;color:var(--product-accent,var(--accent))}.product-tile .action{margin-top:auto;align-self:flex-start}.product-page{--accent:var(--product-accent)}.product-page .hero{border-bottom:1px solid var(--line);padding-bottom:2rem}.product-page .lockup{max-width:320px}.product-page .features .card{border-block-start:3px solid var(--accent)}.product-page .features .card h3{margin-top:0}.product-page .product-actions .action:hover,.product-tile .action:hover{text-decoration:underline}.product-page .notice{max-width:75ch}.product-page .hero h1{max-width:24ch}
