@@ -135,3 +135,6 @@ Recovered and verified 50 coastal sprite exports; six used in four-page private 
 
 ## TAT-PORT-01 — The Last Taters revival (2026-11-27)
 Owner direction: browser-first itch.io development, eventual downloadable PC and Google Play. Project integration roadmap and handoff committed; current personal repository remains canonical until owner transfer to EdenP-Development is verified. Preserve history, existing browser saves and standalone Spudacus identity. Shared standards mapping is documented; native readiness, signing, release and asset/data acceptance remain open. No publication or ownership change performed.
+
+## WEB-08.04F — Crossroads artwork pilot (2026-11-27)
+Verified historical QA archive and APK; recovered four original environment images and expanded private GridMates pilot to five pages. 22 payload hashes and 57 local references passed. Browser acceptance, gameplay screenshots and public artwork clearance pending. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
