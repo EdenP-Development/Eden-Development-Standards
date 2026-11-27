@@ -793,18 +793,22 @@
         "public_beta": "not_published",
         "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45791275281/artifacts/15103426213",
-        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/226",
+        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/230",
         "beta_release_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_PLAN.md",
         "current_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/CURRENT_HANDOFF.md",
         "distribution_preference": "professional software channel; selection deferred; no public release approved",
         "beta_readiness_checklist": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_READINESS_CHECKLIST.md",
         "visual_refinement_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EPS_VISUAL_REFINEMENT_PLAN.md",
         "cross_project_reference": "SudokuTogether native theme tokens, contrast matrices, compact/200% font and deterministic visual fixtures; recorded in PR #188 handoff.",
-        "reliability_checkpoint": "EC-R6–R10 automated checks passed; internal 10049 and Preview 200038 verified. EC-B01–B06 documentation checkpoints merged; EC-B07 recovery inventory PR #225 (CI #624) and EC-B08 physical matrix preparation PR #226 (CI #625) merged. Physical 0/54, independent signer recovery, archive byte verification and independent security review remain open.",
+        "reliability_checkpoint": "EC-B01–B11 preparation merged; EC-I01 appearance preference hardening PR #230 CI #634 passed and merged. Internal 10049 remains frozen; successor exact-main signing and integrated Preview pending. Physical 0/54, actual archive/owner signer recovery and independent security review remain open; public functional beta NO-SHIP.",
         "recovery_guide": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/DURABLE_RECOVERY_ARCHIVE.md",
         "continuation_guide": "https://github.com/EdenP-Development/Eden-Comms/blob/main/CONTINUE_HERE.md",
         "physical_acceptance_matrix": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/TWO_PHONE_ACCEPTANCE_MATRIX.md",
-        "documentation_main_sha": "3e67b46bd52aa27c1ea781ae255a9d0b03a9ad14"
+        "documentation_main_sha": "68e81d53edc42117a93e1c7edd9d36f5a3cff915",
+        "independent_review_brief": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/INDEPENDENT_SECURITY_REVIEW_BRIEF.md",
+        "storefront_readiness": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/PROFESSIONAL_STOREFRONT_READINESS.md",
+        "release_authorization": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_AUTHORIZATION.md",
+        "successor_preview_run": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45955191761"
       }
     },
     {
