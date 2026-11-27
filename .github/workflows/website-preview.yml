@@ -1,0 +1,45 @@
+name: Website preview verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'website/prototype/**'
+      - 'branding/spudacus/v1.0/full-transparent.png'
+      - 'branding/gridmates/v1.0/runtime-transparent.png'
+      - 'branding/eps/v1.0/runtime-transparent.png'
+      - '.github/workflows/website-preview.yml'
+  pull_request:
+    paths:
+      - 'website/prototype/**'
+      - 'branding/spudacus/v1.0/full-transparent.png'
+      - 'branding/gridmates/v1.0/runtime-transparent.png'
+      - 'branding/eps/v1.0/runtime-transparent.png'
+      - '.github/workflows/website-preview.yml'
+permissions:
+  contents: read
+jobs:
+  browser-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test-only browser dependencies
+        run: |
+          python -m pip install playwright==1.51.0
+          python -m playwright install --with-deps chromium
+      - name: Verify browser preview
+        run: |
+          set -euo pipefail
+          python website/prototype/browser_smoke.py | tee "$RUNNER_TEMP/website-browser-results.json"
+      - name: Retain successful test receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-browser-results
+          path: ${{ runner.temp }}/website-browser-results.json
+          if-no-files-found: error
+          retention-days: 14
