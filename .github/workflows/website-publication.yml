@@ -4,10 +4,18 @@ on:
   push:
     paths:
       - 'website/publication/**'
+      - 'website/prototype/**'
+      - 'branding/spudacus/v1.0/full-transparent.png'
+      - 'branding/gridmates/v1.0/runtime-transparent.png'
+      - 'branding/eps/v1.0/runtime-transparent.png'
       - '.github/workflows/website-publication.yml'
   pull_request:
     paths:
       - 'website/publication/**'
+      - 'website/prototype/**'
+      - 'branding/spudacus/v1.0/full-transparent.png'
+      - 'branding/gridmates/v1.0/runtime-transparent.png'
+      - 'branding/eps/v1.0/runtime-transparent.png'
       - '.github/workflows/website-publication.yml'
 permissions:
   contents: read
@@ -32,3 +40,12 @@ jobs:
           status=$?
           set -e
           test "$status" -eq 1
+      - name: Build pinned offline review archive
+        run: python website/publication/package_review.py "$RUNNER_TEMP/eden-website-review.zip"
+      - name: Retain review archive (not deployment)
+        uses: actions/upload-artifact@v4
+        with:
+          name: eden-website-review-only
+          path: ${{ runner.temp }}/eden-website-review.zip
+          if-no-files-found: error
+          retention-days: 14
