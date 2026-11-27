@@ -77,3 +77,6 @@ Both prototype pages now use site.css; exact readbacks and 18 static href checks
 
 ## WEB-05.03 — Browser regression harness (2026-11-26)
 Reusable browser_smoke.py committed and exact readback verified; full execution remains blocked in current container by administrator navigation restriction (minimal intercepted-origin probe failed). No multi-page browser pass claimed. See website/prototype/README.md for commands and scope. Next permitted execution and remaining product pages. No deployment or app changes.
+
+## WEB-05.03B — Website quality workflow (2026-11-26)
+Read-only website-preview.yml committed and exact-readback verified, commit e3b6c0a6afef44d4504dab2c15e6fc73e358681c. Actual workflow execution not established; browser acceptance remains pending. Next draft remaining product pages with shared CSS, extend browser coverage, verify actual run. No deployment.
