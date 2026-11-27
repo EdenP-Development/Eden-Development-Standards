@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "publication_authorized": false,
+  "assets": [],
+  "candidate_archives": [
+    {
+      "product": "eden-comms",
+      "run": 45582913336,
+      "artifact": 15007657884,
+      "sha256": "ad79c0344c97d1aba6bc617c922505227a62db85a054a20454c02c8f608f4031",
+      "status": "download_hash_verified_private_archive_uploaded",
+      "screenshot_count": 28,
+      "release_eligible": false
+    },
+    {
+      "product": "word-search",
+      "run": 45577040557,
+      "artifact": 15005144036,
+      "sha256": "142f94e00b7bcd4743f7d662220ac74c3525ccccb2113b286a66f35040ffbf87",
+      "status": "metadata_only",
+      "release_eligible": false
+    },
+    {
+      "product": "grid-hunt",
+      "run": 45744840839,
+      "artifact": 15083595019,
+      "sha256": "03d6e48cd29028b58461880cb1ec9a981443937cc4f7eb0ecdb501032a50464e",
+      "status": "metadata_only",
+      "release_eligible": false
+    },
+    {
+      "product": "sector-rebound",
+      "run": 45592089117,
+      "artifact": 15010503734,
+      "sha256": "cc69148dd87fcc8bbbff4dc86ff8dbb3c5ec2fd97910713d96ee39a8aa501f61",
+      "status": "metadata_only",
+      "release_eligible": false
+    }
+  ],
+  "pending_products": [
+    "sudoku",
+    "crossroads"
+  ],
+  "required_asset_fields": [
+    "product",
+    "kind",
+    "source_revision",
+    "source_path",
+    "sha256",
+    "width",
+    "height",
+    "rights_review",
+    "owner_approval",
+    "website_path",
+    "capture_build",
+    "capture_device",
+    "privacy_review"
+  ],
+  "notes": "Candidate archives are not approved website assets. No private archive locations in public manifest. Verify individual bytes, provenance, screenshot scope and owner approval before inclusion."
+}
