@@ -83,3 +83,6 @@ Read-only website-preview.yml committed and exact-readback verified, commit e3b6
 
 ## WEB-05.04 — Full website product portfolio (2026-11-26)
 All six active public-facing product concepts have preview pages linked from homepage; five new source-backed development pages and expanded browser harness committed and exact-readback verified. Static 63 href checks passed, seven HTML pages. Actual expanded browser execution, product-specific artwork, copy acceptance, approved support/privacy information and hosting remain pending. See website/prototype/README.md. No app or storefront changes.
+
+## WEB-05.05B — Artwork recovery and intake (2026-11-26)
+Website asset manifest committed and readback verified. Four QA archive metadata records checked; urgent Eden Comms historical visual archive recovered, local digest matched and unshared Drive copy uploaded (metadata verified, remote rehash pending). Remaining archives and individual product artwork pending. No website asset approval or deployment. See website/prototype/README.md.
