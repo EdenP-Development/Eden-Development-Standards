@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify archive contract; owner preserve original artifacts; continue storefront preparation and unresolved runtime/version gates",
+          "next": "Verify screenshot recovery, visually review actual candidate screenshots; preserve unresolved technical release gates",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -798,11 +798,24 @@
             ],
             "version_pair_status": "14_contract_tests_PASS_actual_APK_pair_blocked_Maven_429",
             "version_pair_run": 45966120114,
-            "archive_status": "nine_artifact_metadata_records_durable_copies_unconfirmed",
+            "archive_status": "six_contract_tests_PASS_nine_metadata_records_durable_copies_unconfirmed",
             "archive_source": "caed83c955dd417eba8d22d796693a87e8d03ecf",
             "archive_pr": 180,
             "archive_runs": [],
-            "earliest_expiry": "2026-12-09T10:11:43Z"
+            "earliest_expiry": "2026-12-09T10:11:43Z",
+            "archive_contract_run": 45967880564
+          },
+          "storefront_assets": {
+            "status": "draft_plan_original_browser_screenshot_recovery_pending",
+            "source": "1c3384d098b015bea87255b748ecf329455debf6",
+            "pr": 181,
+            "runs": [
+              {
+                "id": 45968598825,
+                "status": "completed",
+                "conclusion": "success"
+              }
+            ]
           }
         }
       }
