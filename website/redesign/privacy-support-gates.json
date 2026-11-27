@@ -1,0 +1,25 @@
+{
+  "checkpoint": "WEB-09.02B",
+  "publication_authorized": false,
+  "website_notice": "draft",
+  "support_notice": "draft",
+  "gates": {
+    "publisher_identity": "pending",
+    "contact_ownership": "pending",
+    "confidential_reporting": "pending",
+    "host_data_practices": "pending",
+    "retention_and_rights": "pending",
+    "synthetic_support_tests": "pending",
+    "release_specific_app_notices": "pending",
+    "legal_review_as_applicable": "pending",
+    "stable_https_routes": "pending",
+    "accessibility": "pending",
+    "owner_approval": "pending"
+  },
+  "references": [
+    "CUSTOMER_SUPPORT.md",
+    "PRIVACY_STANDARDS.md",
+    "website/drafts/sudoku-privacy.md",
+    "website/drafts/sudoku-support.md"
+  ]
+}
