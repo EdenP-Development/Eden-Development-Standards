@@ -171,3 +171,6 @@ Eleven-page private V7 website unifies all three brand hubs and six product page
 
 ## BIP-04 — Sudoku rights pilot (2026-11-27)
 See [Sudoku rights pilot](SUDOKU_RIGHTS_PILOT.md) for inspected active-branch source declarations, artwork/emote and soundtrack provenance, direct dependency inventory, candidate ownership notice and remaining release gates. Six tracks have recorded original/runtime fingerprints; paid-plan entitlement per track remains open. No resolved dependency graph or APK inventory inspected; no rights clearance or notice adoption. Next BIP-04.02: release dependency/notice reconciliation and private track entitlement evidence, then reuse across products. No application, license, ownership or storefront changes.
+
+## WEB-08.05A — Consolidated responsive browser regression (2026-11-27)
+Exact V7 archive and 36 payloads verified. 66/66 isolated Chromium layout configurations passed across all 11 pages including enlarged root text. Direct file navigation blocked; keyboard, contrast, complete accessibility and publication gates remain open. See [redesign handoff](website/redesign/README.md). No app or deployment changes.
