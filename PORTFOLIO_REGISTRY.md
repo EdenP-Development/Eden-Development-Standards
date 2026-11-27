@@ -86,3 +86,6 @@ All six active public-facing product concepts have preview pages linked from hom
 
 ## WEB-05.05B — Artwork recovery and intake (2026-11-26)
 Website asset manifest committed and readback verified. Four QA archive metadata records checked; urgent Eden Comms historical visual archive recovered, local digest matched and unshared Drive copy uploaded (metadata verified, remote rehash pending). Remaining archives and individual product artwork pending. No website asset approval or deployment. See website/prototype/README.md.
+
+## WEB-05.05C — Candidate archive preservation (2026-11-26)
+Four candidate archives now locally checksum verified and uploaded to unshared Drive; metadata sizes verified, remote rehash pending. 248 image files decoded and inventoried; representative private contact sheets prepared. Manifest and website handoff updated. No approved product imagery integrated, no deployment or app changes.
