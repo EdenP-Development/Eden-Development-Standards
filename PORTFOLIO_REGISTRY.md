@@ -113,3 +113,6 @@ Exact review ZIP rechecked; 70 local references resolved and 42/42 actual isolat
 
 ## WEB-08.01 — Brand separation redesign (2026-11-27)
 Five new candidate pages and separate stylesheet committed under website/redesign, original prototype and packaging pins preserved. Static local reference checks: 57, errors 0. See website/redesign/README.md. Transitional links to original product pages; browser/visual acceptance, redesigned return navigation and artwork approval pending. No deployment or app changes.
+
+## WEB-08.02 — Direct brand voice (2026-11-27)
+Five redesign pages simplified and existing brand standard updated to reflect practical, personal, context-dependent communication without forced slogans or corporate language. Exact readbacks and unchanged resource/navigation references verified. See website/redesign/README.md. Original baseline preserved; visual review and redesigned product navigation pending. No app changes or deployment.
