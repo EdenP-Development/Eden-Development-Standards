@@ -767,14 +767,18 @@
         "public_beta": "not_published",
         "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45791275281/artifacts/15103426213",
-        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/221",
+        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/226",
         "beta_release_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_PLAN.md",
         "current_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/CURRENT_HANDOFF.md",
         "distribution_preference": "professional software channel; selection deferred; no public release approved",
         "beta_readiness_checklist": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_READINESS_CHECKLIST.md",
         "visual_refinement_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EPS_VISUAL_REFINEMENT_PLAN.md",
         "cross_project_reference": "SudokuTogether native theme tokens, contrast matrices, compact/200% font and deterministic visual fixtures; recorded in PR #188 handoff.",
-        "reliability_checkpoint": "EC-R6–R10 automated checks passed; internal 10049 and Preview 200038 verified. EC-B01–B03 receipt, source inventory and updated unpublished privacy draft committed on PR #221; CI/merge pending. Physical 54 cases, independent signer recovery, archive and security review remain open."
+        "reliability_checkpoint": "EC-R6–R10 automated checks passed; internal 10049 and Preview 200038 verified. EC-B01–B06 documentation checkpoints merged; EC-B07 recovery inventory PR #225 (CI #624) and EC-B08 physical matrix preparation PR #226 (CI #625) merged. Physical 0/54, independent signer recovery, archive byte verification and independent security review remain open.",
+        "recovery_guide": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/DURABLE_RECOVERY_ARCHIVE.md",
+        "continuation_guide": "https://github.com/EdenP-Development/Eden-Comms/blob/main/CONTINUE_HERE.md",
+        "physical_acceptance_matrix": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/TWO_PHONE_ACCEPTANCE_MATRIX.md",
+        "documentation_main_sha": "3e67b46bd52aa27c1ea781ae255a9d0b03a9ad14"
       }
     },
     {
