@@ -917,18 +917,18 @@
         "public_beta": "not_published",
         "post_transfer_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EDENP_DEVELOPMENT_INTEGRATION_2026_11_24.md",
         "visual_qa_evidence": "https://github.com/EdenP-Development/Eden-Comms/actions/runs/45960616047/artifacts/15181018245",
-        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/242",
+        "active_handoff_pr": "https://github.com/EdenP-Development/Eden-Comms/pull/243",
         "beta_release_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_PLAN.md",
         "current_handoff": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/CURRENT_HANDOFF.md",
         "distribution_preference": "professional software channel; selection deferred; no public release approved",
         "beta_readiness_checklist": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_READINESS_CHECKLIST.md",
         "visual_refinement_plan": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/EPS_VISUAL_REFINEMENT_PLAN.md",
         "cross_project_reference": "SudokuTogether native theme tokens, contrast matrices, compact/200% font and deterministic visual fixtures; recorded in PR #188 handoff.",
-        "reliability_checkpoint": "EC-I07 alternate-signer rejection harness merged after CI #660. Pinned Preview 200040→200043 automatic upgrade workflow extended with U09: temporary unrelated signer, same package and equal version, exact Android incompatible-signature error and unchanged appearance after restart. Actual U09 pending verification; U01–U08 previously passed. Historical artifacts expire Nov 30. Internal 10062 remains recommended, physical 0/54, owner custody and independent security pending. NO-SHIP.",
+        "reliability_checkpoint": "EC-I07 completed at isolated Preview scope: automatic upgrade QA #2 run 46068175201 U01–U09 passed; evidence PR #243 merged after CI #662. Equal-version alternate signer rejected; existing version and appearance preserved. No prior session, encrypted data or original-package physical acceptance. Next EC-I08 storage audit and safe upgrade fixtures. Internal 10062 remains recommended; physical 0/54, permanent custody and independent security pending. NO-SHIP.",
         "recovery_guide": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/DURABLE_RECOVERY_ARCHIVE.md",
         "continuation_guide": "https://github.com/EdenP-Development/Eden-Comms/blob/main/CONTINUE_HERE.md",
         "physical_acceptance_matrix": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/TWO_PHONE_ACCEPTANCE_MATRIX.md",
-        "documentation_main_sha": "9ff0e1074e4b2c9034d48dd2df4b0609eaf33bd0",
+        "documentation_main_sha": "008d72a18ecfd341a1b74790378948a59fb5b5c2",
         "independent_review_brief": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/INDEPENDENT_SECURITY_REVIEW_BRIEF.md",
         "storefront_readiness": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/PROFESSIONAL_STOREFRONT_READINESS.md",
         "release_authorization": "https://github.com/EdenP-Development/Eden-Comms/blob/main/docs/BETA_1_RELEASE_AUTHORIZATION.md",
@@ -936,7 +936,8 @@
         "accessibility_checkpoint": "https://github.com/EdenP-Development/Eden-Comms/pull/233",
         "preference_recovery_evidence": "https://github.com/EdenP-Development/Eden-Comms/blob/1bc792dd5f76c20c969bc680965d9c7464122d79/docs/evidence/preview-200043-preference-recovery.json",
         "upgrade_qa_workflow": "https://github.com/EdenP-Development/Eden-Comms/actions/workflows/preview-upgrade-qa.yml",
-        "upgrade_evidence": "https://github.com/EdenP-Development/Eden-Comms/blob/5803c646ff211ff01b49135e826388f2c23acfe8/docs/evidence/preview-200040-to-200043-upgrade.json"
+        "upgrade_evidence": "https://github.com/EdenP-Development/Eden-Comms/blob/5803c646ff211ff01b49135e826388f2c23acfe8/docs/evidence/preview-200040-to-200043-upgrade.json",
+        "signer_rejection_evidence": "https://github.com/EdenP-Development/Eden-Comms/blob/008d72a18ecfd341a1b74790378948a59fb5b5c2/docs/evidence/preview-200043-signer-rejection.json"
       }
     },
     {
