@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Recover original owner image pack and exact Colord notice; verify artwork provenance",
+          "next": "Verify exact packaged permissions, runtime network observation; artwork master and Colord notice unresolved",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -722,7 +722,17 @@
             "upstream_notice_workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45957668446",
             "upstream_notice_status": "evidence_capture_pass_exact_colord_gitHead_LICENSE_404_unresolved"
           },
-          "artwork_provenance": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/3c830b638789c77824d9f7e45074dbd68711db97/docs/SR_HUB_10_ARTWORK_PROVENANCE_2026-11-27.md"
+          "artwork_provenance": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/3c830b638789c77824d9f7e45074dbd68711db97/docs/SR_HUB_10_ARTWORK_PROVENANCE_2026-11-27.md",
+          "artwork_package_audit": {
+            "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45958903354",
+            "status": "PASS_10_exact_assets_foreground_concepts_excluded_no_bundled_fonts_audio",
+            "apk_sha256": "a17cabcda02c8f9a25ab3e2f1be8623c89b8320459d5c106c0bb3aba0a078e92",
+            "artifact": 15179489447
+          },
+          "privacy_audit": {
+            "source": "a520350d5af1dc0656d2ebafefb7e3212fdab3b3",
+            "status": "exact_manifest_audit_committed_CI_pending"
+          }
         }
       }
     },
