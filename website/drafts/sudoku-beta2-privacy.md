@@ -1,0 +1,14 @@
+# GridMates: Sudoku — Beta 2 privacy preparation
+
+INTERNAL DRAFT ONLY — not an effective privacy notice. Do not deploy or submit to a storefront.
+
+## Candidate player-facing wording (subject to exact APK verification)
+Solo and Daily puzzles are designed to work without a gameplay account. Puzzle state, notes, progress, selected name, preferences and earned rewards are stored on the device to continue play. Nearby Co-op and Versus use direct connections on shared Wi-Fi. Chosen names, appearance, game state and optional chat can be exchanged with the participating device. The source describes unencrypted LAN traffic; use a trusted network. Room codes are not encryption. Optional progress exports are saved or shared at the user's choice. The described source excludes active multiplayer rooms and reconnect credentials from portable backups. Clearing app data or uninstalling may remove progress; external exports and copies held by other players are separate. No developer-operated gameplay account service is described by the reviewed source. Exact shipped dependencies and network behavior must be checked before any claims about advertising, analytics or collection.
+
+## Evidence and blockers
+- Main source draft docs/GRIDMATES_PRIVACY_POLICY_DRAFT.md blob 26671887d268bedfd6475289aa6fff5edbd25da3 and Beta 2 listing draft blob f54dcff08602fc85219be5efca4fd680b3712f9c support candidate wording, not delivered behavior.
+- Historical production signing gate blob a9e241729407dbd8285ec779db197d6027d65d10 names com.playereden.sudokutogether and historical original signer; newer Beta 3 Amazon readiness blob 45dbbba6e698e7ee7b15b471ad50ef4213313f59 instead identifies public itch Beta 2 as com.playereden.gridmates.sudoku.beta and a different signer. Do not reconcile by assumption, change signing or infer that either artifact is current. Obtain exact public itch APK and verify checksum, package, version, signer and source receipt. No APK downloaded or inspected in this checkpoint.
+- Beta 3 privacy source e053a53c4e496301854e697ad94dd86d0e593fe3 describes curated names and preset communications; do not apply those restrictions to Beta 2. Beta 3 source manifest c1b0c651eb7099b3cd65e07b5d174a333cb68b3c is not a merged Beta 2 manifest.
+- Confirm actual publisher, monitored private contact, effective date, intended audience, exact release data inventory, permissions/dependencies/network behavior, retention/deletion/export, and current platform requirements before approval. Amazon status not independently verified. No legal or platform compliance determination.
+
+Proposed stable route after approval: /privacy/sudoku (implementation deferred; add to site integrity checks and sitemap at that time). Maintain historical notice versions by release and channel. Follow PRIVACY_STANDARDS.md and GOOGLE_PLAY_READINESS.md.
