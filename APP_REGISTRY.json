@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Preserve exact reference pack in durable storage; prepare promotional derivatives and final gameplay captures; retain technical release gates",
+          "next": "Authentic gameplay capture and consolidated owner test plan; preserve actual art binaries; resolve technical release blockers",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -828,7 +828,11 @@
             "binary_archive": "verified_chat_zip_only_GitHub_binary_and_independent_backup_pending",
             "artwork_register_source": "18a6fdf9f077c476c10fddc7e72b586126cb70b3",
             "artwork_count": 8,
-            "reference_pack_sha256": "47dcb7c681464da5e3368ff0ad72219eb2f2a52932f51c8d84898b6277a69184"
+            "reference_pack_sha256": "47dcb7c681464da5e3368ff0ad72219eb2f2a52932f51c8d84898b6277a69184",
+            "promotional_exports_source": "cbdeec2b334320f3e90cf3003196f99ede69609a",
+            "banner_master_sha256": "4de075f23c6052e291e6d31a8487c7cdd7d85cc19234fad0bf148fec93191bbe",
+            "promotional_zip_sha256": "f449c247c32e0fc2ca5ac7f73572d5c62faac043e6d218c3b922701681cf85ab",
+            "promotional_status": "revised_banner_favorable_feedback_three_derivatives_verified_locally"
           }
         }
       }
