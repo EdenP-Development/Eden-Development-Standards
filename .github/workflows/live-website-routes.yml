@@ -1,0 +1,21 @@
+name: Live website route verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'website/qa/audit_live.py'
+      - '.github/workflows/live-website-routes.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python website/qa/audit_live.py
