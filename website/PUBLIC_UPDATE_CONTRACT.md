@@ -19,3 +19,6 @@ Before publication run `python -m unittest discover -s website/qa -v` and `pytho
 
 ## Privacy handoff
 Use [portfolio privacy readiness](PRODUCT_PRIVACY_READINESS.md) for public-safe release coordination and the existing project data-handling template for detailed evidence. Product notices require exact distributed-release verification and owner approval before publication.
+
+## PORT-WEB-20 — Scope alignment (2026-11-28)
+Product teams own exact release evidence and proportionate QA; the website consumes verified handoffs and approved notices. Existing drafts and browser harness retained; further harness expansion deferred until a real product need. Do not treat all portfolio privacy reviews as a blanket website indexing prerequisite; actual applicable privacy/support requirements and owner approval remain mandatory. Follow the practical closeout in website/CONTINUE_HERE.md. No policy approval or publication authorized.
