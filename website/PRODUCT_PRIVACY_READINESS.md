@@ -7,8 +7,8 @@ Baseline 2026-11-28. Coordination record only, not a privacy policy, product dat
 | Product | Website availability label | Product notice readiness | Next evidence request |
 | --- | --- | --- | --- |
 | GridMates: Sudoku | Public Android beta | Separate Beta 2 and Beta 3 drafts; neither approved | Verify delivered itch APK and reconcile release identity; exact data inventory, publisher/contact and audience |
-| The Last Taters | Public browser alpha | Initial source reviewed; notice not drafted | Exact itch artifact, runtime network/storage verification, contact and audience |
-| Operation Phosphor | Public browser game | Initial source reviewed; notice not drafted | Exact itch artifact, runtime network/storage verification, contact and audience |
+| The Last Taters | Public browser alpha | Initial source reviewed; unpublished notice candidate staged | Exact itch artifact, runtime network/storage verification, contact and audience |
+| Operation Phosphor | Public browser game | Initial source reviewed; unpublished notice candidate staged | Exact itch artifact, runtime network/storage verification, contact and audience |
 | GridMates: Word Search | In development | Not assessed in this register | Release-specific data inventory, storage, permissions and runtime |
 | GridMates: Grid Hunt | In development | Not assessed in this register | Release-specific data inventory, storage, permissions and runtime |
 | GridMates: Crossroads | In development (website label) | Unpublished Beta 1 draft staged; not independently assessed here | Reconcile frozen release evidence and owner approval; see website/drafts/crossroads-beta1-privacy.md |
@@ -47,3 +47,6 @@ Dedicated monitored contact not confirmed; product policy approval remains open.
 - Operation Phosphor: README identifies RC8 as browser distribution source; initial review of self-contained HTML found local progress, configuration, statistics, unlocks, backup and synchronization metadata. Local split-screen documented. Android Play Games foundation is distinct; no direct network API hits in initial HTML scan, but bridge behavior and exact delivered runtime remain unverified.
 - Crossroads: parallel product workflow staged a Beta 1 draft; do not treat staging as approval or independent verification.
 - Next: obtain exact distributed browser packages or reliable release receipts, inspect complete asset/dependency sets, exercise browser runtime storage/network and deletion controls, distinguish itch hosting from game behavior, and confirm publisher/contact/audience before drafting approval candidates. No claim of zero data collection or compliance. No public notice, hosting, indexing or product change.
+
+## PORT-WEB-17 — Browser notice candidates (2026-11-28)
+Both documented public baselines (Taters Alpha 0.10.1, Phosphor RC8) have unpublished candidates in website/drafts/the-last-taters-browser-privacy.md and website/drafts/operation-phosphor-browser-privacy.md. Both files read back successfully. Neither repository listed GitHub release assets; exact itch packages and runtime behavior remain unverified. Taters newer release branches are not evidence of public behavior. Next obtain distributed archives/receipts, verify runtime and dependencies, confirm monitored contact, audience, publisher and effective dates, then request approval. No live website, app, storefront or indexing changes.
