@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify consolidated disposable review build and prepare physical checklist; archive custody and restricted signing remain open",
+          "next": "Collect consolidated physical gameplay review and correct reproduced issues; restricted signing/rights/privacy/archive remain open",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -986,7 +986,7 @@
             "signing_access_review": "b4d83f8aff0c1a386e0a58c85b4c66d7158926e5"
           },
           "consolidated_review": {
-            "status": "isolated_disposable_review_build_pending",
+            "status": "build_PASS_downloaded_hash_verified_physical_pending",
             "pr": 189,
             "source": "c2447b5d0c98ab717acda9dba2cbcbfdd653c934",
             "runs": [
@@ -1006,7 +1006,13 @@
             "archive_records": 17,
             "archive_bytes": 44771176,
             "durable_custody": "unconfirmed",
-            "app_id": "com.playereden.ricochetrumble.review17qa"
+            "app_id": "com.playereden.ricochetrumble.review17qa",
+            "run": 46107618938,
+            "artifact": 15248286914,
+            "apk_sha256": "911cfdc6143b4d8443448f41e3d6bfe330d94f1c646fe6eda806dc3f0502750b",
+            "physical_checklist": "3aa273c1d4f8b3666bde86e9328c75ae8190c9cd",
+            "physical_passed": 0,
+            "physical_total": 20
           }
         }
       }
