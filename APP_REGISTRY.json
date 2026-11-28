@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify actual unsigned version pair, review signing version contract, durable archive and physical acceptance; owner authorization remains required",
+          "next": "Verify disposable signing fixtures; align trusted main staging and dispatch, authenticate prior baseline, review artifact visibility; no real signing without owner approval/recovery",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -946,7 +946,7 @@
             "published": false
           },
           "version_rehearsal": {
-            "status": "licensed_unsigned_pair_CI_pending",
+            "status": "unsigned_version_pair_PASS_signing_contract_fixture_pending",
             "source": "a418f76dfd769f39f7a96170f83724fa420d50fd",
             "pr": 187,
             "runs": [
@@ -967,7 +967,19 @@
               1,
               2
             ],
-            "signed": false
+            "signed": false,
+            "pair_run": 46106408745,
+            "pair_artifact": 15247818022,
+            "signing_contract_pr": 188,
+            "signing_contract_source": "c945b246ec1bf184c6d6ee92e42584afc88345f9",
+            "signing_contract_runs": [
+              {
+                "id": 46107167913,
+                "name": ".github/workflows/sr-hub-14c-native-touch.yml",
+                "status": "completed",
+                "conclusion": "failure"
+              }
+            ]
           }
         }
       }
