@@ -1,0 +1,29 @@
+name: Browser privacy synthetic fixtures
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'website/qa/browser_privacy.py'
+      - 'website/qa/test_browser_privacy.py'
+      - '.github/workflows/browser-privacy-fixtures.yml'
+  pull_request:
+    paths:
+      - 'website/qa/browser_privacy.py'
+      - 'website/qa/test_browser_privacy.py'
+      - '.github/workflows/browser-privacy-fixtures.yml'
+permissions:
+  contents: read
+jobs:
+  fixtures:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install playwright==1.51.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m unittest discover -s website/qa -p test_browser_privacy.py -v
