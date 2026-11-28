@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify permanent notice regeneration and beta gate, add offline Help access, then privacy and signed version rehearsal; physical and rights gates remain",
+          "next": "Version rehearsal and durable archive preparation; owner privacy/contact/audience decisions and physical gates remain",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -885,7 +885,7 @@
             "total": 19
           },
           "license_closure": {
-            "status": "unsigned_packaging_PASS_permanent_generator_and_beta_gate_pending_CI",
+            "status": "permanent_generation_offline_help_unsigned_packaging_PASS_signed_recheck_pending",
             "pr": 185,
             "source": "ed74ec11422d8f397603ced4b91c6ce3b3e545e7",
             "colord_githead": "5344fbf77b736f81cd33c21050021bc09bc9dd1d",
@@ -934,7 +934,16 @@
                 "conclusion": "failure"
               }
             ],
-            "notice_local_verified": true
+            "notice_local_verified": true,
+            "help_run": 46103918935,
+            "help_artifact": 15245899054,
+            "help_source": "986574019c17da544ef659bb3133da9aa77d4afc"
+          },
+          "privacy_support": {
+            "status": "source_backed_drafts_owner_and_exact_build_review_pending",
+            "pr": 186,
+            "source": "0dd6630c75e188062ce776f289de505dab4508a5",
+            "published": false
           }
         }
       }
