@@ -1212,7 +1212,7 @@
     {
       "name": "The Last Taters",
       "repository": "EdenP-Development/the-last-taters",
-      "status": "browser_alpha_012_staging_organization_transfer_verified",
+      "status": "browser_alpha_012_final_package_verified_unpublished",
       "channels": [
         {
           "name": "itch.io browser",
@@ -1238,10 +1238,12 @@
         }
       ],
       "candidate": {
-        "branch": "dev/0.12-visual-prototype",
-        "version_name": "0.12-visual-p8l",
-        "status": "browser staging; P8m passed; P8n pending",
-        "source": "95ba2074b80b2bae0e00c59300cb214f74d2d6d6"
+        "branch": "release/0.12-final-review",
+        "version_name": "Alpha 0.12",
+        "status": "final browser package passed; publication approval and About review pending",
+        "source": "2b9e700ce4a0565235b96fa873680928ca943431",
+        "sha256": "c3adf588b2753413fcbf4df8f4e7bdd1d5e265a48071699feb657c1e35e10d31",
+        "save_schema": 16
       },
       "future_google_play": {
         "status": "long_term_not_configured",
@@ -1259,12 +1261,11 @@
       },
       "development_checkpoint": {
         "date": "2026-11-27",
-        "milestone": "TAT-INF-01 passed; P8n resumed",
-        "hosted_diagnostic": "https://github.com/EdenP-Development/the-last-taters/actions/runs/45965365371",
-        "recovery_audit": "https://github.com/EdenP-Development/the-last-taters/actions/runs/45966725321",
-        "recovery_status": "queued at initial inspection; result pending",
+        "milestone": "TAT-REL-06 final package verified",
+        "recovery_status": "P8n Day55 passed",
+        "verification": "https://github.com/EdenP-Development/the-last-taters/actions/runs/46104069792",
         "handoff": "https://github.com/EdenP-Development/the-last-taters/blob/dev/0.12-visual-prototype/CONTINUE_HERE.md",
-        "limitations": "Independent restore, Actions allowance/settings and native release gates open"
+        "limitations": "Owner publication approval, rights/privacy disclosure, About review, hosted save continuity and native gates open; Alpha 0.13 planned performance and asset foundations"
       }
     }
   ]
