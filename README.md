@@ -1,5 +1,8 @@
 # Eden Development Standards
 
+## Owner direction — build for scale, not perfection (2026-11-28)
+Favor finished, enjoyable, reliable products and practical incremental growth. Before adding work, ask whether it solves a current problem, reduces repeated work, protects players or materially improves the experience; if it can be added later without substantial rework, defer it. Use stable interfaces and existing tools; avoid speculative infrastructure, duplicated documentation and perfection-driven milestone chains. Keep mandatory security, privacy, rights, signing, save preservation and release acceptance gates intact. Match effort to current risk and actual scale. Record material decisions and next actions in the existing GitHub handoff; read fresh main and current product handoff after chat recovery. This direction applies portfolio-wide, not just the website.
+
 Practical shared rules for PlayerEden games and applications. Keep development enjoyable, approachable and maintainable; use just enough process to prevent lost progress, lost keys and repeated work.
 
 **Public repository: never store credentials, keystores, passwords, personal saves or private recovery archives here.**
