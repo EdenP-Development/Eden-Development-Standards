@@ -1,0 +1,3 @@
+# Website source — V15
+
+Actual V15 HTML and shared CSS from the verified review archive. The 24 referenced images are not included here yet because the hub is public and artwork distribution approval is pending. Retrieve the complete private archive by exact filename `eden-practical-artwork-pilot-v15.zip` from Drive. SHA-256 `d9344d0a732131ab5d0f141d4466ae0d40d0852dea35754baabe7740f28c7fd9`. Preserve the existing visual design. This source is not hosting output; draft privacy/support content and noindex remain. Once approved, publish only complete website files under website/public/; no further infrastructure required.
