@@ -1,0 +1,29 @@
+name: Public website integrity
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'website/public/**'
+      - 'website/drafts/sitemap.xml'
+      - 'website/qa/**'
+      - '.github/workflows/public-website-integrity.yml'
+  pull_request:
+    paths:
+      - 'website/public/**'
+      - 'website/drafts/sitemap.xml'
+      - 'website/qa/**'
+      - '.github/workflows/public-website-integrity.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python website/qa/audit_public.py
