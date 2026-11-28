@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify disposable signing fixtures; align trusted main staging and dispatch, authenticate prior baseline, review artifact visibility; no real signing without owner approval/recovery",
+          "next": "Prepare durable archive and consolidated QA; restricted signing environment owner decision, trusted staging and authenticated prior receipt remain pending",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -946,7 +946,7 @@
             "published": false
           },
           "version_rehearsal": {
-            "status": "unsigned_version_pair_PASS_signing_contract_fixture_pending",
+            "status": "unsigned_pair_and_17_disposable_signing_fixtures_PASS_public_repo_real_signing_blocked",
             "source": "a418f76dfd769f39f7a96170f83724fa420d50fd",
             "pr": 187,
             "runs": [
@@ -979,7 +979,11 @@
                 "status": "completed",
                 "conclusion": "failure"
               }
-            ]
+            ],
+            "signing_fixture_run": 46107168942,
+            "repository_visibility": "public",
+            "signing_access_guard": "df97001d957e1ec8281ab1fa6145de9435eb72d8",
+            "signing_access_review": "b4d83f8aff0c1a386e0a58c85b4c66d7158926e5"
           }
         }
       }
