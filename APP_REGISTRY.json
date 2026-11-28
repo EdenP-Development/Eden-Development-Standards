@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify ordinary-input browser captures, inspect actual images, prepare consolidated physical acceptance; investigate Practice and Hangar CDP failures separately",
+          "next": "Inspect authentic captures, resolve outstanding runtime/rights/version gates, then one consolidated physical R10 review; signed acceptance separate",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -844,7 +844,17 @@
                 "conclusion": null
               }
             ],
-            "capture_status": "unmodified_browser_capture_committed_CI_pending"
+            "capture_status": "10_browser_captures_PASS_visual_review_pending",
+            "capture_run": 46095758401,
+            "capture_artifact": 15243491739,
+            "capture_zip_sha256": "711c2d0d7304319ffa24ec007277fe2a72a97ddbd9aaa99ba942e57564562e58"
+          },
+          "physical_acceptance": {
+            "status": "matrix_prepared_no_physical_results",
+            "source": "b2677f459257a850165864afc1ed2246a32cd332",
+            "pr": 183,
+            "passed": 0,
+            "total": 19
           }
         }
       }
