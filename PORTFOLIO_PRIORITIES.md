@@ -1,5 +1,8 @@
 # PORT-05 — Development and release priorities
 
+## Owner direction — build for scale, not perfection (2026-11-28)
+Favor finished, enjoyable, reliable products and practical incremental growth. Before adding work, ask whether it solves a current problem, reduces repeated work, protects players or materially improves the experience; if it can be added later without substantial rework, defer it. Use stable interfaces and existing tools; avoid speculative infrastructure, duplicated documentation and perfection-driven milestone chains. Keep mandatory security, privacy, rights, signing, save preservation and release acceptance gates intact. Match effort to current risk and actual scale. Record material decisions and next actions in the existing GitHub handoff; read fresh main and current product handoff after chat recovery. This direction applies portfolio-wide, not just the website.
+
 2026-11-25. Proposed management priorities based on PORT-02/04 evidence, not owner-approved publication order, delivery dates, market forecasts or commercial readiness scores. Product handoffs may be newer. Preserve individual product roadmaps and stricter gates.
 
 ## Work lanes
