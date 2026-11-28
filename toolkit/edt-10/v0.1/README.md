@@ -1,0 +1,19 @@
+# EDT-10 — Native Android visual review recipe (pilot verified)
+
+Status: Sudoku pilot captured and retrieved ten genuine emulator PNGs; corrected end-to-end CI validator pending. Reference recipe, not a shared runtime SDK or mandatory migration.
+
+## Procedure
+1. Pin source commit, complete approved QA variant, emulator API/profile, resolution, density, font scale and orientation where relevant. Use disposable emulator and synthetic profiles only. Do not use production keys or actual personal saves. Preserve existing owner APKs and use the project's existing signing policy.
+2. Use current UI instrumentation with semantic assertions before each capture. Use native compositor screenshots for dialogs/popups; wait for UI/compositor readiness, validate intended scene (idle alone does not prove current frame). Capture named PNGs, not generated mockups. For real Activity windows, existing PixelCopy helper is another option but has a known intermittent frame timeout.
+3. On modern Android, export via MediaStore to a dedicated Pictures directory with pending flag, clear pending after write, remove incomplete output on errors. Pull that specific directory via ADB before emulator teardown. Never pull broad device storage.
+4. Emulator runner executes script lines independently: keep multiline Python/heredocs in normal workflow run steps outside emulator runner or checked-in scripts. Validate expected exact names/count, minimum reasonable size, decoder integrity, dimensions and source/device receipt. Prefer explicit exceptions over assert in standalone reusable validators. Retain reports and partial artifacts on failure, clearly labeled.
+5. Upload only synthetic screenshots and reports; no credentials, private data or APK unless separately authorized. Public repo artifacts are accessible to signed-in readers. Use bounded retention and document expiry. Download using GitHub artifact connector; materialize ZIP, check CRC and bounded paths/sizes, inspect actual pixels (contact sheets for overview and full size for details). Do not infer visual acceptance from green tests or file names alone.
+6. Record source, variant, run/job/artifact IDs, digest, observed findings, failures, and untested cases. Emulator evidence is separate from owner physical acceptance, audio, touch responsiveness, real multiplayer, security, signed upgrade and storefront approval. Never fabricate screenshot evidence or label synthetic fixtures as real sessions.
+
+## Sudoku pilot
+Repository EdenP-Development/SudokuTogether, feat/beta3-foundation. Capture source ce5271071358dfb3cdfc2548512365bbda4e103d, workflow ddbe4e87986b1a7fab600457335093a24681fd06. Run 46116930718: 5/5 tests, ten PNGs pulled, artifact 15252436715 (ZIP SHA256 0c47989295938b9521b36b8b6fc0930107b70bf902484b8686aeea417fb4ee3b). All ten decoded at 1080x2340 and inspected; actual header, names, font preview, settings, Coach fixes visible. Workflow overall failed because multiline validation was split by runner; correction 30f2d8696e883f7ac0ee55efd753e6308052f15d, run 46121021168 in progress at inspection. Do not claim green end-to-end gate yet.
+- [Capture fixture](https://github.com/EdenP-Development/SudokuTogether/blob/ce5271071358dfb3cdfc2548512365bbda4e103d/app/src/androidTest/java/com/playereden/sudokutogether/Beta3VisualCaptureTest.kt)
+- [Corrected workflow](https://github.com/EdenP-Development/SudokuTogether/blob/30f2d8696e883f7ac0ee55efd753e6308052f15d/.github/workflows/beta3-native-visual-capture.yml)
+- [Pilot run](https://github.com/EdenP-Development/SudokuTogether/actions/runs/46116930718)
+
+Adopt incrementally as projects need it: Word Search library, Grid Hunt expedition, Crossroads board, Sector Rebound HUD, Eden Comms synthetic non-sensitive UI. Adapt selectors, fixture and variant per project; never export actual communications or trust state. No consumer changes or release authorization.
