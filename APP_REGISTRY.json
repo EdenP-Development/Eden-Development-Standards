@@ -1130,7 +1130,7 @@
     {
       "name": "GridMates: Crossroads",
       "repository": "EdenP-Development/GridMates-Crossroads",
-      "status": "private_beta_apk_verified_owner_acceptance_pending",
+      "status": "verified_offline_release_freeze_private_signing_authorization_pending",
       "channels": [
         {
           "name": "production",
@@ -1183,7 +1183,7 @@
         "repository_id": 1460737884
       },
       "public_beta": {
-        "status": "signed_apk_verified_owner_acceptance_pending",
+        "status": "historical_signed_2002_not_current_frozen_candidate",
         "proposed_package_id": "com.playereden.gridmates.crossroads",
         "proposed_secret_names": [
           "GRIDMATES_CROSSROADS_BETA_KEYSTORE_BASE64",
@@ -1203,6 +1203,18 @@
           "apk_sha256": null,
           "owner_accepted": false,
           "install_over_tested": false
+        },
+        "current_release_freeze": {
+          "source": "f99409374beb652f3661e872813c8bd392e57427",
+          "rehearsal": "https://github.com/EdenP-Development/GridMates-Crossroads/actions/runs/46124332268",
+          "android_qa": "https://github.com/EdenP-Development/GridMates-Crossroads/actions/runs/46124332236",
+          "private_signed_current_candidate": false,
+          "physical_acceptance": false,
+          "registration_pr": "https://github.com/EdenP-Development/GridMates-Crossroads/pull/122",
+          "release_pr": "https://github.com/EdenP-Development/GridMates-Crossroads/pull/121",
+          "marketing_pr": "https://github.com/EdenP-Development/GridMates-Crossroads/pull/123",
+          "signing_environment": "crossroads-beta-signing",
+          "environment_protections_verified": false
         }
       }
     },
