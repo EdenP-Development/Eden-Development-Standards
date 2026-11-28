@@ -1,5 +1,8 @@
 # BUS-06 — Customer support and maintenance v1.0
 
+## PORT-WEB-22 — Owner-directed lightweight support (2026-11-28)
+Owner explicitly chose itch.io public comments for ordinary game feedback and deferred a dedicated support inbox, contact forms, helpdesk and paid support services. A dedicated inbox is no longer a blanket website launch gate. Public comments are not suitable for confidential or personal information; applicable private-contact, privacy, security and storefront requirements remain release-specific gates and must be resolved when required. Keep accurate visitor privacy and installation guidance. Next: final visual/content review and explicit indexing authorization; no new infrastructure. This supersedes earlier blanket contact prerequisites, not actual mandatory obligations.
+
 Status: internal standard, 2026-11-25. No public contact, service-level agreement, refund policy, retirement date or support service is established by this document. Apply proportionately to each product, preserving stricter security and release gates.
 
 ## Support philosophy
