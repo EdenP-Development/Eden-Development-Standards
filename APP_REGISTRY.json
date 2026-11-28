@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Inspect authentic captures, resolve outstanding runtime/rights/version gates, then one consolidated physical R10 review; signed acceptance separate",
+          "next": "Verify browser interaction isolation; native touch/renderer diagnostic using bounded ADB evidence; retain physical and release gates",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -759,7 +759,17 @@
             ],
             "cosmetic_ui_status": "unresolved_CDP_disconnect_at_equip_paint",
             "core_run": 45963585419,
-            "core_conclusion": "cancelled"
+            "core_conclusion": "cancelled",
+            "interaction_isolation_source": "caa0be7d23f22a0fd08407621ab75214d74b0c65",
+            "interaction_isolation_pr": 184,
+            "interaction_isolation_runs": [
+              {
+                "id": 46097109357,
+                "status": "in_progress",
+                "conclusion": null
+              }
+            ],
+            "interaction_status": "browser_isolation_committed_native_root_cause_unproven"
           },
           "release_receipt": {
             "status": "structural_and_historical_evidence_PASS_unsigned_pair_pending",
