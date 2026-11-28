@@ -13,3 +13,6 @@ Read website/CONTINUE_HERE.md and fresh main in EdenP-Development/Eden-Developme
 
 ## Curation
 Rovers of Fortune is explicitly excluded by owner direction. Public listing alone does not warrant inclusion. New projects need public suitability and owner direction; existing private repositories are not an obstacle to accurate coverage of already public games.
+
+## Public integrity verification
+Before publication run `python -m unittest discover -s website/qa -v` and `python website/qa/audit_public.py`. Review exact-revision Public website integrity CI. This is detection only; automatic Cloudflare deployment is independent. Deliberately revise prelaunch checks at authorized indexing activation.
