@@ -1212,15 +1212,16 @@
     {
       "name": "The Last Taters",
       "repository": "EdenP-Development/the-last-taters",
-      "status": "browser_alpha_012_final_package_verified_unpublished",
+      "status": "browser_alpha_012_owner_reported_live",
       "channels": [
         {
           "name": "itch.io browser",
           "public_url": "https://sir-spudacus.itch.io/the-last-taters",
-          "last_accepted_version_name": "Alpha 0.11",
-          "last_accepted_source": "3a9500f1f97e26a94d08de076c4c77ce07e67267",
-          "publication": "historical project record; exact public package bytes not independently verified in this checkpoint",
-          "save_schema": 16
+          "last_accepted_version_name": "Alpha 0.12",
+          "last_accepted_source": "2b9e700ce4a0565235b96fa873680928ca943431",
+          "publication": "Owner reports upload, activation, launch and audible sound; public devlog listed per hub 2026-11-28. Exact hosted bytes and hosted save persistence not independently verified.",
+          "save_schema": 16,
+          "sha256": "c3adf588b2753413fcbf4df8f4e7bdd1d5e265a48071699feb657c1e35e10d31"
         },
         {
           "name": "future PC downloadable",
@@ -1238,12 +1239,13 @@
         }
       ],
       "candidate": {
-        "branch": "release/0.12-final-review",
-        "version_name": "Alpha 0.12",
-        "status": "final browser package passed; publication approval and About review pending",
-        "source": "2b9e700ce4a0565235b96fa873680928ca943431",
-        "sha256": "c3adf588b2753413fcbf4df8f4e7bdd1d5e265a48071699feb657c1e35e10d31",
-        "save_schema": 16
+        "branch": "release/0.12.1-review",
+        "version_name": "Alpha 0.12.1",
+        "status": "private automated QA passed; owner listening test deferred; no public patch",
+        "source": "927a4b83596f3d46401515f9e301e5f599247c52",
+        "sha256": "e9c920248ca31d2a161dbbb712bd8c4b5332739fa7afd10196d0bd91f63702e9",
+        "save_schema": 16,
+        "verification": "https://github.com/EdenP-Development/the-last-taters/actions/runs/46111629060"
       },
       "future_google_play": {
         "status": "long_term_not_configured",
@@ -1260,12 +1262,11 @@
         "remaining": "Tags, Actions settings/allowance, secret scopes and independent backup restore unverified"
       },
       "development_checkpoint": {
-        "date": "2026-11-27",
-        "milestone": "TAT-REL-06 final package verified",
-        "recovery_status": "P8n Day55 passed",
-        "verification": "https://github.com/EdenP-Development/the-last-taters/actions/runs/46104069792",
+        "date": "2026-11-28",
+        "milestone": "Release and roadmap reconciliation; illustrated colony-sim art direction",
         "handoff": "https://github.com/EdenP-Development/the-last-taters/blob/dev/0.12-visual-prototype/CONTINUE_HERE.md",
-        "limitations": "Owner publication approval, rights/privacy disclosure, About review, hosted save continuity and native gates open; Alpha 0.13 planned performance and asset foundations"
+        "audit": "https://github.com/EdenP-Development/the-last-taters/blob/dev/0.12-visual-prototype/docs/CURRENT_DEVELOPMENT_AUDIT_2026-11-28.md",
+        "limitations": "Complete evergreen gallery and art archive; patch listening and embedded resolution investigation; hosted save continuity, privacy disclosure and independent recovery pending. Alpha 0.13 performance/assets/audio planned; native channels separately gated."
       }
     }
   ]
