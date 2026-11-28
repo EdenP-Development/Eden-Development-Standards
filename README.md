@@ -70,3 +70,7 @@ See [living registry](PORTFOLIO_REGISTRY.md) for PORT-08–12 checkpoints, [reco
 
 ## Practical design and growth (owner direction, 2026-11-27)
 Build for scale, not perfection. Simplicity is not permission for low quality: prioritize useful, coherent, reliable and accessible experiences. Keep architecture modular, favor replaceable components and stable interfaces, and introduce shared abstractions when actual reuse warrants them. Avoid speculative infrastructure, decorative complexity, duplicated maintenance and perfection-driven rework. Apply at normal milestones; existing security, privacy, save, signing and release gates remain mandatory. See [brand and design direction](BRAND_IDENTITY.md#practical-quality-and-modular-growth-owner-direction-2026-11-27).
+
+
+## EDT-10 — Native visual QA (2026-11-28)
+[Native Android screenshot review recipe](toolkit/edt-10/v0.1/README.md): Sudoku pilot captured ten real emulator PNGs, transferred through GitHub artifact connector and directly inspected. Five capture tests passed; first workflow final validator failed due to line-split heredoc, corrected run pending. Synthetic only, complete approved QA configuration; no automatic consumer adoption, no release or physical acceptance implied.
