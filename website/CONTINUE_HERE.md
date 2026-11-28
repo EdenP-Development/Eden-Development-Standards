@@ -1,6 +1,9 @@
 # Website — current live handoff (WEB-10.02)
 2026-11-27 ET
 
+## PORT-WEB-22 — Owner-directed lightweight support (2026-11-28)
+Owner explicitly chose itch.io public comments for ordinary game feedback and deferred a dedicated support inbox, contact forms, helpdesk and paid support services. A dedicated inbox is no longer a blanket website launch gate. Public comments are not suitable for confidential or personal information; applicable private-contact, privacy, security and storefront requirements remain release-specific gates and must be resolved when required. Keep accurate visitor privacy and installation guidance. Next: final visual/content review and explicit indexing authorization; no new infrastructure. This supersedes earlier blanket contact prerequisites, not actual mandatory obligations.
+
 ## PORT-WEB-21 — Practical closeout review (2026-11-28)
 Reviewed current index, support, privacy, Spudacus, Sudoku, Crossroads, Taters and Phosphor HTML. Public itch listings for Taters, Phosphor and Sudoku reopened successfully; Sudoku lists Beta 2 APK, browser listings show Run game. No gameplay or exact artifact verification. Existing text-only Taters/Phosphor pages are adequate provisional fallbacks; artwork can follow normal product work (owner final visual acceptance still open). Website privacy and support copy accurately disclose missing dedicated contact; do not invent one. Direct live website fetch failed in this session; prior 30/30 route and 90/90 local layout evidence retained, not a new live pass. Browser privacy fixture run 46127867769 now completed/cancelled; no pass, no retry needed for website closeout. Next owner decision: monitored public support/privacy email or other verified private channel; then update three relevant pages, final visual/content review and explicit indexing authorization. No public source, hosting, storefront, product code or indexing changes. Preserve noindex.
 
