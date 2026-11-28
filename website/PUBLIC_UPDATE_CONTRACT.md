@@ -16,3 +16,6 @@ Rovers of Fortune is explicitly excluded by owner direction. Public listing alon
 
 ## Public integrity verification
 Before publication run `python -m unittest discover -s website/qa -v` and `python website/qa/audit_public.py`. Review exact-revision Public website integrity CI. This is detection only; automatic Cloudflare deployment is independent. Deliberately revise prelaunch checks at authorized indexing activation.
+
+## Privacy handoff
+Use [portfolio privacy readiness](PRODUCT_PRIVACY_READINESS.md) for public-safe release coordination and the existing project data-handling template for detailed evidence. Product notices require exact distributed-release verification and owner approval before publication.
