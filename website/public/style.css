@@ -94,3 +94,7 @@ main #help p{margin:.7rem 0}
 .gridmates-hub .product-icon.ws-icon{background:#08351F}
 .gridmates-hub .cards>.card>.product-icon-panel+p{font-size:.8rem;letter-spacing:.02em;margin:.15rem 0 .35rem}
 @media(max-width:480px){.gridmates-hub .product-icon-panel{height:144px}.gridmates-hub .product-icon{width:128px;height:128px}}
+
+/* WEB-10.06: standalone game directory art, preserve product gallery. */
+.spudacus .sr-directory-art{width:100%;aspect-ratio:16/9;background:#101d28;border-radius:10px;display:grid;place-items:center;padding:16px}
+.spudacus .sr-directory-art img{display:block;width: min(100%, 180px);max-height:100%;aspect-ratio:1;object-fit:contain;border-radius:16%}
