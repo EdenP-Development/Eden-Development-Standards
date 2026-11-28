@@ -1,5 +1,8 @@
 # Public website maintenance contract
 
+## PORT-WEB-22 — Owner-directed lightweight support (2026-11-28)
+Owner explicitly chose itch.io public comments for ordinary game feedback and deferred a dedicated support inbox, contact forms, helpdesk and paid support services. A dedicated inbox is no longer a blanket website launch gate. Public comments are not suitable for confidential or personal information; applicable private-contact, privacy, security and storefront requirements remain release-specific gates and must be resolved when required. Keep accurate visitor privacy and installation guidance. Next: final visual/content review and explicit indexing authorization; no new infrastructure. This supersedes earlier blanket contact prerequisites, not actual mandatory obligations.
+
 For all Eden Practical project chats. Product development remains independent; the website is an evergreen public directory, not a live CI dashboard.
 
 ## When to update
