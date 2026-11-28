@@ -7,11 +7,11 @@ Baseline 2026-11-28. Coordination record only, not a privacy policy, product dat
 | Product | Website availability label | Product notice readiness | Next evidence request |
 | --- | --- | --- | --- |
 | GridMates: Sudoku | Public Android beta | Separate Beta 2 and Beta 3 drafts; neither approved | Verify delivered itch APK and reconcile release identity; exact data inventory, publisher/contact and audience |
-| The Last Taters | Public browser alpha | Not assessed in this register | Public build receipt; browser storage, network, dependencies and controls |
-| Operation Phosphor | Public browser game | Not assessed in this register | Public build receipt; browser storage, network, local play and dependencies |
+| The Last Taters | Public browser alpha | Initial source reviewed; notice not drafted | Exact itch artifact, runtime network/storage verification, contact and audience |
+| Operation Phosphor | Public browser game | Initial source reviewed; notice not drafted | Exact itch artifact, runtime network/storage verification, contact and audience |
 | GridMates: Word Search | In development | Not assessed in this register | Release-specific data inventory, storage, permissions and runtime |
 | GridMates: Grid Hunt | In development | Not assessed in this register | Release-specific data inventory, storage, permissions and runtime |
-| GridMates: Crossroads | In development | Not assessed in this register | Release-specific data inventory, saves and multiplayer scope |
+| GridMates: Crossroads | In development (website label) | Unpublished Beta 1 draft staged; not independently assessed here | Reconcile frozen release evidence and owner approval; see website/drafts/crossroads-beta1-privacy.md |
 | Sector Rebound | In development | Not assessed in this register | Release-specific data inventory, peer transfers, player information and controls |
 | Eden Comms | Experimental | Not assessed in this register; stricter charter applies | Exact release evidence and independent security/physical acceptance under project charter |
 
@@ -40,3 +40,10 @@ Use PRIVACY_STANDARDS.md, GOOGLE_PLAY_READINESS.md and website/PUBLIC_UPDATE_CON
 ## Current shared gates
 
 Dedicated monitored contact not confirmed; product policy approval remains open. Existing general website privacy information is separate from app notices. Sudoku Beta 2/Beta 3 drafts are in website/drafts. Browser product privacy assessments are prioritized because already publicly playable; Android release-specific evidence remains mandatory. No indexing activation or public notice publication authorized here.
+
+## PORT-WEB-16 — Browser source triage (2026-11-28)
+
+- The Last Taters: documented public baseline Alpha 0.10.1; initial review of main index and game script found local progress, profile, preferences, save slots, backups and slot deletion. No direct network API hits in initial script scan. Exact delivered artifact and runtime not verified.
+- Operation Phosphor: README identifies RC8 as browser distribution source; initial review of self-contained HTML found local progress, configuration, statistics, unlocks, backup and synchronization metadata. Local split-screen documented. Android Play Games foundation is distinct; no direct network API hits in initial HTML scan, but bridge behavior and exact delivered runtime remain unverified.
+- Crossroads: parallel product workflow staged a Beta 1 draft; do not treat staging as approval or independent verification.
+- Next: obtain exact distributed browser packages or reliable release receipts, inspect complete asset/dependency sets, exercise browser runtime storage/network and deletion controls, distinguish itch hosting from game behavior, and confirm publisher/contact/audience before drafting approval candidates. No claim of zero data collection or compliance. No public notice, hosting, indexing or product change.
