@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify accessibility fixture and native diagnostic; if still blocked prioritize independent release gates and consolidated physical review",
+          "next": "Verify six-package notice assembly and package delivery, then privacy/support and signed version rehearsal; retain native and physical gates",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -883,6 +883,24 @@
             "pr": 183,
             "passed": 0,
             "total": 19
+          },
+          "license_closure": {
+            "status": "exact_upstream_LICENSE_md_recovered_notice_assembly_pending",
+            "pr": 185,
+            "source": "ed74ec11422d8f397603ced4b91c6ce3b3e545e7",
+            "colord_githead": "5344fbf77b736f81cd33c21050021bc09bc9dd1d",
+            "runs": [
+              {
+                "id": 46101663532,
+                "status": "in_progress",
+                "conclusion": null
+              },
+              {
+                "id": 46101662430,
+                "status": "completed",
+                "conclusion": "failure"
+              }
+            ]
           }
         }
       }
