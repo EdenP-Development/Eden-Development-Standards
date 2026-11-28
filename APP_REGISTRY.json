@@ -663,7 +663,7 @@
           "status": "toolkit_verified_data_and_rights_source_registers_drafted",
           "data_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/a56ff3947fd8d1e6eecf2778838da515535e9323/docs/DATA_HANDLING_REGISTER_2026-11-27.md",
           "asset_rights_register": "https://github.com/EdenP-Development/Ricochet-Rumble/blob/1cc530a80b6196469b082591f9b02b520a4b2597/docs/ASSET_RIGHTS_REGISTER_2026-11-27.md",
-          "next": "Verify syntax preflight and native touch diagnostic, then offline and physical acceptance; no production defect proven",
+          "next": "Verify accessibility fixture and native diagnostic; if still blocked prioritize independent release gates and consolidated physical review",
           "staging": {
             "source": "d72442684bc73ead75ce5a9bf800e795509522c9",
             "workflow": "https://github.com/EdenP-Development/Ricochet-Rumble/actions/runs/45950890516",
@@ -772,20 +772,22 @@
             "interaction_status": "browser_both_viewports_PASS_native_diagnostics_pending",
             "interaction_run": 46097109357,
             "interaction_artifact": 15243707250,
-            "native_touch_source": "267089614069108b07804b4cbcdf1c56abe474c3",
+            "native_touch_source": "d3115cd196efc70d4da422a3af2b21ca887fb7d5",
             "native_touch_runs": [
               {
-                "id": 46100552081,
-                "status": "in_progress",
-                "conclusion": null
+                "id": 46101230176,
+                "status": "completed",
+                "conclusion": "failure"
               }
             ],
-            "native_touch_status": "second_run_shell_syntax_failure_corrected_preflight_pending",
+            "native_touch_status": "third_run_accessibility_label_match_failed_normalized_fixture_pending",
             "native_first_run": 46097714792,
             "native_first_artifact": 15243299855,
             "native_first_zip_sha256": "b2e2fe5dbd4bc3a734a6b53a1c26fdc32bcfaa63a96299d75cd48161f33e2b1b",
             "native_second_run": 46099776575,
-            "native_second_artifact": 15244273690
+            "native_second_artifact": 15244273690,
+            "native_third_run": 46100552081,
+            "native_third_artifact": 15245411569
           },
           "release_receipt": {
             "status": "structural_and_historical_evidence_PASS_unsigned_pair_pending",
