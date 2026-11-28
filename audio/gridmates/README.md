@@ -41,3 +41,6 @@ Earlier free-tier prototype inventory and eleven concepts remain excluded from a
 
 ## PORT-12 — Sudoku audio candidate continuity (2026-11-26)
 Latest integrated Sudoku runtime 1088451 passed Android gate 45894433045 and unsigned audio candidate 45894433028. Six-track candidate remains integrated with exact soundtrack hash checks and release dependency/permission screening. Owner-reported general physical audio acceptance is not final release acceptance; targeted erase/Final Piece/completion/focus checks, commercial rights and master archive retention remain open. Current [Sudoku handoff](https://github.com/EdenP-Development/SudokuTogether/blob/feat/beta3-foundation/CONTINUE_HERE.md) synchronized at 0cde4e0. No distribution or signing change authorized.
+
+## Current entitlement status — 2026-11-27
+Owner explicitly confirmed all six final Cozy Puzzle library v0.1 tracks were generated during Suno Pro, purchased for these projects. See [canonical owner attestation](library/v0.1/README.md#owner-confirmed-generation-entitlement--2026-11-27). This supersedes earlier uncertainty about generation-time plan for these exact six tracks; reuse the record, not repeated confirmation requests. Supporting private evidence and final publication review remain distinct. No change to earlier free-tier exclusions or other soundtrack families.
